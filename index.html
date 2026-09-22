@@ -1,86 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Keep more of what you built. | TaxFreeTrusts</title>
-<meta name="description" content="Living trust and transfer plan so assets reach the people you love with less court and less tax where the law allows.">
-<link rel="canonical" href="https://taxfreetrusts.com/">
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Trusts for the rest of us | TaxFreeTrusts</title>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 :root{--bg:#0c1210;--cream:#f4efe6;--gold:#d4a25a;--ink:#101614;--mute:#8a8478}
-*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
-body{background:var(--bg);color:var(--cream);font-family:Outfit,system-ui,sans-serif}
-header{position:fixed;inset:0 0 auto;z-index:20;display:flex;justify-content:space-between;align-items:center;padding:22px 36px;background:linear-gradient(to bottom,rgba(12,18,16,.92),transparent)}
-.logo{font-family:"Cormorant Garamond",serif;font-size:28px;text-decoration:none;color:inherit}
-.cta{background:var(--gold);color:var(--ink);text-decoration:none;padding:12px 18px;border-radius:999px;font-size:14px;font-weight:600}
-.hero{min-height:100vh;display:grid;place-items:end start;padding:18vh 8vw 12vh;background:linear-gradient(180deg,rgba(12,18,16,.2),#0c1210 78%),radial-gradient(1000px 600px at 70% 20%,rgba(212,162,90,.2),transparent)}
-.hero h1{font-family:"Cormorant Garamond",serif;font-weight:500;font-size:clamp(52px,8vw,108px);line-height:.92;max-width:14ch}
-.hero p{max-width:38ch;margin:22px 0 28px;font-size:18px;color:#d9d2c6}
-.row{display:flex;gap:12px;flex-wrap:wrap}
-.ghost{border:1px solid rgba(244,239,230,.35);color:var(--cream);text-decoration:none;padding:12px 18px;border-radius:999px;font-size:14px}
-section{padding:88px 8vw}
-.split{display:grid;grid-template-columns:1fr 1fr;gap:56px}
-h2{font-family:"Cormorant Garamond",serif;font-size:clamp(36px,5vw,64px);line-height:1;font-weight:500}
-.muted{color:var(--mute);margin-top:16px;max-width:46ch}
-.step{border-top:1px solid rgba(244,239,230,.12);padding-top:18px;margin-top:18px}
-.n{color:var(--gold);font-size:13px;letter-spacing:.16em;text-transform:uppercase}
+*{box-sizing:border-box;margin:0;padding:0}body{background:var(--bg);color:var(--cream);font-family:Outfit,sans-serif}a{color:inherit}
+header{position:fixed;inset:0 0 auto;z-index:9;display:flex;justify-content:space-between;align-items:center;padding:20px 32px;background:linear-gradient(#0c1210,transparent)}
+.logo{font-family:"Cormorant Garamond",serif;font-size:28px;text-decoration:none}
+nav a{margin-left:18px;font-size:14px;text-decoration:none}
+.cta{background:var(--gold);color:var(--ink);text-decoration:none;padding:12px 18px;border-radius:999px;font-weight:600;font-size:14px}
+.hero{min-height:100vh;display:flex;flex-direction:column;justify-content:flex-end;padding:12vh 8vw 10vh;background:radial-gradient(900px 500px at 80% 10%,rgba(212,162,90,.22),transparent),linear-gradient(180deg,transparent,#0c1210)}
+.hero h1{font-family:"Cormorant Garamond",serif;font-weight:500;font-size:clamp(48px,8vw,104px);line-height:.9;max-width:16ch}
+.kicker{color:var(--gold);letter-spacing:.18em;text-transform:uppercase;font-size:12px;margin-bottom:14px}
+.hero p{max-width:40ch;margin:20px 0 28px;font-size:18px;color:#d7d0c4}
+section{padding:80px 8vw}.split{display:grid;grid-template-columns:1.1fr .9fr;gap:48px}
+h2{font-family:"Cormorant Garamond",serif;font-size:clamp(34px,5vw,60px);line-height:1;font-weight:500}
 .cream{background:var(--cream);color:var(--ink)}
-.cream .muted{color:#5c564c}
-.plans{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:40px}
-.plan{background:#fff;border-radius:22px;padding:28px 24px;min-height:300px;display:flex;flex-direction:column;transition:transform .35s}
-.plan:hover{transform:translateY(-6px)}
-.plan h3{font-family:"Cormorant Garamond",serif;font-size:34px}
-.price{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:#7a7368;margin:8px 0 14px}
-.plan ul{list-style:none;flex:1}.plan li{padding:7px 0;border-bottom:1px solid #eee}
-#builder{background:#111814}label{display:block;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);margin:16px 0 8px}
-input,select{width:100%;background:transparent;color:var(--cream);border:0;border-bottom:1px solid rgba(244,239,230,.25);padding:10px 0;font:18px "Cormorant Garamond",serif}
-.result{border-left:1px solid rgba(244,239,230,.15);padding-left:36px}
-.result h3{font-family:"Cormorant Garamond",serif;font-size:42px;margin:8px 0 12px}
-footer{padding:40px 8vw 60px;color:var(--mute);font-size:13px;display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
-@media(max-width:900px){.split,.plans{grid-template-columns:1fr}.result{border:0;padding-top:24px}}
+.plans{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:36px}
+.plan{background:#fff;border-radius:22px;padding:26px;min-height:280px;display:flex;flex-direction:column}
+.plan h3{font-family:"Cormorant Garamond",serif;font-size:32px}
+.arts{display:grid;grid-template-columns:1fr 1fr 1fr;gap:18px;margin-top:28px}
+.art{border-top:1px solid rgba(244,239,230,.15);padding-top:14px}
+footer{padding:28px 8vw 50px;font-size:12px;color:var(--mute);display:flex;gap:24px;justify-content:space-between;flex-wrap:wrap}
+@media(max-width:900px){.split,.plans,.arts{grid-template-columns:1fr}nav{display:none}}
 </style></head><body>
-<header><a class="logo" href="/">TaxFreeTrusts</a><a class="cta" href="#builder">Start your plan</a></header>
-<section class="hero"><div>
-<h1>What you leave them should not wait in court.</h1>
-<p>A living trust is how a house, a shop, and a savings account move to your children without a probate file. Where the tax code allows more, we show you the next structure.</p>
-<div class="row"><a class="cta" href="#builder">Build the plan</a><a class="ghost" href="#how">See how it works</a></div>
-</div></section>
-<section class="cream" id="how"><div class="split"><div>
-<h2>Three moves that actually transfer wealth.</h2>
-<p class="muted">Most families need title, beneficiaries, and a living trust that matches their state. That is the work this site does first.</p></div><div>
-<div class="step"><p class="n">01 — Name</p><p>Who receives the house, the accounts, the business. Guardians if there are minors.</p></div>
-<div class="step"><p class="n">02 — Title</p><p>A trust that is not funded is a folder. Retitle the house. Payable-on-death on the accounts.</p></div>
-<div class="step"><p class="n">03 — Lift</p><p>State estate tax, a large policy, or a business that will jump: ILIT, gifts, or a GRAT conversation.</p></div>
-</div></div></section>
-<section class="cream" style="padding-top:0">
-<h2>Choose the depth.</h2>
+<header><a class="logo" href="/">TaxFreeTrusts</a><nav>
+<a href="start.html">Start</a><a href="learn-living-trust.html">Learn</a><a href="support.html">Support</a>
+<a class="cta" href="start.html">Build the plan</a></nav></header>
+<section class="hero"><p class="kicker">Trusts for the rest of us</p>
+<h1>The law firm invoice is not a sacrament.</h1>
+<p>A living trust is how a house and a shop reach your kids without a probate file. Finish the packet. Sign it. Fund it.</p>
+<a class="cta" href="start.html">Start the five questions</a></section>
+<section class="cream"><div class="split"><div>
+<h2>Expensive firms sell mystery. We sell a funded document.</h2>
+<p style="margin-top:16px;color:#5c564c">Names, a successor trustee, a deed, payable-on-death. Then a draft you print.</p></div><div>
+<p style="border-top:1px solid #ddd;padding:14px 0">01 Family, state, children, backups.</p>
+<p style="border-top:1px solid #ddd;padding:14px 0">02 House, shop, policy, or a company that may jump.</p>
+<p style="border-top:1px solid #ddd;padding:14px 0">03 A recommendation that can tell you to stop at a will.</p>
+<p style="border-top:1px solid #ddd;padding:14px 0">04 A $349 draft you sign with your state formalities.</p>
+</div></div>
 <div class="plans">
-<article class="plan"><h3>Will</h3><p class="price">Tonight · $79</p><ul><li>Last will and guardians</li><li>Personal property memo</li></ul><a class="cta" href="#builder">Start will</a></article>
-<article class="plan"><h3>Living trust</h3><p class="price">This week · $349</p><ul><li>Revocable living trust</li><li>Pour-over will</li><li>Funding checklist</li></ul><a class="cta" href="#builder">Start trust</a></article>
-<article class="plan"><h3>Counsel desk</h3><p class="price">Larger estates · $790</p><ul><li>Trust plus tax brief</li><li>ILIT / gift / state-tax flag</li><li>State attorney intro</li></ul><a class="cta" href="#builder">Start brief</a></article>
+<article class="plan"><h3>Will</h3><p>$79</p><a class="cta" href="start.html">Start</a></article>
+<article class="plan"><h3>Living trust</h3><p>$349</p><a class="cta" href="start.html">Start</a></article>
+<article class="plan"><h3>Counsel desk</h3><p>$790</p><a class="cta" href="start.html">Start</a></article>
 </div></section>
-<section id="builder"><div class="split"><div>
-<h2>Tell us the family.</h2>
-<label>Your state</label>
-<select id="st"><option>Indiana</option><option>Illinois</option><option>New York</option><option>California</option><option>Florida</option><option>Texas</option><option>Massachusetts</option><option>Washington</option><option>Other</option></select>
-<label>What you most want to move</label>
-<select id="asset"><option value="house">A house</option><option value="kids">Guardianship for children</option><option value="biz">A business or farm</option><option value="policy">A large life policy</option><option value="stock">Stock that may jump</option></select>
-<label>Who should receive it</label>
-<input id="who" placeholder="Spouse, two sons, sister as backup">
-<button class="cta" id="go" type="button" style="margin-top:28px;border:0;cursor:pointer">See the plan</button>
-</div>
-<div class="result" id="out"><p class="n">Your plan</p><h3>Start with the living trust.</h3><p>Answer the fields. We name the document set and the one tax door that might apply in your state.</p></div>
+<section><p class="kicker">Learn</p><h2>Depth, not slogans.</h2>
+<div class="arts">
+<article class="art"><a href="learn-living-trust.html"><h3>What a living trust actually does</h3></a></article>
+<article class="art"><a href="learn-taxes.html"><h3>When a trust saves tax</h3></a></article>
+<article class="art"><a href="learn-fund.html"><h3>The funding afternoon</h3></a></article>
 </div></section>
-<footer><div>Drafts are not a substitute for a licensed attorney in your state. Sign with the witnesses or notary required. We do not hide income or file false returns.</div><div>plan@taxfreetrusts.com</div></footer>
-<script>
-const T={Illinois:"Illinois has a state estate tax below the federal line.","New York":"New York has a state estate tax.",Massachusetts:"Massachusetts has a state estate tax.",Washington:"Washington has a state estate tax.",California:"No state estate tax. The living trust is about probate.",Florida:"No state estate tax. Homestead deeds are picky.",Texas:"No state estate tax. Fund the trust and set POD on accounts.",Indiana:"No state estate tax. Funded title is the job.",Other:"Check whether your state levies an estate or inheritance tax."};
-document.getElementById("go").onclick=()=>{
-const st=document.getElementById("st").value,a=document.getElementById("asset").value,who=document.getElementById("who").value||"the people you named";
-let t="Living trust",b="A revocable living trust naming "+who+", a pour-over will, and a funding list.";
-if(a==="kids"){t="Will plus trust";b="Name guardians in the will. The trust holds the house so a court does not raise them.";}
-if(a==="policy"){t="Living trust, then ILIT review";b="If the policy is large at death, an ILIT keeps the payout out of the taxable estate. That is counsel work.";}
-if(a==="stock"||a==="biz"){t="Living trust, then growth plan";b="Title what you control now. If the company may multiply, a GRAT or grantor-trust sale is the next conversation.";}
-document.getElementById("out").innerHTML="<p class='n'>"+st+"</p><h3>"+t+"</h3><p>"+b+"</p><p style='margin-top:16px;color:#cbbfa8'>"+T[st]+"</p>";
-};
-</script></body></html>
+<footer><div>Drafts are not legal advice and not a substitute for a licensed attorney in your state. Sign with the witnesses or notary your state requires. We do not hide income or file false returns.</div><div>plan@taxfreetrusts.com</div></footer>
+</body></html>
