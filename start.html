@@ -53,14 +53,14 @@ a.pay{display:inline-block;background:var(--gold);color:var(--ink);text-decorati
 <button class="ghost" type="button" onclick="go(2)">Back</button>
 <button type="button" onclick="go(4)">See recommendation</button></section>
 <section id="s4" class="hidden"><div class="card" id="rec"></div>
-<div class="actions"><a class="pay" id="payRec"></a>
-<button class="ghost" type="button" onclick="go(3)">Back</button>
+<div class="actions"><button class="ghost" type="button" onclick="go(3)">Back</button>
+<a class="pay" id="payRec"></a>
 <button type="button" onclick="go(5)">Draft the packet</button></div></section>
 <section id="s5" class="hidden">
 <p style="color:#d4a25a">Print this page. Sign with the witnesses or notary your state requires. Draft only. Not legal advice.</p>
 <div class="draft" id="draft"></div>
-<div class="actions"><a class="pay" id="payDraft"></a>
-<button type="button" onclick="window.print()">Print packet</button></div></section>
+<div class="actions"><button type="button" onclick="window.print()">Print packet</button>
+<a class="pay" id="payDraft"></a></div></section>
 </main>
 <script src="payments.js"></script>
 <script>
