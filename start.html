@@ -15,11 +15,14 @@ input,select,textarea{width:100%;background:transparent;color:var(--cream);borde
 .row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
 button{margin-top:24px;background:var(--gold);color:var(--ink);border:0;padding:12px 18px;border-radius:999px;font-weight:600;cursor:pointer}
 .ghost{background:transparent;color:var(--cream);border:1px solid rgba(244,239,230,.3);margin-right:8px}
+.actions{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:24px}
+.actions button{margin:0}
+a.pay{display:inline-block;background:var(--gold);color:var(--ink);text-decoration:none;padding:12px 18px;border-radius:999px;font-weight:600}
 .card{background:#141b18;padding:22px;border-radius:18px;margin-top:18px}
 .draft{background:var(--cream);color:var(--ink);padding:36px;margin-top:24px;font-family:Georgia,serif;line-height:1.55}
 .hidden{display:none}.fine{font-size:12px;color:#666;margin-top:18px}
 @media(max-width:700px){.row{grid-template-columns:1fr}}
-@media print{header,button,.bar,h1{display:none!important}.draft{background:#fff}}
+@media print{header,button,.bar,.pay,h1{display:none!important}.draft{background:#fff}}
 </style></head><body>
 <header><a class="logo" href="index.html">TaxFreeTrusts</a><a href="support.html" style="color:#d4a25a;text-decoration:none">Support</a></header>
 <main>
@@ -50,24 +53,30 @@ button{margin-top:24px;background:var(--gold);color:var(--ink);border:0;padding:
 <button class="ghost" type="button" onclick="go(2)">Back</button>
 <button type="button" onclick="go(4)">See recommendation</button></section>
 <section id="s4" class="hidden"><div class="card" id="rec"></div>
+<div class="actions"><a class="pay" id="payRec"></a>
 <button class="ghost" type="button" onclick="go(3)">Back</button>
-<button type="button" onclick="go(5)">Draft the packet</button></section>
+<button type="button" onclick="go(5)">Draft the packet</button></div></section>
 <section id="s5" class="hidden">
 <p style="color:#d4a25a">Print this page. Sign with the witnesses or notary your state requires. Draft only. Not legal advice.</p>
 <div class="draft" id="draft"></div>
-<button type="button" onclick="window.print()">Print packet</button></section>
+<div class="actions"><a class="pay" id="payDraft"></a>
+<button type="button" onclick="window.print()">Print packet</button></div></section>
 </main>
+<script src="payments.js"></script>
 <script>
 const STATE={Illinois:"Illinois levies a state estate tax.","New York":"New York levies a state estate tax.",Massachusetts:"Massachusetts levies a state estate tax.",Washington:"Washington levies a state estate tax.",Indiana:"Indiana has no state estate tax.",Ohio:"Ohio has no state estate tax.",Michigan:"Michigan has no state estate tax.",Florida:"Florida has no state estate tax. Homestead deeds are picky.",Texas:"Texas has no state estate tax.",California:"California has no state estate tax. Probate is slow.",Other:"Confirm whether your state levies an estate or inheritance tax."};
 function val(id){return document.getElementById(id).value.trim()}
-function go(step){[1,2,3,4,5].forEach(i=>document.getElementById("s"+i).classList.add("hidden"));document.getElementById("s"+step).classList.remove("hidden");document.getElementById("n").textContent=step;document.getElementById("fill").style.width=(step*20)+"%";document.getElementById("title").textContent=["","Who is this for?","What moves?","Who runs it?","The plan","Your draft packet"][step];if(step===4)rec();if(step===5)draft();}
-function rec(){const st=val("st"),asset=val("asset"),nw=val("nw"),fight=val("fight");let plan="Revocable living trust + pour-over will + funding list",extra="";
+function offerKey(){const asset=val("asset"),nw=val("nw");if((asset==="policy"||asset==="biz")&&(nw==="h"||nw==="x"))return "counsel";return "living";}
+function setOffer(){const key=offerKey();bindPayLink(document.getElementById("payRec"),key);bindPayLink(document.getElementById("payDraft"),key);}
+function go(step){if(step===4)rec();if(step===5)draft();[1,2,3,4,5].forEach(i=>document.getElementById("s"+i).classList.add("hidden"));document.getElementById("s"+step).classList.remove("hidden");document.getElementById("n").textContent=step;document.getElementById("fill").style.width=(step*20)+"%";document.getElementById("title").textContent=["","Who is this for?","What moves?","Who runs it?","The plan","Your draft packet"][step];}
+function rec(){setOffer();const st=val("st"),asset=val("asset"),nw=val("nw"),fight=val("fight");let plan="Revocable living trust + pour-over will + funding list",extra="";
 if(asset==="kids")extra="Name guardians in the will today.";
 if(asset==="policy"&&(nw==="h"||nw==="x")){plan="Living trust now, then ILIT review";extra="A large policy in your name can land in the taxable estate.";}
 if(asset==="biz"&&(nw==="h"||nw==="x")){plan="Living trust now, growth conversation next";extra="If the company may multiply, that is counsel work.";}
 if(fight==="blend")extra+=" Blended families should lock what goes to your children.";
 if(nw==="u")extra+=" You need this packet signed and the house retitled.";
 document.getElementById("rec").innerHTML="<p style='color:#d4a25a'>Recommended</p><h2 style='font-family:Cormorant Garamond,serif;font-size:36px'>"+plan+"</h2><p>"+STATE[st]+"</p><p>"+extra+"</p>";}
-function draft(){const n=val("name")||"[Your name]",st=val("st"),spouse=val("spouse")||"[Spouse]",who=val("who")||"[Beneficiaries]",backup=val("backup")||"[Backup]",trustee=val("trustee")||backup,kids=val("kids")||"[None]",addr=val("addr")||"[Address]";
+function draft(){setOffer();const n=val("name")||"[Your name]",st=val("st"),spouse=val("spouse")||"[Spouse]",who=val("who")||"[Beneficiaries]",backup=val("backup")||"[Backup]",trustee=val("trustee")||backup,kids=val("kids")||"[None]",addr=val("addr")||"[Address]";
 document.getElementById("draft").innerHTML="<p><strong>DRAFT PACKET</strong> · "+st+"</p><p class='fine'>DRAFT FOR REVIEW. Not legal advice. Not executed until you sign with the witnesses or notary your state requires.</p><h2>Revocable Living Trust</h2><p>I, "+n+", of "+st+", as Settlor and initial Trustee, hold Schedule A property for "+who+". I may amend or revoke while living and competent. Successor Trustee: "+trustee+". Backup: "+backup+".</p>"+(val("status")==="Married"?"<p>If my spouse "+spouse+" survives me, the Trustee shall first provide for that spouse under a health, education, maintenance, and support standard.</p>":"")+"<p>Minor children: "+kids+". Shares for a beneficiary under 25 may stay in trust.</p><h2>Pour-over Will</h2><p>I give property not already in the trust to the Trustee of this trust. Personal representative and guardian: "+trustee+".</p><h2>Schedule A</h2><p>Home: "+addr+". Deed to "+n+", Trustee of the "+n+" Revocable Trust. Do not retitle retirement accounts. Notes: "+(val("notes")||"None.")+"</p><p>Settlor: __________ &nbsp; Witnesses: __________ __________</p><p class='fine'>"+STATE[st]+"</p>";}
-</script></body></html>
+</script>
+</body></html>
