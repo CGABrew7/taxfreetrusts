@@ -1,0 +1,23 @@
+{
+  "site": "https://taxfreetrusts.com",
+  "updated": "2026-09-21",
+  "disclaimer": "Education only. Not legal advice. Confirm IRS.gov.",
+  "federal_2026": {
+    "estate_gift_exemption_individual_usd": 15000000,
+    "estate_gift_exemption_married_usd": 30000000,
+    "top_rate": 0.4
+  },
+  "structures": [
+    {"id": "ilit", "name": "Irrevocable Life Insurance Trust"},
+    {"id": "grat", "name": "Grantor Retained Annuity Trust"},
+    {"id": "slat", "name": "Spousal Lifetime Access Trust"},
+    {"id": "idgt", "name": "Intentionally Defective Grantor Trust"},
+    {"id": "crt", "name": "Charitable Remainder Trust"},
+    {"id": "qprt", "name": "Qualified Personal Residence Trust"}
+  ],
+  "hard_stops": [
+    "A trust does not cut wage income tax.",
+    "Do not retitle an IRA into a trust.",
+    "Hiding assets is a crime."
+  ]
+}

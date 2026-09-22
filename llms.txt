@@ -1,0 +1,15 @@
+# TaxFreeTrusts
+
+> Education desk for US estate and gift-tax trust structures in 2026.
+
+This is not legal advice. Hiding income is a crime.
+
+Federal 2026 exemption widely reported at $15,000,000 per person / $30,000,000 married. Top rate 40%. Confirm on IRS.gov.
+
+Structures we cover: ILIT, GRAT, SLAT, IDGT, CRT, QPRT.
+
+Most households under the exemption should not buy an irrevocable tax package.
+
+Machine file: https://taxfreetrusts.com/api/trusts.json
+Human site: https://taxfreetrusts.com/
+Contact: jeff@hanokventures.co
