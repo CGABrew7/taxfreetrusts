@@ -22,7 +22,9 @@ a.pay{display:inline-block;background:var(--gold);color:var(--ink);text-decorati
 .draft{background:var(--cream);color:var(--ink);padding:36px;margin-top:24px;font-family:Georgia,serif;line-height:1.55}
 .hidden{display:none}.fine{font-size:12px;color:#666;margin-top:18px}
 @media(max-width:700px){.row{grid-template-columns:1fr}}
-@media print{header,button,.bar,.pay,h1{display:none!important}.draft{background:#fff}}
+footer{padding:8px 28px 40px;font-size:12px;color:#8a8478;display:flex;gap:16px;flex-wrap:wrap}
+footer a{color:#d4a25a;text-decoration:none}
+@media print{header,footer,button,.bar,.pay,h1{display:none!important}.draft{background:#fff}}
 </style></head><body>
 <header><a class="logo" href="index.html">TaxFreeTrusts</a><a href="support.html" style="color:#d4a25a;text-decoration:none">Support</a></header>
 <main>
@@ -62,6 +64,7 @@ a.pay{display:inline-block;background:var(--gold);color:var(--ink);text-decorati
 <div class="actions"><button type="button" onclick="window.print()">Print packet</button>
 <a class="pay" id="payDraft"></a></div></section>
 </main>
+<footer><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><span>plan@taxfreetrusts.com</span></footer>
 <script src="payments.js"></script>
 <script>
 const STATE={Illinois:"Illinois levies a state estate tax.","New York":"New York levies a state estate tax.",Massachusetts:"Massachusetts levies a state estate tax.",Washington:"Washington levies a state estate tax.",Indiana:"Indiana has no state estate tax.",Ohio:"Ohio has no state estate tax.",Michigan:"Michigan has no state estate tax.",Florida:"Florida has no state estate tax. Homestead deeds are picky.",Texas:"Texas has no state estate tax.",California:"California has no state estate tax. Probate is slow.",Other:"Confirm whether your state levies an estate or inheritance tax."};
