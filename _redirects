@@ -1,6 +1,2 @@
-/privacy    /privacy.html    200
-/privacy/   /privacy.html    200
-/terms      /terms.html      200
-/terms/     /terms.html      200
-/about      /about.html      200
-/about/     /about.html      200
+# Pages already serves /about from about.html and 308s /about.html to /about.
+# A 200 rewrite back to the .html file loops. Same for /privacy and /terms.
