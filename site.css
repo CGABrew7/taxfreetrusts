@@ -393,6 +393,9 @@ h3 { font-size: 1.85rem; line-height: 1.1; margin: 0; }
   font-size: 0.82rem;
   line-height: 1.5;
 }
+.colophon .lockup { line-height: 0; min-height: 0; }
+.colophon .lockup img { height: 52px; width: auto; display: block; }
+.colophon .lockup:hover { text-decoration: none; }
 .colophon nav { display: flex; flex-wrap: wrap; gap: 8px 18px; }
 .colophon a { color: var(--brass); text-decoration: none; min-height: 44px; display: inline-flex; align-items: center; }
 .colophon a:hover { text-decoration: underline; }

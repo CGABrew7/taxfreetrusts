@@ -5,6 +5,13 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="site.css">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32">
+<link rel="icon" href="/favicon-16x16.png" type="image/png" sizes="16x16">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#101412">
+<meta property="og:image" content="https://taxfreetrusts.com/icon-512.png">
 </head><body class="planner">
 <header class="top">
   <a class="logo" href="index.html"><img src="brand/logo.png" alt="TaxFreeTrusts" style="height:52px;width:auto;display:block"></a>
@@ -61,7 +68,9 @@
 <div class="actions"><button type="button" onclick="window.print()">Print packet</button>
 <a class="pay" id="payDraft"></a></div></section>
 </main>
-<footer class="colophon"><nav aria-label="Footer"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="mailto:plan@taxfreetrusts.com">plan@taxfreetrusts.com</a></nav></footer>
+<footer class="colophon">
+  <a class="lockup" href="/"><img src="/brand/logo.png" alt="TaxFreeTrusts"></a>
+  <nav aria-label="Footer"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="mailto:plan@taxfreetrusts.com">plan@taxfreetrusts.com</a></nav></footer>
 <script src="payments.js"></script>
 <script>
 const STATE={Illinois:"Illinois levies a state estate tax.","New York":"New York levies a state estate tax.",Massachusetts:"Massachusetts levies a state estate tax.",Washington:"Washington levies a state estate tax.",Indiana:"Indiana has no state estate tax.",Ohio:"Ohio has no state estate tax.",Michigan:"Michigan has no state estate tax.",Florida:"Florida has no state estate tax. Homestead deeds are picky.",Texas:"Texas has no state estate tax.",California:"California has no state estate tax. Probate is slow.",Other:"Confirm whether your state levies an estate or inheritance tax."};
