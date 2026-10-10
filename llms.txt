@@ -12,4 +12,4 @@ Most households under the exemption should not buy an irrevocable tax package.
 
 Machine file: https://taxfreetrusts.com/api/trusts.json
 Human site: https://taxfreetrusts.com/
-Contact: jeff@hanokventures.co
+Contact: plan@taxfreetrusts.com
