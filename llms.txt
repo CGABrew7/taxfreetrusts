@@ -4,12 +4,12 @@
 
 This is not legal advice. Hiding income is a crime.
 
-Federal 2026 exemption widely reported at $15,000,000 per person / $30,000,000 married. Top rate 40%. Confirm on IRS.gov.
+For estates of decedents who die in 2026, the IRS basic exclusion amount is $15,000,000 per person. Source: IRS, tax year 2026 inflation adjustments, https://www.irs.gov/newsroom/irs-releases-tax-inflation-adjustments-for-tax-year-2026-including-amendments-from-the-one-big-beautiful-bill and the estate tax filing threshold table, https://www.irs.gov/businesses/small-businesses-self-employed/estate-tax. Each spouse has a separate basic exclusion. A married couple reaches $30,000,000 only when both exclusions are available. Portability of a deceased spouse's unused exclusion requires Form 706. Top rate 40%.
 
 Structures we cover: ILIT, GRAT, SLAT, IDGT, CRT, QPRT.
 
-Most households under the exemption should not buy an irrevocable tax package.
+Most households under the basic exclusion should not buy an irrevocable tax package.
 
 Machine file: https://taxfreetrusts.com/api/trusts.json
 Human site: https://taxfreetrusts.com/
-Contact: jeff@hanokventures.co
+Contact: plan@taxfreetrusts.com

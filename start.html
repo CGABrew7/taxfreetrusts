@@ -1,83 +1,132 @@
-<!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Build your plan | TaxFreeTrusts</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="site.css">
+<meta name="description" content="Five questions, a recommendation, and a printable draft packet. Your answers stay in this browser tab.">
+<meta name="theme-color" content="#101412">
+<link rel="canonical" href="https://taxfreetrusts.com/start.html">
+<meta property="og:title" content="Build your plan | TaxFreeTrusts">
+<meta property="og:description" content="Five questions, a recommendation, and a printable draft packet. Your answers stay in this browser tab.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://taxfreetrusts.com/start.html">
+<meta property="og:image" content="https://taxfreetrusts.com/icon-512.png">
+<meta property="og:image:alt" content="TaxFreeTrusts seal">
+<meta property="og:site_name" content="TaxFreeTrusts">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Build your plan | TaxFreeTrusts">
+<meta name="twitter:description" content="Five questions, a recommendation, and a printable draft packet. Your answers stay in this browser tab.">
+<meta name="twitter:image" content="https://taxfreetrusts.com/icon-512.png">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32">
 <link rel="icon" href="/favicon-16x16.png" type="image/png" sizes="16x16">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
-<meta name="theme-color" content="#101412">
-<meta property="og:image" content="https://taxfreetrusts.com/icon-512.png">
-</head><body class="planner">
-<header class="top">
-  <a class="logo" href="index.html"><img src="brand/logo.png" alt="TaxFreeTrusts" style="height:52px;width:auto;display:block"></a>
-  <nav class="nav" aria-label="Primary">
-    <a href="start.html">Start</a>
-    <a href="learn-living-trust.html">Learn</a>
-    <a href="about.html">About</a>
-    <a href="support.html">Support</a>
-  </nav>
-  <details class="more">
-    <summary>Menu</summary>
-    <div class="panel">
-      <a href="start.html">Start</a>
-      <a href="learn-living-trust.html">Learn</a>
-      <a href="about.html">About</a>
-      <a href="support.html">Support</a>
-    </div>
-  </details>
+<link rel="stylesheet" href="fonts.css">
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+<div class="wrap">
+<a class="brand" href="index.html" aria-label="TaxFreeTrusts home"><svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><circle cx="16" cy="16" r="14.6" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="16" cy="16" r="11.9" fill="none" stroke="currentColor" stroke-width=".7" stroke-dasharray="1.2 1.1"/><path fill="currentColor" d="M9.2 8.6h13.6v2.6h-4.1a3.9 3.9 0 0 1-.5 6.2l1.3 7.2h-7l1.3-7.2a3.9 3.9 0 0 1-.5-6.2H9.2z"/></svg><span>TaxFreeTrusts</span></a>
+<nav class="nav-desk" aria-label="Main"><a href="pricing.html">Plans and prices</a><a href="learn-living-trust.html">Learn</a><a href="about.html">About</a><a href="support.html">Support</a><a class="btn btn-ink btn-small" href="start.html" aria-current="page">Start the planner</a></nav>
+<details class="nav-mob"><summary>Menu</summary><nav aria-label="Main, mobile"><ul><li><a href="pricing.html">Plans and prices</a></li><li><a href="learn-living-trust.html">Learn</a></li><li><a href="about.html">About</a></li><li><a href="support.html">Support</a></li><li><a href="start.html" aria-current="page">Start the planner</a></li></ul></nav></details>
+</div>
 </header>
-<main>
+<main id="main">
+<section class="planner">
+<div class="wrap">
+<div class="planner-head">
+<p class="crumb"><a href="index.html">Home</a> / Planner</p>
 <p class="step-label">Step <span id="n">1</span> of 5</p>
 <h1 id="title">Who is this for?</h1>
-<div class="bar"><span id="fill"></span></div>
+<p class="lede">Five questions, a recommendation, and a printable draft packet. Your answers stay in this browser tab.</p>
+<p class="preset" id="preset" role="status"></p>
+<div class="bar" aria-hidden="true"><span id="fill"></span></div>
+</div>
+<ol class="tabs">
+<li><button type="button" data-go="1" aria-current="step" aria-label="Step 1, who it is for"><span>1</span><span class="lbl">Who it is for</span></button></li>
+<li><button type="button" data-go="2" disabled aria-label="Step 2, what moves"><span>2</span><span class="lbl">What moves</span></button></li>
+<li><button type="button" data-go="3" disabled aria-label="Step 3, who runs it"><span>3</span><span class="lbl">Who runs it</span></button></li>
+<li><button type="button" data-go="4" disabled aria-label="Step 4, the plan"><span>4</span><span class="lbl">The plan</span></button></li>
+<li><button type="button" data-go="5" disabled aria-label="Step 5, draft packet"><span>5</span><span class="lbl">Draft packet</span></button></li>
+</ol>
+<div class="desk" id="desk">
 <section id="s1">
-<div class="row"><div><label>Your full legal name</label><input id="name"></div>
-<div><label>State</label><select id="st"><option>Indiana</option><option>Illinois</option><option>Ohio</option><option>Michigan</option><option>Florida</option><option>Texas</option><option>California</option><option>New York</option><option>Massachusetts</option><option>Washington</option><option>Other</option></select></div></div>
-<div class="row"><div><label>Status</label><select id="status"><option>Married</option><option>Single</option><option>Widowed</option><option>Divorced</option></select></div>
-<div><label>Spouse name</label><input id="spouse"></div></div>
-<label>Minor children, names and ages</label><input id="kids">
-<button type="button" onclick="go(2)">Next</button></section>
+<div class="fields two">
+<div class="field"><label for="name">Your full legal name</label><input id="name" type="text" autocomplete="name"></div>
+<div class="field"><label for="st">State</label><select id="st"><option>Indiana</option><option>Illinois</option><option>Ohio</option><option>Michigan</option><option>Florida</option><option>Texas</option><option>California</option><option>New York</option><option>Massachusetts</option><option>Washington</option><option>Other</option></select></div>
+<div class="field"><label for="status">Status</label><select id="status"><option>Married</option><option>Single</option><option>Widowed</option><option>Divorced</option></select></div>
+<div class="field"><label for="spouse">Spouse name</label><input id="spouse" type="text" autocomplete="off"></div>
+<div class="field full"><label for="kids">Minor children, names and ages</label><input id="kids" type="text" autocomplete="off"></div>
+</div>
+<div class="desk-nav"><span></span><button class="btn btn-ink" type="button" onclick="go(2)">Next</button></div>
+</section>
 <section id="s2" class="hidden">
-<label>What should this plan move?</label>
-<select id="asset"><option value="house">Primary home</option><option value="housebiz">Home plus a shop or farm</option><option value="kids">Guardianship first</option><option value="policy">Large life policy</option><option value="biz">Business that may grow</option></select>
-<div class="row"><div><label>Home address</label><input id="addr"></div>
-<div><label>Net worth band</label><select id="nw"><option value="u">Under $1M</option><option value="m">$1M-$5M</option><option value="h">$5M-$15M</option><option value="x">Over $15M</option></select></div></div>
-<label>Who receives what remains?</label><input id="who">
-<label>Backup</label><input id="backup">
-<button class="ghost" type="button" onclick="go(1)">Back</button>
-<button type="button" onclick="go(3)">Next</button></section>
+<div class="fields two">
+<div class="field full"><label for="asset">What should this plan move?</label>
+<select id="asset"><option value="house">Primary home</option><option value="housebiz">Home plus a shop or farm</option><option value="kids">Guardianship first</option><option value="policy">Large life policy</option><option value="biz">Business that may grow</option></select></div>
+<div class="field"><label for="addr">Home address</label><input id="addr" type="text" autocomplete="street-address"></div>
+<div class="field"><label for="nw">Net worth band</label><select id="nw"><option value="u">Under $1M</option><option value="m">$1M-$5M</option><option value="h">$5M-$15M</option><option value="x">Over $15M</option></select></div>
+<div class="field"><label for="who">Who receives what remains?</label><input id="who" type="text" autocomplete="off"></div>
+<div class="field"><label for="backup">Backup</label><input id="backup" type="text" autocomplete="off"></div>
+</div>
+<div class="desk-nav"><button class="btn btn-line" type="button" onclick="go(1)">Back</button><button class="btn btn-ink" type="button" onclick="go(3)">Next</button></div>
+</section>
 <section id="s3" class="hidden">
-<label>Successor trustee</label><input id="trustee">
-<label>Anything a court would fight over?</label>
-<select id="fight"><option value="no">Straightforward family</option><option value="blend">Blended family</option><option value="special">A child who should not get a lump sum</option></select>
-<label>Notes</label><textarea id="notes" rows="3"></textarea>
-<button class="ghost" type="button" onclick="go(2)">Back</button>
-<button type="button" onclick="go(4)">See recommendation</button></section>
-<section id="s4" class="hidden"><div class="card" id="rec"></div>
-<div class="actions"><button class="ghost" type="button" onclick="go(3)">Back</button>
-<a class="pay" id="payRec"></a>
-<button type="button" onclick="go(5)">Draft the packet</button></div></section>
+<div class="fields">
+<div class="field"><label for="trustee">Successor trustee</label><input id="trustee" type="text" autocomplete="off"></div>
+<div class="field"><label for="fight">Anything a court would fight over?</label>
+<select id="fight"><option value="no">Straightforward family</option><option value="blend">Blended family</option><option value="special">A child who should not get a lump sum</option></select></div>
+<div class="field"><label for="notes">Notes</label><textarea id="notes" rows="3"></textarea></div>
+</div>
+<div class="desk-nav"><button class="btn btn-line" type="button" onclick="go(2)">Back</button><button class="btn btn-ink" type="button" onclick="go(4)">See recommendation</button></div>
+</section>
+<section id="s4" class="hidden">
+<div class="card" id="rec"></div>
+<p class="also">The will is always offered.</p>
+<div class="actions">
+<button class="btn btn-line" type="button" onclick="go(3)">Back</button>
+<a class="btn btn-ink" id="payRec"></a>
+<button class="btn btn-line" type="button" onclick="go(5)">Draft the packet</button>
+<a class="btn btn-line" data-pay="will" href="https://buy.stripe.com/bJe4gzaPYa999he7se73G02">Pay $79</a>
+</div>
+</section>
 <section id="s5" class="hidden">
-<p class="note">Print this page. Sign with the witnesses or notary your state requires. Draft only. Not legal advice.</p>
+<p class="note-plain no-print">Print this page. Sign with the witnesses or notary your state requires. Draft only. Not legal advice.</p>
 <div class="draft" id="draft"></div>
-<div class="actions"><button type="button" onclick="window.print()">Print packet</button>
-<a class="pay" id="payDraft"></a></div></section>
+<div class="actions no-print"><button class="btn btn-ink" type="button" onclick="window.print()">Print packet</button>
+<a class="btn btn-line" id="payDraft"></a></div>
+</section>
+</div>
+</div>
+</section>
 </main>
-<footer class="colophon">
-  <a class="lockup" href="/"><img src="/brand/logo.png" alt="TaxFreeTrusts"></a>
-  <nav aria-label="Footer"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="mailto:plan@taxfreetrusts.com">plan@taxfreetrusts.com</a></nav></footer>
+
+<footer class="site-foot">
+<div class="wrap">
+<div class="foot-grid">
+<div><a class="brand" href="index.html" aria-label="TaxFreeTrusts home"><svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><circle cx="16" cy="16" r="14.6" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="16" cy="16" r="11.9" fill="none" stroke="currentColor" stroke-width=".7" stroke-dasharray="1.2 1.1"/><path fill="currentColor" d="M9.2 8.6h13.6v2.6h-4.1a3.9 3.9 0 0 1-.5 6.2l1.3 7.2h-7l1.3-7.2a3.9 3.9 0 0 1-.5-6.2H9.2z"/></svg><span>TaxFreeTrusts</span></a>
+<p style="margin-top:14px;max-width:24em">A draft desk for wills and living trusts. Five questions, posted prices, a packet you print, sign and fund.</p></div>
+<div><h2>Packets</h2><ul><li><a href="pricing.html">Plans and prices</a></li><li><a href="start.html">Start the planner</a></li></ul></div>
+<div><h2>Learn</h2><ul><li><a href="learn-living-trust.html">Living trusts</a></li><li><a href="learn-fund.html">Funding a trust</a></li><li><a href="learn-taxes.html">Trusts and taxes</a></li></ul></div>
+<div><h2>The desk</h2><ul><li><a href="about.html">About</a></li><li><a href="support.html">Support</a></li><li><a href="mailto:plan@taxfreetrusts.com">plan@taxfreetrusts.com</a></li><li><a href="privacy.html">Privacy</a></li><li><a href="terms.html">Terms</a></li></ul></div>
+</div>
+<div class="foot-line"><span>Education and document drafts. Not legal or tax advice.</span><span>&copy; 2026 TaxFreeTrusts.com</span></div>
+</div>
+</footer>
 <script src="payments.js"></script>
 <script>
 const STATE={Illinois:"Illinois levies a state estate tax.","New York":"New York levies a state estate tax.",Massachusetts:"Massachusetts levies a state estate tax.",Washington:"Washington levies a state estate tax.",Indiana:"Indiana has no state estate tax.",Ohio:"Ohio has no state estate tax.",Michigan:"Michigan has no state estate tax.",Florida:"Florida has no state estate tax. Homestead deeds are picky.",Texas:"Texas has no state estate tax.",California:"California has no state estate tax. Probate is slow.",Other:"Confirm whether your state levies an estate or inheritance tax."};
+var reached=1;
 function val(id){return document.getElementById(id).value.trim()}
 function offerKey(){const asset=val("asset"),nw=val("nw");if((asset==="policy"||asset==="biz")&&(nw==="h"||nw==="x"))return "counsel";return "living";}
 function setOffer(){const key=offerKey();bindPayLink(document.getElementById("payRec"),key);bindPayLink(document.getElementById("payDraft"),key);}
-function go(step){if(step===4)rec();if(step===5)draft();[1,2,3,4,5].forEach(i=>document.getElementById("s"+i).classList.add("hidden"));document.getElementById("s"+step).classList.remove("hidden");document.getElementById("n").textContent=step;document.getElementById("fill").style.width=(step*20)+"%";document.getElementById("title").textContent=["","Who is this for?","What moves?","Who runs it?","The plan","Your draft packet"][step];}
+function go(step){if(step===4)rec();if(step===5)draft();[1,2,3,4,5].forEach(i=>document.getElementById("s"+i).classList.add("hidden"));document.getElementById("s"+step).classList.remove("hidden");document.getElementById("n").textContent=step;document.getElementById("fill").style.width=(step*20)+"%";document.getElementById("title").textContent=["","Who is this for?","What moves?","Who runs it?","The plan","Your draft packet"][step];reached=Math.max(reached,step);document.querySelectorAll("[data-go]").forEach(function(t){var k=+t.getAttribute("data-go");t.disabled=k>reached;if(k===step)t.setAttribute("aria-current","step");else t.removeAttribute("aria-current");});}
 function rec(){setOffer();const st=val("st"),asset=val("asset"),nw=val("nw"),fight=val("fight");let plan="Revocable living trust + pour-over will + funding list",extra="";
 if(asset==="kids")extra="Name guardians in the will today.";
 if(asset==="policy"&&(nw==="h"||nw==="x")){plan="Living trust now, then ILIT review";extra="A large policy in your name can land in the taxable estate.";}
@@ -87,5 +136,19 @@ if(nw==="u")extra+=" You need this packet signed and the house retitled.";
 document.getElementById("rec").innerHTML="<p class='step-label'>Recommended</p><h2>"+plan+"</h2><p>"+STATE[st]+"</p><p>"+extra+"</p>";}
 function draft(){setOffer();const n=val("name")||"[Your name]",st=val("st"),spouse=val("spouse")||"[Spouse]",who=val("who")||"[Beneficiaries]",backup=val("backup")||"[Backup]",trustee=val("trustee")||backup,kids=val("kids")||"[None]",addr=val("addr")||"[Address]";
 document.getElementById("draft").innerHTML="<p><strong>DRAFT PACKET</strong> · "+st+"</p><p class='fine'>DRAFT FOR REVIEW. Not legal advice. Not executed until you sign with the witnesses or notary your state requires.</p><h2>Revocable Living Trust</h2><p>I, "+n+", of "+st+", as Settlor and initial Trustee, hold Schedule A property for "+who+". I may amend or revoke while living and competent. Successor Trustee: "+trustee+". Backup: "+backup+".</p>"+(val("status")==="Married"?"<p>If my spouse "+spouse+" survives me, the Trustee shall first provide for that spouse under a health, education, maintenance, and support standard.</p>":"")+"<p>Minor children: "+kids+". Shares for a beneficiary under 25 may stay in trust.</p><h2>Pour-over Will</h2><p>I give property not already in the trust to the Trustee of this trust. Personal representative and guardian: "+trustee+".</p><h2>Schedule A</h2><p>Home: "+addr+". Deed to "+n+", Trustee of the "+n+" Revocable Trust. Do not retitle retirement accounts. Notes: "+(val("notes")||"None.")+"</p><p>Settlor: __________ &nbsp; Witnesses: __________ __________</p><p class='fine'>"+STATE[st]+"</p>";}
+document.querySelectorAll("[data-go]").forEach(function(t){t.addEventListener("click",function(){if(!t.disabled)go(+t.getAttribute("data-go"));});});
+(function(){
+  var q=new URLSearchParams(location.search).get("for");
+  var map={home:["house","Homeowner with kids"],shop:["housebiz","Home plus a shop or farm"],guardian:["kids","Young parents"],counsel:["policy","Large policy or growing business"]};
+  if(q&&map[q]){
+    document.getElementById("asset").value=map[q][0];
+    var pr=document.getElementById("preset");
+    pr.textContent="Started from: "+map[q][1]+". Change any answer.";
+    pr.classList.add("on");
+  }
+  go(1);
+})();
 </script>
-</body></html>
+
+</body>
+</html>

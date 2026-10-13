@@ -24,3 +24,10 @@
 
 /site.webmanifest
   Content-Type: application/manifest+json
+
+/favicon.svg
+  Content-Type: image/svg+xml
+
+/fonts/*
+  Content-Type: font/woff2
+  Cache-Control: public, max-age=31536000, immutable
