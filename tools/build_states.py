@@ -645,7 +645,9 @@ CALC_JS = r'''
 '''
 
 
-def sitemap(urls):
+def sitemap(urls, lastmod=None):
+    from datetime import date
+    lastmod = lastmod or date.today().isoformat()
     core = [
         "https://taxfreetrusts.com/",
         "https://taxfreetrusts.com/pricing",
@@ -660,7 +662,11 @@ def sitemap(urls):
         "https://taxfreetrusts.com/states/",
     ]
     locs = core + urls
-    body = "\n".join(f"  <url><loc>{u}</loc></url>" for u in locs)
+    skipped = ("llms.txt", "api/trusts.json", ".html")
+    locs = [u for u in locs if not any(part in u for part in skipped)]
+    body = "\n".join(
+        f"  <url><loc>{u}</loc><lastmod>{lastmod}</lastmod></url>" for u in locs
+    )
     text = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + body + "\n</urlset>\n"
     if "llms.txt" in text or "trusts.json" in text or ".html" in text:
         raise SystemExit("sitemap still has a redirecting or excluded URL")

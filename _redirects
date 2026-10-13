@@ -1,2 +1,8 @@
-# Pages already serves /about from about.html and 308s /about.html to /about.
-# A 200 rewrite back to the .html file loops. Same for /privacy and /terms.
+# 301 each .html URL to its extensionless twin.
+# Index files have their own rules so /index.html lands on / and
+# /states/index.html lands on /states/, not /index or /states/index.
+# Do not 200-rewrite a clean path back to the .html file. Pages already
+# serves that file from the clean URL, and the rewrite loops.
+/index.html / 301
+/states/index.html /states/ 301
+/*.html /:splat 301
