@@ -1,0 +1,99 @@
+[
+  {
+    "name": "Oklahoma",
+    "slug": "oklahoma",
+    "courtName": "District Court",
+    "process": "The district court has probate jurisdiction to receive proof of wills, admit them to probate, grant letters testamentary and of administration, order payment of debts, and order and regulate distribution. When a petition for probate of a will is filed, the court must fix a hearing not less than ten (10) nor more than thirty (30) days from the date of filing. If no person appears to contest the will, the court may admit it on the testimony or affidavit of one subscribing witness when satisfied that the will was executed as required by law and that the testator was of sound mind. The court admitting a will to probate after it is proved and allowed must issue letters to the persons named as executors who are competent to discharge the trust.",
+    "processSource": {
+      "title": "Oklahoma Statutes Title 58, section 1, Probate jurisdiction and venue of district court",
+      "url": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os58.pdf",
+      "quote": "The district court has probate jurisdiction, and the judge thereof power, which must be exercised in the cases and in the manner prescribed by statute"
+    },
+    "fees": "When no compensation is provided by the will, or the executor renounces all claim to it, 58 O.S. section 527 allows commissions upon the amount of the whole estate accounted for, excluding all property not ranked as assets: for the first thousand dollars, five percent (5%); for the next Five Thousand Dollars ($5,000.00), four percent (4%); and for all amounts above Six Thousand Dollars ($6,000.00), two and one-half percent (2 1/2%). The same commission must be allowed administrators. Further allowance for extraordinary service may be made as the judge of the district court deems just and reasonable, but the total of that allowance must not exceed the commissions allowed by the section. Section 525 allows all necessary expenses in the care, management, and settlement of the estate, and says that a different provision in the will is full compensation unless the executor renounces it in a written instrument filed in the district court. No Title 58 percentage or dollar schedule for the estate attorney's compensation was located.",
+    "feesSource": {
+      "title": "Oklahoma Statutes Title 58, section 527, Fees and commissions",
+      "url": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os58.pdf",
+      "quote": "For the first thousand dollars, at the rate of five percent (5%); for the next Five Thousand Dollars ($5,000.00), at the rate of four percent (4%); and for all amounts above Six Thousand Dollars ($6,000.00), at the rate of two and one-half percent (2 1/2%)"
+    },
+    "feeFormula": {
+      "kind": "brackets",
+      "base": "the amount of the whole estate accounted for by the executor or administrator, excluding all property not ranked as assets",
+      "brackets": [
+        {
+          "upTo": 1000,
+          "rate": 0.05
+        },
+        {
+          "upTo": 6000,
+          "rate": 0.04
+        }
+      ],
+      "aboveNote": "For all amounts above Six Thousand Dollars ($6,000.00), at the rate of two and one-half percent (2 1/2%). Further allowance for extraordinary service, as the judge of the district court may deem just and reasonable, must not exceed the amount of commissions allowed by this section."
+    },
+    "smallEstate": "Under 58 O.S. section 393, ten (10) or more days after death, a person indebted to the decedent or holding tangible personal property or an instrument evidencing a debt, obligation, stock, chose in action, or stock brand must pay or deliver it to a claiming successor upon an affidavit stating that the fair market value of property located in this state owned by the decedent and subject to disposition by will or intestate succession at death, less liens and encumbrances, does not exceed Fifty Thousand Dollars ($50,000.00); that no application or petition for a personal representative is pending or has been granted in any jurisdiction; that each claiming successor is entitled to the stated proportion; and that all taxes and debts of the estate have been paid or otherwise provided for or are barred by limitations. A separate affidavit of death and heirship may be filed for a severed mineral interest. Separately, 58 O.S. section 241 in the legislature's Title 58 compilation says that if the value of the whole estate, real and personal, does not exceed One Hundred Fifty Thousand Dollars ($150,000.00), the court shall, on application of the personal representative, dispense with the regular proceedings or any part thereof. Enrolled House Bill 2650, approved by the Governor on 04/27/2026, amends 58 O.S. section 245 so a summary-administration petition may be filed if the value of the estate is less than or equal to Three Hundred Thousand Dollars ($300,000.00), or the decedent has been deceased for more than five (5) years, or the decedent resided in another jurisdiction at the time of death. That enrolled text contains no effective-date section.",
+    "smallEstateLimit": 50000,
+    "smallEstateSource": {
+      "title": "Oklahoma Statutes Title 58, section 393, Payment or delivery of property to successor by affidavit",
+      "url": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os58.pdf",
+      "quote": "does not exceed Fifty Thousand Dollars ($50,000.00)"
+    },
+    "taxKind": "none",
+    "taxDetail": "The Oklahoma Tax Commission FY2026 apportionment chart lists estate tax under Title 68, sections 802 and 805, and notes that the estate tax was repealed by Laws 2006, 2nd Extraordinary Session, Chapter 42, section 6, effective January 1, 2010. No separate current inheritance tax is listed on that chart.",
+    "taxSource": {
+      "title": "Oklahoma Tax Commission, Apportionment of Statutory Revenues, FY2026 percentage chart, note 30",
+      "url": "https://oklahoma.gov/content/dam/ok/en/tax/documents/resources/statistics/apportionments/charts-formulas/percentage-charts/26Percentagechart.pdf",
+      "quote": "Estate tax repealed by Laws 2006 2nd ex. Sess., Ch. 42 \u00a7 6 effective January 1, 2010."
+    },
+    "community": "opt-in",
+    "communityDetail": "Title 43, section 207 states that a husband and wife may hold property as joint tenants, tenants in common, or as community property. Section 203 states that, except as mentioned in the preceding support section, neither husband nor wife has any interest in the separate property of the other. On dissolution, section 121 confirms to each spouse the property owned before marriage and the undisposed-of property acquired after marriage in that spouse's own right, and requires a just and reasonable division of property acquired jointly during the marriage, subject to a valid antenuptial contract in writing. Section 215 addresses rights acquired under a repealed community property act and bars a later claim against third persons if the agreement or court action described in that section was not recorded within the time the section states.",
+    "communitySource": {
+      "title": "Oklahoma Statutes Title 43, section 207, Manner of holding property",
+      "url": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os43.pdf",
+      "quote": "A husband and wife may hold property as joint tenants, tenants in common, or as community property."
+    },
+    "gaps": [
+      "No Title 58 section stating a percentage or dollar schedule for the estate attorney's compensation was located. Section 525 allows necessary expenses and the fees provided in that chapter. Section 268 allows reasonable attorney fees only in an action to collect estate tax from nonprobate beneficiaries.",
+      "Enrolled HB 2650, approved by the Governor on 04/27/2026, amends 58 O.S. section 245 to Three Hundred Thousand Dollars ($300,000.00), but the enrolled text contains no effective-date section. smallEstateLimit is the section 393 affidavit cap of 50000. HB 2650 does not amend section 393."
+    ]
+  },
+  {
+    "name": "Texas",
+    "slug": "texas",
+    "courtName": "County court, county court at law, or statutory probate court",
+    "process": "All probate proceedings must be filed and heard in a court exercising original probate jurisdiction. The county court has that jurisdiction if the county has no statutory probate court or county court at law exercising original probate jurisdiction; a county court at law and the county court have concurrent original jurisdiction if there is no statutory probate court; and a statutory probate court has original jurisdiction where one exists. A person capable of making a will may provide that no other action shall be had in the probate court than the probating and recording of the will and the return of any required inventory, appraisement, and list of claims. After an independent administration is created and the inventory, appraisement, and list of claims has been approved, or an affidavit in lieu has been filed, further action may not be had in the probate court except where the Estates Code specifically and explicitly provides for some action in the court.",
+    "processSource": {
+      "title": "Texas Estates Code section 401.001, Expression of testator's intent in will",
+      "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.401.htm",
+      "quote": "no other action shall be had in the probate court in relation to the settlement of the person's estate than the probating and recording of the will and the return of any required inventory, appraisement, and list of claims of the person's estate"
+    },
+    "fees": "Estates Code section 352.002 entitles an executor, administrator, or temporary administrator whom the court finds to have taken care of and managed the estate in compliance with the title to a five percent commission on all amounts actually received or paid out in cash. That commission may not exceed, in the aggregate, more than five percent of the gross fair market value of the estate subject to administration, and it is not allowed for receiving funds that were on hand or held in a financial institution or brokerage firm at death, for collecting life insurance proceeds, or for paying cash to an heir or legatee in that capacity. Section 352.003 allows reasonable compensation instead if the representative manages a farm, ranch, factory, or other business of the estate, or if the section 352.002 compensation is unreasonably low. Section 352.051 allows, on proof satisfactory to the court, reasonable attorney's fees necessarily incurred in connection with the proceedings and management of the estate. There is no percentage schedule for ordinary attorney's fees. Section 351.152 separately allows a contingent interest in property sought to be recovered, not to exceed a one-third interest, without court approval.",
+    "feesSource": {
+      "title": "Texas Estates Code section 352.002, Standard compensation",
+      "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.352.htm",
+      "quote": "entitled to receive a five percent commission on all amounts that the executor or administrator actually receives or pays out in cash in the administration of the estate"
+    },
+    "feeFormula": null,
+    "smallEstate": "Under Estates Code section 205.001, the distributees of a decedent who dies intestate are entitled to the estate without waiting for appointment of a personal representative, to the extent the estate assets, excluding homestead and exempt property, exceed the known liabilities, excluding liabilities secured by homestead and exempt property, if: 30 days have elapsed since the death; no petition for appointment of a personal representative is pending or has been granted; the value of the estate assets on the date of the affidavit, excluding homestead and exempt property, does not exceed $75,000; an affidavit meeting section 205.002 is filed with the clerk of the court that has jurisdiction and venue; the judge approves it under section 205.003; and the distributees comply with section 205.004. The affidavit must be sworn to by two disinterested witnesses and by each distributee who has legal capacity, and it must list known assets and liabilities, name each distributee, and state the heirship facts. Except as provided for a homestead that is the only real property in the estate, the chapter does not transfer title to real property.",
+    "smallEstateLimit": 75000,
+    "smallEstateSource": {
+      "title": "Texas Estates Code section 205.001, Entitlement to estate without appointment of personal representative",
+      "url": "https://statutes.capitol.texas.gov/Docs/ES/htm/ES.205.htm",
+      "quote": "the value of the estate assets on the date of the affidavit described by Subdivision (4), excluding homestead and exempt property, does not exceed $75,000"
+    },
+    "taxKind": "none",
+    "taxDetail": "The Comptroller STAR record for Tax Code Chapter 211 is labeled Inheritance Tax (repealed 09/01/2015). The Comptroller's September 2015 Fiscal Notes states that the 2015 Legislature repealed the state inheritance tax. Current Estates Code section 124.001 defines estate tax to include the inheritance tax imposed by former Chapter 211, Tax Code. The legislature's current Tax Code Chapter 211 page returned Doc not found. No current Texas estate or inheritance tax rate is stated on these pages.",
+    "taxSource": {
+      "title": "Texas Comptroller STAR, Inheritance Tax (repealed 09/01/2015), document 201309861S",
+      "url": "https://star.comptroller.texas.gov/view/201309861S",
+      "quote": "Inheritance Tax (repealed 09/01/2015)"
+    },
+    "community": "community",
+    "communityDetail": "Family Code section 3.002 states that community property consists of the property, other than separate property, acquired by either spouse during marriage. Section 3.001 defines a spouse's separate property as the property owned or claimed by the spouse before marriage, the property acquired by the spouse during marriage by gift, devise, or descent, and the recovery for personal injuries sustained by the spouse during marriage, except any recovery for loss of earning capacity during marriage. Section 3.003 provides that property possessed by either spouse during or on dissolution of marriage is presumed to be community property.",
+    "communitySource": {
+      "title": "Texas Family Code section 3.002, Community property",
+      "url": "https://statutes.capitol.texas.gov/Docs/FA/htm/FA.3.htm",
+      "quote": "Community property consists of the property, other than separate property, acquired by either spouse during marriage."
+    },
+    "gaps": []
+  }
+]
