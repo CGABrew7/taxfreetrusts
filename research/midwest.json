@@ -1,0 +1,517 @@
+[
+  {
+    "name": "Illinois",
+    "slug": "illinois",
+    "courtName": "Circuit Court",
+    "process": "When a will is probated, or when the estate of a decedent or missing person is administered in Illinois, the probate or the administration is in the court of the county where the decedent had a known place of residence. If there is no known residence in the state, it is in the county where the greater part of the real estate is located, or, if there is no real estate, where the greater part of the personal estate is located. A will is admitted to probate when execution is sufficiently proved, unless the court finds fraud, forgery, compulsion, or other improper conduct sufficient to invalidate the will. The small-estate affidavit statute recognizes the clerk of the circuit court as agent for service of process when no other Illinois agent is named.",
+    "processSource": {
+      "title": "755 ILCS 5/5-1, Place of probate of will or of administration of estate",
+      "url": "https://www.ilga.gov/documents/legislation/ilcs/documents/075500050K5-1.htm",
+      "quote": "the probate or the administration shall be in the court of the county"
+    },
+    "fees": "755 ILCS 5/27-1 states: \"A representative is entitled to reasonable compensation for his services.\" 755 ILCS 5/27-2 states: \"The attorney for a representative is entitled to reasonable compensation for his services.\" The statute states reasonable compensation and does not set a percentage schedule.",
+    "feesSource": {
+      "title": "755 ILCS 5/27-1, Fees of representative",
+      "url": "https://www.ilga.gov/documents/legislation/ilcs/documents/075500050K27-1.htm",
+      "quote": "A representative is entitled to reasonable compensation for his services"
+    },
+    "feeFormula": null,
+    "smallEstate": "755 ILCS 5/25-1, as in effect before the January 1, 2027 amendment (source note P.A. 104-346, effective August 15, 2025), allows payment or delivery of a decedent's personal estate on a small estate affidavit when no letters of office are outstanding and no petition for letters is contemplated or pending. Excluding motor vehicles registered with the Secretary of State, tangible and intangible personal property may not exceed $150,000. The affidavit form states that, excluding those motor vehicles, the decedent's entire personal estate passing by intestacy or under a will does not exceed $150,000. The section states no waiting period.",
+    "smallEstateLimit": 150000,
+    "smallEstateSource": {
+      "title": "755 ILCS 5/25-1, Payment or delivery of small estate of decedent upon affidavit",
+      "url": "https://www.ilga.gov/documents/legislation/ilcs/documents/075500050K25-1.htm",
+      "quote": "the decedent's entire personal estate passing to any party either by intestacy or under a will does not exceed $150,000"
+    },
+    "taxKind": "estate",
+    "taxDetail": "Illinois imposes an estate tax. For persons dying on or after January 1, 2013, 35 ILCS 405/2 recognizes an exclusion amount of only $4,000,000 in computing the state death tax credit. The current compiled text, sourced to P.A. 104-852, effective August 21, 2026, still uses that $4,000,000 figure.",
+    "taxSource": {
+      "title": "35 ILCS 405/2, Illinois Estate and Generation-Skipping Transfer Tax Act, Definitions",
+      "url": "https://www.ilga.gov/documents/legislation/ilcs/documents/003504050K2.htm",
+      "quote": "$4,000,000 for persons dying on or after January 1, 2013"
+    },
+    "community": null,
+    "communityDetail": "",
+    "communitySource": {
+      "title": "",
+      "url": "",
+      "quote": ""
+    },
+    "gaps": ["community"]
+  },
+  {
+    "name": "Indiana",
+    "slug": "indiana",
+    "courtName": "Court having probate jurisdiction",
+    "process": "Proceedings under the Indiana Probate Code are heard by a court having probate jurisdiction. A person aggrieved by a decision of that court in a proceeding under the article may appeal. When no compensation is provided in the will, or the personal representative renounces the will's compensation, the personal representative is allowed such compensation as the court deems just and reasonable. An attorney performing services for the estate at the instance of the personal representative is paid out of the estate such compensation as the court deems just and reasonable.",
+    "processSource": {
+      "title": "IC 29-1-1-22, Appeals",
+      "url": "https://iga.in.gov/ic/2026/Title_29/Article_1/Chapter_1.pdf",
+      "quote": "any decision of a court having probate jurisdiction in proceedings under this article"
+    },
+    "fees": "IC 29-1-10-13 states that the personal representative \"shall be allowed such compensation for his services as the court shall deem just and reasonable,\" and that an attorney performing services at the instance of the personal representative \"shall have such compensation therefor out of the estate as the court shall deem just and reasonable.\" The statute states just and reasonable compensation and does not set a percentage schedule.",
+    "feesSource": {
+      "title": "IC 29-1-10-13, Compensation; attorney's services",
+      "url": "https://iga.in.gov/ic/2026/Title_29/Article_1/Chapter_10.pdf",
+      "quote": "such compensation for his services as the court shall deem just and reasonable"
+    },
+    "feeFormula": null,
+    "smallEstate": "IC 29-1-8-1 requires a person indebted to the decedent, or holding the decedent's personal property or an instrument evidencing a debt, obligation, stock, or chose in action, to pay or deliver that property to a distributee 45 days after death upon an affidavit. The affidavit must state that the value of the gross probate estate, wherever located, less liens, encumbrances, and reasonable funeral expenses, does not exceed $100,000 for the estate of an individual who dies after June 30, 2022, and that 45 days have elapsed since the death.",
+    "smallEstateLimit": 100000,
+    "smallEstateSource": {
+      "title": "IC 29-1-8-1, Small estates; payment upon presentation of affidavit",
+      "url": "https://iga.in.gov/ic/2025/Title_29/Article_1/Chapter_8.pdf",
+      "quote": "one hundred thousand dollars ($100,000), for the estate of an individual who dies after June 30, 2022"
+    },
+    "taxKind": "none",
+    "taxDetail": "The Indiana Department of Revenue states that effective January 1, 2013, House Enrolled Act 1001 (2013) repealed the inheritance tax, the estate tax, and the generation skipping tax. The repeal of the inheritance tax applies to a decedent whose death occurs after December 31, 2012.",
+    "taxSource": {
+      "title": "Indiana Department of Revenue, Repeal of the Inheritance Tax, Estate Tax, and Generation Skipping Tax",
+      "url": "https://www.in.gov/dor/files/dn44.pdf",
+      "quote": "Effective January 1, 2013, House Enrolled Act (HEA) 1001 (2013) repealed the inheritance tax, the estate tax, and the generation skipping tax."
+    },
+    "community": null,
+    "communityDetail": "",
+    "communitySource": {
+      "title": "",
+      "url": "",
+      "quote": ""
+    },
+    "gaps": ["community"]
+  },
+  {
+    "name": "Iowa",
+    "slug": "iowa",
+    "courtName": "District Court",
+    "process": "Iowa Code section 633.10 gives the district court sitting in probate jurisdiction of estates of decedents. That jurisdiction includes the probate and contest of wills, the appointment of personal representatives, the granting of letters testamentary and of administration, and the administration, settlement, and distribution of estates of decedents, whether the estates consist of real or personal property or both.",
+    "processSource": {
+      "title": "Iowa Code 633.10 (2026), Jurisdiction",
+      "url": "https://www.legis.iowa.gov/docs/code/2026/633.10.pdf",
+      "quote": "the district court sitting in probate shall have jurisdiction of"
+    },
+    "fees": "Iowa Code section 633.197 allows personal representatives reasonable fees determined by the court, \"but not in excess of\" commissions on the gross assets of the estate listed in the probate inventory: for the first one thousand dollars, six percent; for the overplus between one and five thousand dollars, four percent; for all sums over five thousand dollars, two percent. Those commissions are full compensation for all ordinary services. Gross assets do not include life insurance proceeds unless payable to the decedent's estate. Section 633.198 allows the personal representative's attorney a reasonable fee determined by the court, but not in excess of that same schedule.",
+    "feesSource": {
+      "title": "Iowa Code 633.197 (2026), Compensation, schedule of fees",
+      "url": "https://www.legis.iowa.gov/docs/code/2026/633.197.pdf",
+      "quote": "not in excess of the following commissions upon the gross assets of the estate listed in the probate inventory"
+    },
+    "feeFormula": {
+      "kind": "brackets",
+      "base": "the gross assets of the estate listed in the probate inventory",
+      "brackets": [
+        {"upTo": 1000, "rate": 0.06},
+        {"upTo": 5000, "rate": 0.04}
+      ],
+      "aboveNote": "For all sums over five thousand dollars, two percent. The statute allows reasonable fees determined by the court but not in excess of these commissions. Gross assets do not include life insurance proceeds unless payable to the decedent's estate."
+    },
+    "smallEstate": "Iowa Code section 633.356 allows a successor, by affidavit and without letters, to collect items of personal property when the gross value of the decedent's personal property that would otherwise be distributed by will or intestate succession is, or has been at any time since death, fifty thousand dollars or less and there is no real property, and forty days have elapsed since death. For deaths before January 1, 2025, the section also covers the case in which real property passes to persons exempt from inheritance tax as joint tenants with full rights of survivorship. The procedure may be used only if no administration is pending.",
+    "smallEstateLimit": 50000,
+    "smallEstateSource": {
+      "title": "Iowa Code 633.356 (2026), Distribution of property by affidavit, very small estates",
+      "url": "https://www.legis.iowa.gov/docs/code/2026/633.356.pdf",
+      "quote": "fifty thousand dollars or less and there is no real property"
+    },
+    "taxKind": "none",
+    "taxDetail": "Iowa Code section 450.98 states that effective January 1, 2025, chapter 450 shall not apply to property of estates of decedents dying on or after January 1, 2025, and the inheritance tax shall not be imposed if the decedent dies on or after that date. Iowa Administrative Code rule 701-900.1 states that for deaths occurring on or after January 1, 2025, no state inheritance tax is imposed, and for deaths occurring on or after January 1, 2005, no estate tax is imposed.",
+    "taxSource": {
+      "title": "Iowa Code 450.98 (2026), Tax repealed",
+      "url": "https://www.legis.iowa.gov/docs/ico/chapter/450.98.pdf",
+      "quote": "The inheritance tax shall not be imposed under this chapter in the event the decedent dies on or after January 1, 2025"
+    },
+    "community": null,
+    "communityDetail": "",
+    "communitySource": {
+      "title": "",
+      "url": "",
+      "quote": ""
+    },
+    "gaps": ["community"]
+  },
+  {
+    "name": "Kansas",
+    "slug": "kansas",
+    "courtName": "District Court",
+    "process": "K.S.A. 20-301 provides that there shall be in each county a district court, which shall be a court of record and shall have general original jurisdiction of all matters, both civil and criminal, unless otherwise provided by law. K.S.A. 59-1717 allows every fiduciary necessary expenses and such compensation for services and those of the fiduciary's attorneys as shall be just and reasonable, and permits an application to the court for an allowance during administration. K.S.A. 59-1507b allows transfer of a resident decedent's personal property by affidavit, without letters, when the total assets of the estate subject to probate do not exceed $75,000.",
+    "processSource": {
+      "title": "K.S.A. 20-301, District court in each county; jurisdiction",
+      "url": "https://www.ksrevisor.gov/statutes/chapters/ch20/020_003_0001.html",
+      "quote": "There shall be in each county a district court, which shall be a court of record, and shall have general original jurisdiction of all matters, both civil and criminal, unless otherwise provided by law"
+    },
+    "fees": "K.S.A. 59-1717 states: \"Every fiduciary shall be allowed his or her necessary expenses incurred in the execution of his or her trust, and shall have such compensation for services and those of his or her attorneys as shall be just and reasonable.\" The statute states just and reasonable compensation and does not set a percentage schedule.",
+    "feesSource": {
+      "title": "K.S.A. 59-1717, Compensation and expenses",
+      "url": "https://www.ksrevisor.gov/statutes/chapters/ch59/059_017_0017.html",
+      "quote": "such compensation for services and those of his or her attorneys as shall be just and reasonable"
+    },
+    "feeFormula": null,
+    "smallEstate": "K.S.A. 59-1507b provides that when a resident of the state dies, testate or intestate, if the total assets of the estate subject to probate do not exceed $75,000 in value, personal property transferable to the estate shall be transferred to a successor, or as the successor directs, without letters of administration or letters testamentary, upon an affidavit showing entitlement. The statute states no waiting period. Successor means a person entitled to the property by will or intestate succession, or nominated as personal representative under the will.",
+    "smallEstateLimit": 75000,
+    "smallEstateSource": {
+      "title": "K.S.A. 59-1507b, Transfer of certain personal property to successor",
+      "url": "https://ksrevisor.gov/statutes/chapters/ch59/059_015_0007b.html",
+      "quote": "if the total assets of the estate of the decedent subject to probate do not exceed $75,000 in value"
+    },
+    "taxKind": "none",
+    "taxDetail": "Kansas Department of Revenue Notice 10-07 states there is no estate tax for the estate of a decedent dying after December 31, 2009. Notice 08-01 states that, with the exception of matters then pending, the Kansas inheritance tax ends July 1, 2008. K.S.A. 79-15,254 limits any remaining stand-alone estate tax for deaths after December 31, 2006 and before January 1, 2010 to estates for which a return was filed before January 1, 2020.",
+    "taxSource": {
+      "title": "Kansas Department of Revenue Notice 10-07, Kansas estate tax repealed",
+      "url": "https://www.ksrevenue.gov/taxnotices/notice10-07.pdf",
+      "quote": "There is no estate tax for estate of decedent's dying after December 31, 2009."
+    },
+    "community": null,
+    "communityDetail": "",
+    "communitySource": {
+      "title": "",
+      "url": "",
+      "quote": ""
+    },
+    "gaps": ["community"]
+  },
+  {
+    "name": "Michigan",
+    "slug": "michigan",
+    "courtName": "Probate Court",
+    "process": "MCL 700.1302 gives the court exclusive legal and equitable jurisdiction of a matter that relates to the settlement of a deceased individual's estate, whether testate or intestate, when the decedent was domiciled in the county or was domiciled out of state and left an estate in the county to be administered. That jurisdiction includes estate administration, settlement, and distribution, construction of a will, and determination of heirs. MCL 700.1303 refers to that court as the probate court.",
+    "processSource": {
+      "title": "MCL 700.1302, Exclusive subject matter jurisdiction",
+      "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=MCL-700-1302",
+      "quote": "A matter that relates to the settlement of a deceased individual's estate, whether testate or intestate"
+    },
+    "fees": "MCL 700.3719 states: \"A personal representative is entitled to reasonable compensation for services performed.\" A personal representative may pay that compensation periodically as earned without prior court approval. MCL 700.3721 allows the court to review the reasonableness of compensation of a person employed by the personal representative, including an attorney, and of the personal representative's own compensation. The statute states reasonable compensation and does not set a percentage schedule.",
+    "feesSource": {
+      "title": "MCL 700.3719, Compensation of personal representative",
+      "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=MCL-700-3719",
+      "quote": "A personal representative is entitled to reasonable compensation for services performed."
+    },
+    "feeFormula": null,
+    "smallEstate": "MCL 700.3983 allows collection of tangible personal property, or an instrument evidencing a debt, obligation, stock, or chose in action, by sworn statement 28 days after death. The sworn statement must say the estate does not include real property and that the value of the entire estate, wherever located, net of liens and encumbrances, does not exceed $50,000.00, adjusted as provided in section 1210. MCL 700.3982 separately allows a court order distributing a small estate when the balance of the gross estate is property of the value of $50,000.00 or less, with the same style of adjustment referenced on the State Court Administrative Office form. No official page opened here states the current cost-of-living adjusted dollar amount.",
+    "smallEstateLimit": null,
+    "smallEstateSource": {
+      "title": "MCL 700.3983, Collection of personal property by sworn statement",
+      "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-700-3983",
+      "quote": "does not exceed $50,000.00, adjusted as provided in section 1210"
+    },
+    "taxKind": "estate",
+    "taxDetail": "MCL 205.232 imposes a tax on the transfer of the estate of a Michigan resident equal to the maximum allowable federal credit for estate, inheritance, legacy, and succession taxes paid to the states. The Michigan Department of Treasury states that the inheritance tax is still in effect only for individuals who inherited from a person who died on or before September 30, 1993. The opened pages do not state a current dollar exemption or a current rate other than that federal-credit formula.",
+    "taxSource": {
+      "title": "MCL 205.232, Tax on transfer of estate of residents and nonresidents",
+      "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-205-232",
+      "quote": "The tax is equal to the maximum allowable federal credit under the internal revenue code for estate, inheritance, legacy, and succession taxes paid to the states."
+    },
+    "community": null,
+    "communityDetail": "",
+    "communitySource": {
+      "title": "",
+      "url": "",
+      "quote": ""
+    },
+    "gaps": ["smallEstateLimit", "community"]
+  },
+  {
+    "name": "Minnesota",
+    "slug": "minnesota",
+    "courtName": "District Court",
+    "process": "Minnesota Statutes section 524.1-201 defines court, for decedents' affairs, as the court or branch having jurisdiction in matters relating to the affairs of decedents, and states that this court in this state is known as the district court. Section 524.3-201 places venue for the first informal or formal testacy or appointment proceeding in the county of the decedent's domicile at death, or, if the decedent was not domiciled in Minnesota, in any county where property of the decedent was located at death.",
+    "processSource": {
+      "title": "Minnesota Statutes section 524.1-201, General definitions",
+      "url": "https://www.revisor.mn.gov/statutes/cite/524/full",
+      "quote": "This court in this state is known as the district court."
+    },
+    "fees": "Minnesota Statutes section 524.3-719 states: \"A personal representative is entitled to reasonable compensation for services.\" In determining what is reasonable, the court shall consider the time and labor required, the complexity and novelty of problems involved, and the extent of the responsibilities assumed and the results obtained. Section 524.3-721 allows the court to review the reasonableness of compensation of any person employed by the personal representative, including any attorney. The statute states reasonable compensation and does not set a percentage schedule.",
+    "feesSource": {
+      "title": "Minnesota Statutes section 524.3-719, Compensation of personal representative",
+      "url": "https://www.revisor.mn.gov/statutes/2025/cite/524.3-719",
+      "quote": "A personal representative is entitled to reasonable compensation for services."
+    },
+    "feeFormula": null,
+    "smallEstate": "Minnesota Statutes section 524.3-1201 allows collection of personal property by affidavit 30 days after death. The affidavit must state that the value of the entire probate estate, determined as of the date of death, wherever located, including specifically any contents of a safe deposit box, less liens and encumbrances, does not exceed $75,000, and that 30 days have elapsed since the death. The holder must pay the indebtedness or deliver tangible personal property, an instrument, or the entire contents of a safe deposit box to the claiming successor.",
+    "smallEstateLimit": 75000,
+    "smallEstateSource": {
+      "title": "Minnesota Statutes section 524.3-1201, Collection of personal property by affidavit",
+      "url": "https://www.revisor.mn.gov/statutes/cite/524.3-1201",
+      "quote": "does not exceed $75,000"
+    },
+    "taxKind": "estate",
+    "taxDetail": "The 2026 Minnesota estate tax instructions state that for 2026 decedents the exclusion amount and tax filing threshold is $3,000,000. The maximum qualified small business property and farm property deduction for 2026 decedents is $2,000,000, and the combined exclusion and that deduction remains $5,000,000. The Department of Revenue filing table lists $3,000,000 as the value of the estate for 2020 through the present.",
+    "taxSource": {
+      "title": "Minnesota Department of Revenue, 2026 Estate Tax Return (M706) Instructions",
+      "url": "https://www.revenue.state.mn.us/sites/default/files/2026-09/m706-inst-26.pdf",
+      "quote": "For 2026 decedents, the exclusion amount and tax filing threshold is $3,000,000."
+    },
+    "community": null,
+    "communityDetail": "",
+    "communitySource": {
+      "title": "",
+      "url": "",
+      "quote": ""
+    },
+    "gaps": ["community"]
+  },
+  {
+    "name": "Missouri",
+    "slug": "missouri",
+    "courtName": "Probate Division of the Circuit Court",
+    "process": "Section 473.097 directs the small-estate affidavit and the clerk's certificate to the probate division, and its published notice is given by the clerk of the probate division of the circuit court. When letters are issued and the will provides no compensation, or there is no will, or the personal representative renounces the will's compensation, section 473.153 sets minimum compensation for one personal representative as stated percentages of the value of the personal property administered and of the proceeds of all real property sold under order of the probate court. The court shall allow additional compensation above that minimum so that compensation is reasonable and adequate.",
+    "processSource": {
+      "title": "RSMo 473.097, Small estate affidavit",
+      "url": "https://revisor.mo.gov/main/OneSection.aspx?section=473.097",
+      "quote": "Clerk of the Probate Division of the Circuit Court"
+    },
+    "fees": "RSMo 473.153 sets minimum compensation for one personal representative, when the will does not fix compensation or the representative renounces it, as these percentages of the value of the personal property administered and of the proceeds of all real property sold under order of the probate court: on the first $5,000, 5 percent; on the next $20,000, 4 percent; on the next $75,000, 3 percent; on the next $300,000, 2 3/4 percent; on the next $600,000, 2 1/2 percent; on all over $1,000,000, 2 percent. If reasonable compensation exceeds that minimum, the court shall allow additional compensation. Attorneys performing services at the instance of the personal representative are allowed minimum compensation equal to the same percentages, and the court shall allow additional compensation above that minimum when reasonable.",
+    "feesSource": {
+      "title": "RSMo 473.153, Compensation of personal representatives, accountants and attorneys",
+      "url": "https://revisor.mo.gov/main/OneSection.aspx?section=473.153",
+      "quote": "On the first $ 5,000, 5 percent"
+    },
+    "feeFormula": {
+      "kind": "brackets",
+      "base": "the value of the personal property administered and of the proceeds of all real property sold under order of the probate court",
+      "brackets": [
+        {"upTo": 5000, "rate": 0.05},
+        {"upTo": 25000, "rate": 0.04},
+        {"upTo": 100000, "rate": 0.03},
+        {"upTo": 400000, "rate": 0.0275},
+        {"upTo": 1000000, "rate": 0.025}
+      ],
+      "aboveNote": "On all over $1,000,000, 2 percent. The statute's words are on the first $5,000, 5 percent; on the next $20,000, 4 percent; on the next $75,000, 3 percent; on the next $300,000, 2 3/4 percent; on the next $600,000, 2 1/2 percent. These percentages are minimum compensation, and the court shall allow additional compensation so that compensation is reasonable and adequate."
+    },
+    "smallEstate": "RSMo 473.097 lets distributees take personal property and real property without letters if the value of the entire estate, less liens, debt, and encumbrances, does not exceed forty thousand dollars; 30 days have elapsed since death and no application for letters, administration, or refusal of letters is pending or has been granted; a bond approved by the judge or clerk of the probate division is filed unless the court dispenses with it; and the statutory fee is paid. Property held as tenants by the entirety or joint tenants is not included in the affidavit's \"property of the decedent.\" If the listed property is more than fifteen thousand dollars, the clerk publishes a notice to creditors.",
+    "smallEstateLimit": 40000,
+    "smallEstateSource": {
+      "title": "RSMo 473.097, Small estate, distribution of assets without letters",
+      "url": "https://revisor.mo.gov/main/OneSection.aspx?section=473.097",
+      "quote": "The value of the entire estate, less liens, debt, and encumbrances, does not exceed forty thousand dollars"
+    },
+    "taxKind": "none",
+    "taxDetail": "RSMo 145.1000 states that if the federal estate tax imposed pursuant to Section 2011 of the Internal Revenue Code is repealed, then no tax shall be imposed on the transfer of a decedent's estate in Missouri. The revisor's note on that official page states that Section 2011 was repealed effective December 19, 2014, and marks the section effective date as 12-19-14.",
+    "taxSource": {
+      "title": "RSMo 145.1000, Repeal of federal estate tax, effect on state tax",
+      "url": "https://revisor.mo.gov/main/OneSection.aspx?section=145.1000",
+      "quote": "no tax shall be imposed on the transfer of a decedent's estate in Missouri"
+    },
+    "community": null,
+    "communityDetail": "",
+    "communitySource": {
+      "title": "",
+      "url": "",
+      "quote": ""
+    },
+    "gaps": ["community"]
+  },
+  {
+    "name": "Nebraska",
+    "slug": "nebraska",
+    "courtName": "County Court",
+    "process": "Nebraska Revised Statute 24-517 gives each county court exclusive original jurisdiction of all matters relating to decedents' estates, including the probate of wills and the construction thereof, except as provided in subsection (c) of section 30-2464 and section 30-2486. Section 30-2480 entitles a personal representative to reasonable compensation for services. Section 30-24,125 allows collection of personal property by affidavit without that appointment when the stated value limit is met.",
+    "processSource": {
+      "title": "Nebraska Revised Statute 24-517, Jurisdiction",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=24-517",
+      "quote": "Exclusive original jurisdiction of all matters relating to decedents' estates, including the probate of wills and the construction thereof"
+    },
+    "fees": "Nebraska Revised Statute 30-2480 states: \"A personal representative is entitled to reasonable compensation for his services.\" Section 30-2482 lets the court review the reasonableness of compensation of any person employed by the personal representative, including any attorney, and of the personal representative's own compensation. The statute states reasonable compensation and does not set a percentage schedule.",
+    "feesSource": {
+      "title": "Nebraska Revised Statute 30-2480, Compensation of personal representative",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-2480",
+      "quote": "A personal representative is entitled to reasonable compensation for his services."
+    },
+    "feeFormula": null,
+    "smallEstate": "Nebraska Revised Statute 30-24,125 requires a person indebted to the decedent, or holding tangible personal property or an instrument evidencing a debt, obligation, stock, or chose in action, to pay or deliver it 30 days after death to a successor who presents an affidavit. The affidavit must state that the value of all of the personal property in the decedent's estate, wherever located, less liens and encumbrances, does not exceed one hundred thousand dollars, and that 30 days have elapsed since death. A certified death certificate, or in case of delay an abstract of death, must be attached.",
+    "smallEstateLimit": 100000,
+    "smallEstateSource": {
+      "title": "Nebraska Revised Statute 30-24,125, Collection of personal property by affidavit",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=30-24,125",
+      "quote": "does not exceed one hundred thousand dollars"
+    },
+    "taxKind": "inheritance",
+    "taxDetail": "Section 77-2001 subjects property passing by will or intestacy to tax at the rates in sections 77-2004 to 77-2006. For decedents dying on or after January 1, 2023, section 77-2004 taxes listed immediate relatives at 1 percent of the clear market value received by each person in excess of one hundred thousand dollars, and states that interests passing to the surviving spouse shall not be subject to tax. Section 77-2005 taxes an uncle, aunt, niece, or nephew related by blood or legal adoption, or other lineal descendant of the same, or the spouse of any of them, at 11 percent of clear market value in excess of forty thousand dollars. Section 77-2006 taxes all other cases at 15 percent of the clear market value of the beneficial interests in excess of twenty-five thousand dollars. Each of those sections also exempts an interest passing to a person under twenty-two years of age.",
+    "taxSource": {
+      "title": "Nebraska Revised Statute 77-2004, Inheritance tax; transfer to immediate relatives",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=77-2004",
+      "quote": "one percent of the clear market value of the property received by each person in excess of one hundred thousand dollars"
+    },
+    "community": null,
+    "communityDetail": "",
+    "communitySource": {
+      "title": "",
+      "url": "",
+      "quote": ""
+    },
+    "gaps": ["community"]
+  },
+  {
+    "name": "North Dakota",
+    "slug": "north-dakota",
+    "courtName": "District Court",
+    "process": "N.D.C.C. section 30.1-02-02 states that the district court has jurisdiction over all subject matter relating to guardianship, probate, and testamentary matters, including estates of decedents, construction of wills, and determination of heirs and successors. Section 30.1-02-06 allows the clerk, without a written order, to sign appropriate documents in uncontested informal probate matters when at least one hundred twenty hours have elapsed since the decedent's death and the appointment priority rules are met. Section 30.1-18-19 entitles the personal representative to reasonable compensation.",
+    "processSource": {
+      "title": "N.D.C.C. 30.1-02-02, Subject matter jurisdiction",
+      "url": "https://ndlegis.gov/cencode/t30-1c02.pdf",
+      "quote": "The district court has jurisdiction over all subject matter relating to guardianship, probate, and testamentary matters"
+    },
+    "fees": "N.D.C.C. section 30.1-18-19 states: \"A personal representative is entitled to reasonable compensation for the personal representative's services.\" Section 30.1-18-21 allows the court to review the reasonableness of compensation of any person employed by the personal representative, including any attorney, and of the personal representative's own services, including services rendered as attorney. The statute states reasonable compensation and does not set a percentage schedule.",
+    "feesSource": {
+      "title": "N.D.C.C. 30.1-18-19, Compensation of personal representative",
+      "url": "https://ndlegis.gov/cencode/t30-1c18.pdf",
+      "quote": "A personal representative is entitled to reasonable compensation for the personal representative's services."
+    },
+    "feeFormula": null,
+    "smallEstate": "N.D.C.C. section 30.1-23-01 requires a debtor, or a person holding tangible personal property or an instrument evidencing a debt, obligation, stock, or chose in action, to pay or deliver it 30 days after death to a successor who presents an affidavit. The affidavit must state that the value of the entire estate subject to distribution or succession under chapters 30.1-01 through 30.1-23, wherever located, less liens and encumbrances, does not exceed one hundred thousand dollars, and that 30 days have elapsed since the death.",
+    "smallEstateLimit": 100000,
+    "smallEstateSource": {
+      "title": "N.D.C.C. 30.1-23-01, Collection of personal property by affidavit",
+      "url": "https://ndlegis.gov/cencode/t30-1c23.pdf",
+      "quote": "does not exceed one hundred thousand dollars"
+    },
+    "taxKind": "none",
+    "taxDetail": "The North Dakota Office of State Tax Commissioner states that North Dakota has an estate tax law, but for deaths occurring after January 1, 2005, no estate taxes are paid to North Dakota, and that while no North Dakota estate tax is due, a return is required if a federal estate tax return is required. The same page states that North Dakota does not have an inheritance tax, which was repealed in 1927 and replaced with an estate tax.",
+    "taxSource": {
+      "title": "North Dakota Office of State Tax Commissioner, Estate Tax",
+      "url": "https://www.tax.nd.gov/estate-tax",
+      "quote": "North Dakota does not have an inheritance tax."
+    },
+    "community": null,
+    "communityDetail": "",
+    "communitySource": {
+      "title": "",
+      "url": "",
+      "quote": ""
+    },
+    "gaps": ["community"]
+  },
+  {
+    "name": "Ohio",
+    "slug": "ohio",
+    "courtName": "Probate Court",
+    "process": "Ohio Revised Code section 2113.35 gives the probate court power to deny or reduce an executor's or administrator's compensation if the fiduciary has not faithfully discharged the duties. Section 2113.03 lets the probate court, on application of any interested party and after the notice the court directs, enter an order relieving the estate from administration and directing delivery of personal property and transfer of real property. Section 2113.031 is a separate summary release from administration, also ordered by the probate court. The opened pages describe those court releases. They do not state an affidavit collection limit.",
+    "processSource": {
+      "title": "Ohio Revised Code 2113.03, Release from administration",
+      "url": "https://codes.ohio.gov/ohio-revised-code/section-2113.03",
+      "quote": "the court, when satisfied that division (A)(1) or (2) of this section is satisfied, may enter an order relieving the estate from administration"
+    },
+    "fees": "Ohio Revised Code section 2113.35 allows executors and administrators fees upon the amount of all the personal property, including the income from the personal property, that is received and accounted for by them and upon the proceeds of real property that is sold: for the first one hundred thousand dollars, four per cent; all above one hundred thousand dollars and not exceeding four hundred thousand dollars, three per cent; all above four hundred thousand dollars, two per cent. They are also allowed one per cent on the value of real property that is not sold, and one per cent on stated property not subject to administration. These fees are full compensation for all ordinary services. Section 2113.36 allows reasonable attorney fees as expenses of administration.",
+    "feesSource": {
+      "title": "Ohio Revised Code 2113.35, Commissions",
+      "url": "https://codes.ohio.gov/ohio-revised-code/section-2113.35",
+      "quote": "For the first one hundred thousand dollars, at the rate of four per cent"
+    },
+    "feeFormula": {
+      "kind": "brackets",
+      "base": "the amount of all the personal property, including the income from the personal property, that is received and accounted for by them and upon the proceeds of real property that is sold",
+      "brackets": [
+        {"upTo": 100000, "rate": 0.04},
+        {"upTo": 400000, "rate": 0.03}
+      ],
+      "aboveNote": "All above four hundred thousand dollars, at the rate of two per cent. A separate fee of one per cent is allowed on the value of real property that is not sold, and a fee of one per cent is allowed on the value of all property that is not subject to administration and that would have been includable for purposes of computing the Ohio estate tax, except joint and survivorship property, had the decedent died on December 31, 2012."
+    },
+    "smallEstate": "There is no affidavit collection limit on the official pages opened. Section 2113.03 is a probate court release from administration if the value of the assets of the estate is thirty-five thousand dollars or less, or one hundred thousand dollars or less when a surviving spouse takes the entire estate under the will or under the intestacy and allowance rules stated in the section. Section 2113.031 is a summary release from administration. For an applicant who is not the surviving spouse, the assets may not exceed the lesser of five thousand dollars or the decedent's funeral and burial expenses.",
+    "smallEstateLimit": null,
+    "smallEstateSource": {
+      "title": "Ohio Revised Code 2113.03, Release from administration",
+      "url": "https://codes.ohio.gov/ohio-revised-code/section-2113.03",
+      "quote": "The value of the assets of the estate is thirty-five thousand dollars or less."
+    },
+    "taxKind": "none",
+    "taxDetail": "The Ohio Department of Taxation states that the Ohio estate tax was repealed effective January 1, 2013 for estates of individuals with a date of death on or after that date, and that a later sunset means no Ohio estate tax is due for property first discovered after December 31, 2021. The same pages state that the department no longer requires a tax release or inheritance tax waiver form before certain assets may be transferred.",
+    "taxSource": {
+      "title": "Ohio Department of Taxation, Estate Tax",
+      "url": "https://tax.ohio.gov/professional/estate",
+      "quote": "The Ohio Estate Tax was repealed effective January 1, 2013"
+    },
+    "community": null,
+    "communityDetail": "",
+    "communitySource": {
+      "title": "",
+      "url": "",
+      "quote": ""
+    },
+    "gaps": ["smallEstateLimit", "community"]
+  },
+  {
+    "name": "South Dakota",
+    "slug": "south-dakota",
+    "courtName": "Circuit Court",
+    "process": "SDCL 16-6-9 gives the circuit court original jurisdiction in all matters of probate, guardianship, conservatorship, and settlement of estates of deceased persons. SDCL 29A-3-719 entitles personal representatives and their attorneys and other agents to reasonable compensation, and, when a will does not provide compensation or the proceeding is intestate, allows stated commissions on personal property accounted for. The 2022 session law amending SDCL 29A-3-1201 allows collection of personal property by affidavit when the entire estate does not exceed $100,000.",
+    "processSource": {
+      "title": "SDCL 16-6-9, Original civil jurisdiction of circuit court",
+      "url": "https://sdlegislature.gov/Statutes/16-6",
+      "quote": "In all matters of probate, guardianship, conservatorship, and settlement of estates of deceased persons"
+    },
+    "fees": "SDCL 29A-3-719 states that personal representatives, attorneys, accountants, appraisers, and other agents are entitled to reasonable compensation for services. When compensation is not provided by will, or in an intestate proceeding, the personal representative may be allowed commissions upon the amount of personal property accounted for, excluding personal property not ranked as assets: on the first one thousand dollars at the rate of five percent; on all sums in excess of one thousand dollars and not exceeding five thousand dollars at the rate of four percent; on all sums in excess of five thousand dollars at the rate of two and one-half percent. Upon real property accounted for, compensation is just and reasonable and fixed by the court. Real estate sold by the personal representative in the probate proceeding is considered personal property.",
+    "feesSource": {
+      "title": "SDCL 29A-3-719, Compensation of personal representative",
+      "url": "https://sdlegislature.gov/Statutes/29A-3-719",
+      "quote": "On the first one thousand dollars at the rate of five percent"
+    },
+    "feeFormula": {
+      "kind": "brackets",
+      "base": "the amount of personal property accounted for by the personal representative, excluding personal property not ranked as assets",
+      "brackets": [
+        {"upTo": 1000, "rate": 0.05},
+        {"upTo": 5000, "rate": 0.04}
+      ],
+      "aboveNote": "On all sums in excess of five thousand dollars at the rate of two and one-half percent. Upon all real property accounted for, the personal representative shall receive a just and reasonable compensation for the services performed to be fixed by the court. All real estate sold by the personal representative as part of the proceedings in probate shall be considered as personal property."
+    },
+    "smallEstate": "2022 Session Law chapter 88, House Bill 1085, amended SDCL 29A-3-1201 so the affidavit must state that the value of the entire estate, wherever located, less liens and encumbrances, does not exceed $100,000. Thirty days must have elapsed since death. No application or petition for appointment of a personal representative may be pending or granted. The decedent must not have incurred indebtedness to the Department of Social Services for medical assistance for nursing home or other medical institutional care. The current codified HTML page did not render its body text. This dollar figure is the enacted amendatory text on the official session-law page.",
+    "smallEstateLimit": 100000,
+    "smallEstateSource": {
+      "title": "2022 South Dakota Session Laws, chapter 88 (House Bill 1085)",
+      "url": "https://mylrc.sdlegislature.gov/api/Documents/SessionLaw/233324.pdf?Year=2022",
+      "quote": "does not exceed $100,000"
+    },
+    "taxKind": "none",
+    "taxDetail": "The South Dakota Department of Revenue states that South Dakota does not have an inheritance tax, that the voters repealed the state inheritance tax effective July 1, 2001, and that there is also no estate tax.",
+    "taxSource": {
+      "title": "South Dakota Department of Revenue, Taxes",
+      "url": "https://dor.sd.gov/individuals/taxes/",
+      "quote": "South Dakota does not have an inheritance tax. The voters of South Dakota repealed the state inheritance tax effective July 1, 2001.There is also no estate tax."
+    },
+    "community": null,
+    "communityDetail": "",
+    "communitySource": {
+      "title": "",
+      "url": "",
+      "quote": ""
+    },
+    "gaps": ["community"]
+  },
+  {
+    "name": "Wisconsin",
+    "slug": "wisconsin",
+    "courtName": "Circuit Court",
+    "process": "Wisconsin Statutes section 753.03 gives circuit courts power to hear and determine, within their respective circuits, all civil and criminal actions and proceedings unless exclusive jurisdiction is given to some other court. Section 856.01 places jurisdiction of a proceeding for administration of a decedent's estate, if the decedent was domiciled in Wisconsin, in the county where the decedent was domiciled at death. A petition for administration may be made by any person named in the will to act as personal representative or by any person interested, and the court sets a time for proving the will, determining heirship, and appointing a personal representative.",
+    "processSource": {
+      "title": "Wisconsin Statutes section 856.01, Jurisdiction",
+      "url": "https://docs.legis.wisconsin.gov/statutes/statutes/856/01",
+      "quote": "The jurisdiction of a proceeding for administration of a decedent's estate is as follows"
+    },
+    "fees": "Wisconsin Statutes section 857.05 allows the personal representative all necessary expenses in the care, management, and settlement of the estate. Subject to court approval, the personal representative shall be allowed commissions computed on the inventory value of the property for which the personal representative is accountable, less any mortgages or liens, plus net principal gains in the estate proceedings, at a rate of 2 percent, or at a rate agreed in writing, and further sums in cases of unusual difficulty or extraordinary services as the court determines reasonable. If the personal representative or the personal representative's law firm also serves as attorney, the court may allow either commissions or attorney fees, and shall allow both if the will authorizes both.",
+    "feesSource": {
+      "title": "Wisconsin Statutes section 857.05, Allowances to personal representative for expenses and services",
+      "url": "https://docs.legis.wisconsin.gov/statutes/statutes/857/05",
+      "quote": "at a rate of 2 percent"
+    },
+    "feeFormula": null,
+    "smallEstate": "Wisconsin Statutes section 867.03 allows transfer by affidavit when a decedent leaves property subject to administration in this state that does not exceed $50,000 in gross value. An heir, a trustee of a revocable trust created by the decedent, a person named in the will to act as personal representative, or a person who was guardian of the decedent at death may collect money due the decedent, receive the property, and have evidences of interest transferred upon the affidavit. The section states no general waiting period in subsection (1g). A person named in the will as personal representative may not receive the decedent's real property by that affidavit unless that person is also an heir, trustee, or guardian as provided in the section.",
+    "smallEstateLimit": 50000,
+    "smallEstateSource": {
+      "title": "Wisconsin Statutes section 867.03, Transfer by affidavit",
+      "url": "https://docs.legis.wisconsin.gov/statutes/statutes/867/03",
+      "quote": "property subject to administration in this state that does not exceed $50,000 in gross value"
+    },
+    "taxKind": "none",
+    "taxDetail": "The Wisconsin Department of Revenue states that there is no estate tax for decedents dying after December 31, 2007, and that there is no Wisconsin inheritance tax for decedents dying on or after January 1, 1992.",
+    "taxSource": {
+      "title": "Wisconsin Department of Revenue, Estates, Trusts, and Fiduciaries",
+      "url": "https://www.revenue.wi.gov/Pages/FAQS/ise-estate.aspx",
+      "quote": "There is no estate tax for decedents dying after December 31, 2007."
+    },
+    "community": "community",
+    "communityDetail": "Wisconsin Statutes section 766.001 states that it is the intent of the legislature that marital property is a form of community property. Section 766.31 states that all property of spouses is marital property except that which is classified otherwise by chapter 766, and that all property of spouses is presumed to be marital property.",
+    "communitySource": {
+      "title": "Wisconsin Statutes section 766.001, Liberal construction; intent",
+      "url": "https://docs.legis.wisconsin.gov/statutes/statutes/766/",
+      "quote": "It is the intent of the legislature that marital property is a form of community property."
+    },
+    "gaps": []
+  }
+]
