@@ -1,0 +1,486 @@
+[
+  {
+    "name": "Alabama",
+    "slug": "alabama",
+    "courtName": "Probate Court",
+    "process": "The Handbook for Alabama Judges of Probate, published by the Alabama Law Institute on the legislature site, states that the Alabama Constitution provides that there must be a probate court in each county. It also states that orders, judgments, and decrees issued by probate courts are accorded the same validity and presumption accorded courts of general jurisdiction. A personal representative administers the estate, and the handbook states that the court may allow compensation or attorney fees on an annual, partial, or final settlement.",
+    "processSource": {
+      "title": "Handbook for Alabama Judges of Probate, 11th edition",
+      "url": "https://alison.legislature.state.al.us/files/pdf/lsa/ALI/Publications/Handbook_for_Alabama_Judges_of_Probate_11th_Edition.pdf",
+      "quote": "the Constitution provides that there must be a probate court in each county"
+    },
+    "fees": "The same handbook, citing Alabama Code section 43-2-848, states that the personal representative is entitled to reasonable compensation and that the fee shall not exceed two and a half percent of the value of all property received and under the possession and control of the personal representative, and two and a half percent of all disbursements. The court may allow reasonable compensation for extraordinary service. It is a cap, not a multi-bracket percentage schedule. The handbook also states that on settlement the court may allow an attorney fee.",
+    "feesSource": {
+      "title": "Handbook for Alabama Judges of Probate, 11th edition",
+      "url": "https://alison.legislature.state.al.us/files/pdf/lsa/ALI/Publications/Handbook_for_Alabama_Judges_of_Probate_11th_Edition.pdf",
+      "quote": "The fee shall not exceed two and a half (2 ½) percent of the value of all the property received and under the possession and control of the personal representative, and two and a half (2 ½) percent of all disbursements."
+    },
+    "feeFormula": null,
+    "smallEstate": "Alabama uses summary distribution, not a collection affidavit with a single dollar cap. Enrolled Act 2025-431, effective October 1, 2025, defines a small estate as an estate having a value that does not exceed the small estate amount. Section 43-2-698, as added by that act, states that the small estate amount shall at all times be equal to the combined maximum amount of the homestead allowance, exempt property, and family allowance under sections 43-8-110 through 43-8-113, as adjusted under section 43-8-116. The estate counted is personal property of a decedent who owns no real property at death for which title does not pass by operation of law. A verified petition is filed with the judge of probate. The official enrolled act does not state a single dollar figure for that combined allowance.",
+    "smallEstateLimit": null,
+    "smallEstateSource": {
+      "title": "HB164 Enrolled, Act amending the Revised Alabama Small Estates Act",
+      "url": "https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2025RS/HB164-enr.pdf",
+      "quote": "The small estate amount shall at all times be equal to the combined maximum amount of the homestead allowance, exempt property, and family allowance"
+    },
+    "taxKind": null,
+    "taxDetail": "The Alabama Department of Revenue states that the Alabama Estate and Inheritance Tax is established by Title 40 Chapter 15, and that estates where the decedent's date of death is after December 31, 2004, are not required to file with Alabama. The page does not say the tax was repealed.",
+    "taxSource": {
+      "title": "Alabama Fiduciary, Estate, and Inheritance Tax",
+      "url": "https://www.revenue.alabama.gov/individual-corporate/alabama-estate-and-inheritance-tax/",
+      "quote": "estates where the decedent's date of death is after December 31, 2004, are not required to file with Alabama."
+    },
+    "community": null,
+    "communityDetail": null,
+    "communitySource": null,
+    "gaps": [
+      "smallEstateLimit",
+      "taxKind",
+      "community"
+    ]
+  },
+  {
+    "name": "Arkansas",
+    "slug": "arkansas",
+    "courtName": "Probate Court",
+    "process": "The Arkansas Judiciary Form 23, Affidavit for Collection of Small Estate by Distributee, is certified by the Clerk of the Probate Court. The form states that distributees shall be entitled to distribution of the identified property without the necessity of an order of the court or other proceeding, upon furnishing a clerk-certified copy of the affidavit to a person owing money, having custody of property, or acting as registrar or transfer agent. The reporter's notes cite Arkansas Code section 28-41-101. An official page describing the ordinary letters proceeding, beyond this affidavit, was not opened.",
+    "processSource": {
+      "title": "Arkansas Judiciary Form 23, Affidavit for Collection of Small Estate by Distributee",
+      "url": "https://arcourts.gov/sites/default/files/files-list/Form%2023.pdf",
+      "quote": "the Clerk of the Probate Court of ___________ County, Arkansas, certifies that this is a true copy of an affidavit filed in this court"
+    },
+    "fees": null,
+    "feesSource": null,
+    "feeFormula": null,
+    "smallEstate": "Form 23 states that the distributee affidavit may be used when no petition for a personal representative is pending or has been granted, more than forty-five days have elapsed since death, and the value, less encumbrances, of all property owned by the decedent at death, excluding the homestead of and statutory allowances for the benefit of the surviving spouse or minor children, if any, does not exceed one hundred thousand dollars ($100,000). The reporter's notes say that if the affidavit estate contains real property, the distributee may publish notice promptly after filing.",
+    "smallEstateLimit": 100000,
+    "smallEstateSource": {
+      "title": "Arkansas Judiciary Form 23",
+      "url": "https://arcourts.gov/sites/default/files/files-list/Form%2023.pdf",
+      "quote": "does not exceed one hundred thousand dollars ($100,000)"
+    },
+    "taxKind": "none",
+    "taxDetail": "The Arkansas Department of Finance and Administration states that Act 645 of 2003 repealed Arkansas Estate Tax for estates of those who died on or after January 1, 2005, and that no estate tax return is required for decedents after December 31, 2004. That page does not mention an inheritance tax.",
+    "taxSource": {
+      "title": "Arkansas DFA Subject 605, Estate Tax, revised 12/22/2020",
+      "url": "https://www.dfa.arkansas.gov/wp-content/uploads/605-EstateTax.pdf",
+      "quote": "Act 645 of 2003 repealed Arkansas Estate Tax for estates of those who died on or after January 1, 2005."
+    },
+    "community": null,
+    "communityDetail": null,
+    "communitySource": null,
+    "gaps": [
+      "fees",
+      "community",
+      "inheritance tax not on the estate tax page"
+    ]
+  },
+  {
+    "name": "Florida",
+    "slug": "florida",
+    "courtName": "Circuit Court",
+    "process": "Florida Statutes section 26.012 gives circuit courts exclusive original jurisdiction of proceedings relating to the settlement of the estates of decedents and minors, the granting of letters testamentary, and other jurisdiction usually pertaining to courts of probate. Section 733.101 places venue in the county where the decedent was domiciled, or, if none, where property is located. Section 733.603 states that a personal representative shall proceed expeditiously with settlement and distribution and, except as the code or a court order specifies, without adjudication, order, or direction of the court.",
+    "processSource": {
+      "title": "2026 Florida Statutes section 26.012",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2026/26.012",
+      "quote": "Of proceedings relating to the settlement of the estates of decedents and minors, the granting of letters testamentary"
+    },
+    "fees": "Section 733.617 gives a personal representative a commission on the compensable value of the estate, defined as the inventory value of the probate estate assets and the income earned by the estate during administration. The commission presumed reasonable for ordinary services in formal administration is 3 percent for the first $1 million, 2.5 percent for all above $1 million and not exceeding $5 million, 2 percent for all above $5 million and not exceeding $10 million, and 1.5 percent for all above $10 million. Further reasonable compensation is allowed for extraordinary services. Section 733.6171 states there is not a mandatory statutory attorney fee. Compensation for ordinary attorney services in a formal administration is presumed reasonable on the same compensable value at $1,500 for estates of $40,000 or less, an additional $750 for more than $40,000 and not exceeding $70,000, an additional $750 for more than $70,000 and not exceeding $100,000, then 3 percent on the next $900,000, 2.5 percent for all above $1 million and not exceeding $3 million, 2 percent for all above $3 million and not exceeding $5 million, 1.5 percent for all above $5 million and not exceeding $10 million, and 1 percent for all above $10 million.",
+    "feesSource": {
+      "title": "2026 Florida Statutes section 733.617",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2026/733.617",
+      "quote": "At the rate of 3 percent for the first $1 million."
+    },
+    "feeFormula": {
+      "kind": "brackets",
+      "base": "the compensable value of the estate, which is the inventory value of the probate estate assets and the income earned by the estate during administration",
+      "brackets": [
+        {
+          "upTo": 1000000,
+          "rate": 0.03
+        },
+        {
+          "upTo": 5000000,
+          "rate": 0.025
+        },
+        {
+          "upTo": 10000000,
+          "rate": 0.02
+        }
+      ],
+      "aboveNote": "At the rate of 1.5 percent for all above $10 million. This schedule is the personal representative commission in section 733.617. The attorney schedule in section 733.6171 is stated in the fees text."
+    },
+    "smallEstate": "Summary administration under section 735.201 may be had when, in a testate estate, the will does not direct administration as required by chapter 733, and the value of the entire estate subject to administration in this state, less the value of property exempt from the claims of creditors, does not exceed $150,000, or the decedent has been dead for more than 2 years. Section 735.301 is a separate disposition without administration. It applies when the decedent leaves only personal property exempt under section 732.402, personal property exempt from creditor claims under the State Constitution, and nonexempt personal property the value of which does not exceed the sum of preferred funeral expenses and reasonable and necessary medical and hospital expenses of the last 60 days of the last illness. That section has no separate fixed dollar cap on the official page.",
+    "smallEstateLimit": 150000,
+    "smallEstateSource": {
+      "title": "2026 Florida Statutes section 735.201",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2026/735.201",
+      "quote": "does not exceed $150,000 or that the decedent has been dead for more than 2 years."
+    },
+    "taxKind": "none",
+    "taxDetail": "The Florida Department of Revenue states that a federal change eliminated Florida's estate tax on people who died after December 31, 2004. The page does not mention an inheritance tax.",
+    "taxSource": {
+      "title": "Florida Department of Revenue, Estate Tax",
+      "url": "https://www.floridarevenue.com/taxes/taxesfees/Pages/estate_tax.aspx",
+      "quote": "A federal change eliminated Florida's estate tax on people who died after December 31, 2004."
+    },
+    "community": null,
+    "communityDetail": null,
+    "communitySource": null,
+    "gaps": [
+      "community",
+      "inheritance tax not on the estate tax page"
+    ]
+  },
+  {
+    "name": "Georgia",
+    "slug": "georgia",
+    "courtName": "Probate Court",
+    "process": "The Supreme Court of Georgia publishes Georgia Probate Court Standard Forms. The index includes a Petition for Letters of Administration, a Petition to Probate Will in Solemn Form, a Petition to Probate Will in Common Form, and a Petition for Discharge of Personal Representative. Those form titles are the ordinary probate path shown on that official page. The index does not set out the steps inside the forms.",
+    "processSource": {
+      "title": "Georgia Probate Court Standard Forms, Supreme Court of Georgia",
+      "url": "https://www.gasupreme.us/probate-court-standard-forms/",
+      "quote": "Petition for Letters of Administration"
+    },
+    "fees": null,
+    "feesSource": null,
+    "feeFormula": null,
+    "smallEstate": "The same Supreme Court of Georgia forms index lists GPCSF 9, Petition for Order Declaring No Administration Necessary. That is a petition, and the forms index page does not state an affidavit procedure or a dollar limit. There is no affidavit limit on that official page.",
+    "smallEstateLimit": null,
+    "smallEstateSource": {
+      "title": "Georgia Probate Court Standard Forms, Supreme Court of Georgia",
+      "url": "https://www.gasupreme.us/probate-court-standard-forms/",
+      "quote": "Petition for Order Declaring No Administration Necessary"
+    },
+    "taxKind": "none",
+    "taxDetail": "The Georgia Department of Revenue quotes O.C.G.A. section 48-12-1: on and after July 1, 2014, there shall be no estate taxes levied by the state and no estate tax returns shall be required by the state. The same page states that Georgia has no inheritance tax.",
+    "taxSource": {
+      "title": "Georgia Department of Revenue, Estate Tax FAQ",
+      "url": "https://dor.georgia.gov/estate-tax-faq",
+      "quote": "there shall be no estate taxes levied by the state and no estate tax returns shall be required by the state."
+    },
+    "community": null,
+    "communityDetail": null,
+    "communitySource": null,
+    "gaps": [
+      "fees",
+      "smallEstateLimit",
+      "community"
+    ]
+  },
+  {
+    "name": "Kentucky",
+    "slug": "kentucky",
+    "courtName": "District Court",
+    "process": "KRS 24A.120 gives the District Court exclusive jurisdiction in matters involving probate, except matters contested in an adversary proceeding, which are filed in Circuit Court. KRS 394.140 states that wills shall be proved before, and admitted to record by, the District Court. KRS 395.150 caps the compensation of an executor, administrator, or curator. The Department of Revenue states that when a person dies with a will, distribution is made according to the will unless the will is renounced or a disclaimer is filed.",
+    "processSource": {
+      "title": "KRS 24A.120 Civil and probate jurisdiction",
+      "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=43159",
+      "quote": "Matters involving probate, except matters contested in an adversary proceeding."
+    },
+    "fees": "KRS 395.150 states that the compensation of an executor, administrator, or curator shall not exceed five percent of the value of the personal estate of the decedent, plus five percent of the income collected by that fiduciary for the estate. The court may allow additional fair and reasonable compensation for unusual or extraordinary services, or for services in connection with real estate or with estate and inheritance taxes on property that is not part of the decedent's estate but is included for those taxes. This is a statutory cap, not a graduated bracket schedule.",
+    "feesSource": {
+      "title": "KRS 395.150 Compensation of representatives",
+      "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=36328",
+      "quote": "shall not exceed five percent (5%) of the value of the personal estate of the decedent, plus five percent (5%) of the income collected"
+    },
+    "feeFormula": null,
+    "smallEstate": "Kentucky's official pages that were opened do not state a collection-by-affidavit dollar cap for the whole estate. KRS 395.455 lets the court order that administration be dispensed with and assets transferred when the exemption for the surviving spouse or children, alone or together with preferred claims, equals or exceeds the amount of distributable assets. KRS 391.030 states that personal property or money on hand or in a bank or other depository to the amount of thirty thousand dollars ($30,000) shall be exempt from distribution and sale and set apart by the District Court. The same section lets a surviving spouse, by court order, withdraw not exceeding two thousand five hundred dollars ($2,500) from a bank before that property is set apart. There is no affidavit limit on those official pages.",
+    "smallEstateLimit": null,
+    "smallEstateSource": {
+      "title": "KRS 395.455 Transfer of assets without administration",
+      "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=57684",
+      "quote": "the court may order that administration of the estate be dispensed with and the assets be transferred"
+    },
+    "taxKind": "inheritance",
+    "taxDetail": "The Department of Revenue states there is no Kentucky estate tax. KRS 140.070 and 140.080, as amended effective April 27, 2026 for estates of decedents who died on or after January 1, 2026, impose an inheritance tax by class. Class A (parent, surviving spouse, child by blood, stepchild, described adopted children, described grandchildren, nephew, niece, nephew or niece of the half blood, brother, sister, or brother or sister of the half blood) is taxed subject to KRS 140.080, which exempts the surviving spouse's total inheritable interest and the total inheritable interest of Class A beneficiaries. Class B (daughter-in-law, son-in-law, aunt, uncle, or a described great-grandchild) has a $1,000 exemption and rates of 4 percent up to $10,000, 5 percent above $10,000 to $20,000, 6 percent above $20,000 to $30,000, 8 percent above $30,000 to $45,000, 10 percent above $45,000 to $60,000, 12 percent above $60,000 to $100,000, 14 percent above $100,000 to $200,000, and 16 percent above $200,000. Class C (persons and described institutions not in Class A or B and not exempt under KRS 140.060) has a $500 exemption and rates of 6 percent up to $10,000, 8 percent above $10,000 to $20,000, 10 percent above $20,000 to $30,000, 12 percent above $30,000 to $45,000, 14 percent above $45,000 to $60,000, and 16 percent above $60,000.",
+    "taxSource": {
+      "title": "KRS 140.080 Exemptions of inheritable interests",
+      "url": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=57148",
+      "quote": "Class A beneficiaries, as defined in KRS 140.070, total inheritable interest"
+    },
+    "community": null,
+    "communityDetail": null,
+    "communitySource": null,
+    "gaps": [
+      "smallEstateLimit",
+      "community"
+    ]
+  },
+  {
+    "name": "Louisiana",
+    "slug": "louisiana",
+    "courtName": "District Court",
+    "process": "The Louisiana Constitution states that a district court shall have exclusive original jurisdiction of probate and succession matters, with a stated exception allowing the legislature to give a family court jurisdiction of certain community-property partitions arising from divorce or annulment. Code of Civil Procedure article 3431 states when it shall not be necessary to open judicially a small succession. Where that article applies, article 3432 provides an affidavit for a person who died intestate.",
+    "processSource": {
+      "title": "Louisiana Constitution article V, section 16",
+      "url": "https://legis.la.gov/legis/LawPrint.aspx?d=206453",
+      "quote": "probate and succession matters"
+    },
+    "fees": null,
+    "feesSource": null,
+    "feeFormula": null,
+    "smallEstate": "Article 3421 defines a small succession as any of the following: the succession of a person who died domiciled in Louisiana leaving property with a gross value of two hundred thousand dollars or less valued as of the date of death; the ancillary succession of a person who died domiciled outside Louisiana leaving property in Louisiana with a gross value of one hundred twenty-five thousand dollars or less valued as of the date of death; or the succession of a person whose date of death occurred at least twenty years before execution of a small succession affidavit and who died leaving property in Louisiana of any value. Article 3431 says judicial opening is unnecessary for a person domiciled in Louisiana who died intestate, for a person domiciled in Louisiana who died testate leaving no immovable property in Louisiana if the surviving spouse, all persons who would inherit under the testament, and all other persons who would inherit in the absence of a testament agree to waive probate, and for a person domiciled outside Louisiana who died intestate or whose testament has been probated in another state. Article 3432 requires an affidavit by at least two persons, including the surviving spouse if any and one or more heirs, describing the property, whether it is community or separate, and the value of each item and the aggregate value at death. No waiting period after death is stated on the article 3421, 3431, or 3432 pages that were opened.",
+    "smallEstateLimit": 200000,
+    "smallEstateSource": {
+      "title": "Louisiana Code of Civil Procedure article 3421",
+      "url": "https://legis.la.gov/Legis/Law.aspx?d=111765",
+      "quote": "a gross value of two hundred thousand dollars or less valued as of the date of death."
+    },
+    "taxKind": "estate",
+    "taxDetail": "The Louisiana Department of Revenue states that Act 822 of the 2008 Regular Legislative Session repealed the inheritance tax law, and that no state estate transfer tax is due for deaths after December 31, 2004, because R.S. 47:2432 only imposes the estate transfer tax if a state death tax credit is allowed against the federal estate tax. The same page also says Louisiana imposes an estate transfer tax equal to the federal credit for state death taxes.",
+    "taxSource": {
+      "title": "Louisiana Department of Revenue, Inheritance and Estate Transfer Taxes",
+      "url": "https://revenue.louisiana.gov/individuals/general-resources/inheritance-and-estate-transfer-taxes/",
+      "quote": "no state estate transfer tax is due for deaths after December 31, 2004."
+    },
+    "community": "community",
+    "communityDetail": "Civil Code article 2334 states that the legal regime of community of acquets and gains applies to spouses domiciled in this state, regardless of their domicile at the time of marriage or the place of celebration of the marriage. Article 2338 states that community property comprises property acquired during the existence of the legal regime through the effort, skill, or industry of either spouse, property acquired with community things or with community and separate things unless classified as separate under article 2341, property donated to the spouses jointly, natural and civil fruits of community property, damages awarded for loss or injury to a community thing, and all other property not classified by law as separate property.",
+    "communitySource": {
+      "title": "Louisiana Civil Code article 2334",
+      "url": "https://legis.la.gov/legis/Law.aspx?d=109401",
+      "quote": "The legal regime of community of acquets and gains applies to spouses domiciled in this state"
+    },
+    "gaps": [
+      "fees"
+    ]
+  },
+  {
+    "name": "Mississippi",
+    "slug": "mississippi",
+    "courtName": "Chancery Court",
+    "process": "Enrolled Senate Bill 2850 of 2020 restates Mississippi Code section 91-7-1: wills shall be proved in and letters testamentary thereon granted by the chancery court of the county in which the testator had a fixed place of residence. If the testator had no fixed place of residence and land is devised, the will is proved and letters are granted by the chancery court of the county where the land, or some part of it, is situated. The same act provides a successor affidavit for certain personal property, and if the holder refuses, payment or delivery may be compelled in chancery court.",
+    "processSource": {
+      "title": "Mississippi Senate Bill 2850, enrolled 2020, section 91-7-1",
+      "url": "https://da.mdah.ms.gov/series-files/sos/sosenrolled/sos-enrolled-2020/pdf/General/0343_sb2850.pdf",
+      "quote": "Wills shall be proved in and letters testamentary thereon granted by the chancery court"
+    },
+    "fees": null,
+    "feesSource": null,
+    "feeFormula": null,
+    "smallEstate": "Section 91-7-322, as amended by that enrolled act effective July 1, 2020, states that at any time after thirty days from the death of a decedent, a person indebted to the decedent or having possession of tangible personal property or an instrument evidencing a debt, obligation, stock, or chose in action shall pay or deliver it to a successor upon an affidavit. The affidavit must state that the value of the entire probate estate of the decedent, wherever located, excluding all liens and encumbrances thereon, does not exceed seventy-five thousand dollars ($75,000.00), that at least thirty days have elapsed, and that no application or petition for a personal representative is pending and none has been appointed in any jurisdiction. Successor means the spouse, or if none then any child, or if none then any grandchild, or if none then either parent or any siblings. A later amendment changing this dollar figure was not found on an official page that was opened.",
+    "smallEstateLimit": 75000,
+    "smallEstateSource": {
+      "title": "Mississippi Senate Bill 2850, enrolled 2020, section 91-7-322",
+      "url": "https://da.mdah.ms.gov/series-files/sos/sosenrolled/sos-enrolled-2020/pdf/General/0343_sb2850.pdf",
+      "quote": "does not exceed * * * Seventy-five Thousand Dollars ($75,000.00)"
+    },
+    "taxKind": "none",
+    "taxDetail": "The Mississippi Department of Revenue states that, as of January 1, 2005, no estate tax return is required for decedents dying on or after January 1, 2005, and that Mississippi does not have an inheritance tax nor a gift tax. The page still lists estate tax laws in Title 27, Chapter 9.",
+    "taxSource": {
+      "title": "Mississippi Department of Revenue, Estate",
+      "url": "https://www.dor.ms.gov/business/estate",
+      "quote": "Mississippi does not have an inheritance tax nor a gift tax."
+    },
+    "community": null,
+    "communityDetail": null,
+    "communitySource": null,
+    "gaps": [
+      "fees",
+      "community"
+    ]
+  },
+  {
+    "name": "North Carolina",
+    "slug": "north-carolina",
+    "courtName": "Clerk of Superior Court",
+    "process": "G.S. 28A-2-1 states that the clerk of superior court of each county, ex officio judge of probate, shall have jurisdiction of the administration, settlement, and distribution of estates of decedents. G.S. 28A-2-4 states that the clerks, as ex officio judges of probate, shall have original jurisdiction of estate proceedings and that, except as provided in subdivision (a)(4), the jurisdiction is exclusive. Estate proceedings include probate of wills and granting and revoking letters testamentary and letters of administration.",
+    "processSource": {
+      "title": "G.S. 28A-2-1",
+      "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_28A/GS_28A-2-1.html",
+      "quote": "The clerk of superior court of each county, ex officio judge of probate, shall have jurisdiction of the administration, settlement, and distribution of estates of decedents"
+    },
+    "fees": "G.S. 28A-23-3 states that personal representatives, collectors, or public administrators shall be entitled to commissions fixed in the discretion of the clerk of superior court not to exceed five percent upon the amounts of receipts, including the value of all personal property when received, and upon the expenditures made in accordance with law. If the gross value of an estate is two thousand dollars or less, the clerk may fix a commission the clerk deems just and adequate. Where real property is sold to pay debts or devises, the commission is computed only on the proceeds actually applied to those debts or devises. Commissions are not allowed on distribution of the shares of heirs or devisees. The section does not apply if the will specifies the compensation. This is a cap of five percent, not a graduated bracket schedule.",
+    "feesSource": {
+      "title": "G.S. 28A-23-3",
+      "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_28A/GS_28A-23-3.html",
+      "quote": "not to exceed five percent (5%) upon the amounts of receipts, including the value of all personal property when received, and upon the expenditures made in accordance with law."
+    },
+    "feeFormula": null,
+    "smallEstate": "G.S. 28A-25-1 allows collection of personal property by affidavit when a decedent dies intestate leaving personal property, less liens and encumbrances, not exceeding twenty thousand dollars ($20,000), at any time after 30 days from the date of death. The affiant is the public administrator or an heir or creditor not disqualified under G.S. 28A-4-2. The affidavit is filed with the clerk of superior court of the county where the decedent was domiciled before assets are recovered. If the affiant is the surviving spouse and sole heir, the personal property that may be collected may exceed $20,000 but shall not exceed thirty thousand dollars ($30,000), after reduction for any spousal allowance paid under G.S. 30-15. Real property is described in the affidavit but the collection procedure is for personal property.",
+    "smallEstateLimit": 20000,
+    "smallEstateSource": {
+      "title": "G.S. 28A-25-1",
+      "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_28A/GS_28A-25-1.html",
+      "quote": "not exceeding twenty thousand dollars ($20,000) in value, at any time after 30 days from the date of death"
+    },
+    "taxKind": "none",
+    "taxDetail": "A North Carolina Department of Revenue statistical table states that the inheritance tax was repealed effective January 1, 1999, and that SL 2013-316, section 7.(a), repeals the North Carolina estate tax effective January 1, 2013 and applies to the estates of decedents dying on or after that date.",
+    "taxSource": {
+      "title": "North Carolina Department of Revenue, Table 5, Estate Tax Collections",
+      "url": "https://www.ncdor.gov/documents/reports/table5-8/open",
+      "quote": "SL 2013-316, s. 7.(a) repeals the North Carolina estate tax effective January 1, 2013"
+    },
+    "community": null,
+    "communityDetail": null,
+    "communitySource": null,
+    "gaps": [
+      "community"
+    ]
+  },
+  {
+    "name": "South Carolina",
+    "slug": "south-carolina",
+    "courtName": "Probate Court",
+    "process": "Title 62 is the South Carolina Probate Code. Section 62-3-102 states that, except as provided in section 62-3-1201 and except for a will admitted elsewhere and filed as provided in Article 4, a will must be declared valid by an order of informal probate by the court or an adjudication of probate by the court to prove a transfer of property or to nominate a personal representative. Section 62-3-701 states that the duties and powers of a personal representative commence upon appointment. Section 62-3-1201 requires the small-estate affidavit to be filed in the probate court and approved by the probate judge.",
+    "processSource": {
+      "title": "South Carolina Code section 62-3-102",
+      "url": "https://www.scstatehouse.gov/code/t62c003.php",
+      "quote": "a will must be declared to be valid by an order of informal probate by the court or an adjudication of probate by the court."
+    },
+    "fees": "Section 62-3-719 states that, unless otherwise approved by the court for extraordinary services, a personal representative shall receive a sum from the probate estate funds not to exceed five percent of the appraised value of the personal property of the probate estate plus the sales proceeds of real property of the probate estate received on sales directed or authorized by will or by proper court order, except sales to the personal representative as purchaser. The minimum commission is fifty dollars. The personal representative may also receive not more than five percent of the income earned by the probate estate. If more than one personal representative serves, the total must not exceed the maximum for a sole personal representative. The section does not apply where a contract provides the compensation, where the will otherwise directs, or where the personal representative qualified before June 28, 1984. This is a cap, not a graduated bracket schedule.",
+    "feesSource": {
+      "title": "South Carolina Code section 62-3-719",
+      "url": "https://www.scstatehouse.gov/code/t62c003.php",
+      "quote": "not to exceed five percent of the appraised value of the personal property of the probate estate"
+    },
+    "feeFormula": null,
+    "smallEstate": "Section 62-3-1201 allows collection of personal property by affidavit thirty days after death. Before the affidavit may be presented, it must state that the value of the entire probate estate, defined as the decedent's property passing under the will plus the decedent's property passing by intestacy, wherever located, less liens and encumbrances, does not exceed forty-five thousand dollars. It must also state that thirty days have elapsed and that no application or petition for appointment of a personal representative is pending or has been granted. The affidavit must be approved and countersigned by the probate judge and filed in the probate court. Section 62-3-1203 is a separate summary procedure if the inventory shows the entire probate estate, less liens and encumbrances, does not exceed forty-five thousand dollars and exempt property, costs and expenses of administration, reasonable funeral expenses, and reasonable and necessary medical and hospital expenses of the last illness.",
+    "smallEstateLimit": 45000,
+    "smallEstateSource": {
+      "title": "South Carolina Code section 62-3-1201",
+      "url": "https://www.scstatehouse.gov/code/t62c003.php",
+      "quote": "does not exceed forty-five thousand dollars"
+    },
+    "taxKind": "none",
+    "taxDetail": "The South Carolina Department of Revenue states that South Carolina has no Estate Tax for decedents dying on or after January 1, 2005. That page does not mention an inheritance tax.",
+    "taxSource": {
+      "title": "South Carolina Department of Revenue, Estate Tax",
+      "url": "https://dor.sc.gov/tax/estate",
+      "quote": "South Carolina has no Estate Tax for decedents dying on or after January 1, 2005."
+    },
+    "community": null,
+    "communityDetail": null,
+    "communitySource": null,
+    "gaps": [
+      "community",
+      "inheritance tax not on the estate tax page"
+    ]
+  },
+  {
+    "name": "Tennessee",
+    "slug": "tennessee",
+    "courtName": null,
+    "process": null,
+    "processSource": null,
+    "fees": null,
+    "feesSource": null,
+    "feeFormula": null,
+    "smallEstate": null,
+    "smallEstateLimit": null,
+    "smallEstateSource": null,
+    "taxKind": "none",
+    "taxDetail": "The Tennessee Department of Revenue states that inheritance tax is imposed on the value of the decedent's estate that exceeds the exemption amount applicable to the year of death, and that the inheritance tax is no longer imposed after December 31, 2015. The page says not to file for decedents with dates of death in 2016 or after. A separate official page on an estate tax, as distinct from this inheritance tax, was not opened.",
+    "taxSource": {
+      "title": "Tennessee Department of Revenue, Inheritance Tax",
+      "url": "https://www.tn.gov/revenue/taxes/inheritance-tax.html",
+      "quote": "The inheritance tax is no longer imposed after December 31, 2015."
+    },
+    "community": "opt-in",
+    "communityDetail": "The Tennessee General Assembly bill page states that House Bill 3863 was enacted as the Tennessee Community Property Trust Act of 2010, Public Chapter 658. The bill text on the legislature site states that this chapter shall be known as the Tennessee Community Property Trust Act of 2010, and that whether or not both, one, or neither spouse is domiciled in this state, spouses may classify any or all of their property as community property by transferring property to a community property trust and providing in the trust that the property is community property. All property owned by a community property trust will be community property during marriage. A later amendment changing the verb classify was not confirmed on an official enrolled page that was opened.",
+    "communitySource": {
+      "title": "House Bill 3863, Tennessee Community Property Trust Act of 2010",
+      "url": "https://www.capitol.tn.gov/Bills/106/Bill/HB3863.pdf",
+      "quote": "spouses may classify any or all of their property as community property by transferring property to a community property trust"
+    },
+    "gaps": [
+      "courtName",
+      "process",
+      "fees",
+      "smallEstate",
+      "smallEstateLimit"
+    ]
+  },
+  {
+    "name": "Virginia",
+    "slug": "virginia",
+    "courtName": "Circuit Court",
+    "process": "Code of Virginia section 64.2-443 states that the circuit courts shall have jurisdiction of the probate of wills. A will is offered in the circuit court of the county or city where the decedent has a known place of residence, with further venue rules if there is no known residence. Section 64.2-1208 states that, in stating and settling the account, the commissioner of accounts shall allow the fiduciary reasonable expenses and, except where otherwise provided, a reasonable compensation in the form of a commission on receipts or otherwise.",
+    "processSource": {
+      "title": "Code of Virginia section 64.2-443",
+      "url": "https://law.lis.virginia.gov/vacode/title64.2/chapter4/section64.2-443/",
+      "quote": "The circuit courts shall have jurisdiction of the probate of wills."
+    },
+    "fees": "Section 64.2-1208 states that the commissioner of accounts shall allow the fiduciary any reasonable expenses and, except in cases in which it is otherwise provided, a reasonable compensation in the form of a commission on receipts or otherwise. The section does not set a percentage schedule. Where an institutional fiduciary's compensation is specified in the trust or will by reference to a standard published fee schedule, the commissioner shall not reduce it below that amount unless the settlor or testator was not competent or the compensation is excessive in light of what institutional fiduciaries generally receive in similar situations.",
+    "feesSource": {
+      "title": "Code of Virginia section 64.2-1208",
+      "url": "https://law.lis.virginia.gov/vacode/title64.2/chapter12/section64.2-1208/",
+      "quote": "a reasonable compensation in the form of a commission on receipts or otherwise."
+    },
+    "feeFormula": null,
+    "smallEstate": "Section 64.2-601, in the Virginia Small Estate Act, states that any person having possession of a small asset shall pay or deliver it to the designated successor upon an affidavit made by all of the known successors. The affidavit must state that the value of the decedent's entire personal probate estate as of the date of death, wherever located, does not exceed $75,000, that at least 60 days have elapsed since the death, that no application for appointment of a personal representative is pending or has been granted in any jurisdiction, and that the decedent's will, if any, was duly probated. The page that was opened does not apply this dollar figure to real estate.",
+    "smallEstateLimit": 75000,
+    "smallEstateSource": {
+      "title": "Code of Virginia section 64.2-601",
+      "url": "https://law.lis.virginia.gov/vacode/title64.2/chapter6/section64.2-601/",
+      "quote": "the value of the decedent's entire personal probate estate as of the date of the decedent's death, wherever located, does not exceed $75,000"
+    },
+    "taxKind": "inheritance",
+    "taxDetail": "Virginia Tax states: Today, Virginia no longer has an estate tax or inheritance tax. It then states that prior to July 1, 2007, Virginia had an estate tax equal to the federal credit for state death taxes, that the Virginia estate tax was effectively repealed with the elimination of that credit, and that certain remainder interests are still subject to the inheritance tax.",
+    "taxSource": {
+      "title": "Virginia Tax, Estate and Inheritance Taxes",
+      "url": "https://www.tax.virginia.gov/estate-and-inheritance-taxes",
+      "quote": "Today, Virginia no longer has an estate tax* or inheritance tax."
+    },
+    "community": null,
+    "communityDetail": null,
+    "communitySource": null,
+    "gaps": [
+      "community"
+    ]
+  },
+  {
+    "name": "West Virginia",
+    "slug": "west-virginia",
+    "courtName": "County Commission",
+    "process": "Section 44-4-12a sets personal representative commissions and states that the county commission may deny, reduce, or increase them. Section 44-4-12 states that the fiduciary commissioner, in stating and settling the account, shall allow the fiduciary reasonable expenses and, except where otherwise provided, a reasonable compensation. A small estate affidavit under section 44-1A-2 is tendered to the clerk of the county commission, or the fiduciary supervisor of that clerk, of the county which would have probate jurisdiction.",
+    "processSource": {
+      "title": "West Virginia Code section 44-4-12a",
+      "url": "https://code.wvlegislature.gov/44-4-12A/",
+      "quote": "The commission set forth herein may be denied or reduced by the county commission"
+    },
+    "fees": "Section 44-4-12a allows personal representatives reasonable expenses and commissions upon the amount of all the personal estate which is subject to administration, including the income from the personal estate, that is received and accounted for by them, and upon the proceeds of real estate that is sold, as follows: for the first $100,000, five percent; all above $100,000 and not exceeding $400,000, four percent; all above $400,000 and not exceeding $800,000, three percent; and all above $800,000, two percent. They are also allowed one percent on the value of real estate that is not sold, and one percent on all property that is not subject to administration and that is includable for computing the federal estate tax. No commission is allowed on joint and survivorship property, whether real or personal. Valuation of real estate sold is the gross proceeds of sale, and for all other property the fair market value as of the date of death. A testator may deviate by express language in the will. Where the personal representative is a lawyer who renders professional services, compensation for those professional services in addition to a commission shall not be allowed.",
+    "feesSource": {
+      "title": "West Virginia Code section 44-4-12a",
+      "url": "https://code.wvlegislature.gov/44-4-12A/",
+      "quote": "For the first $100,000, at the rate of five percent"
+    },
+    "feeFormula": {
+      "kind": "brackets",
+      "base": "the amount of all the personal estate which is subject to administration, including the income from the personal estate, that is received and accounted for by them and upon the proceeds of real estate that is sold",
+      "brackets": [
+        {
+          "upTo": 100000,
+          "rate": 0.05
+        },
+        {
+          "upTo": 400000,
+          "rate": 0.04
+        },
+        {
+          "upTo": 800000,
+          "rate": 0.03
+        }
+      ],
+      "aboveNote": "All above $800,000, at the rate of two percent. Separate one percent commissions apply to unsold real estate and to property not subject to administration that is includable for the federal estate tax. No commission on joint and survivorship property."
+    },
+    "smallEstate": "Section 44-1A-2, as displayed on the code site on October 13, 2026, states that the small estate of a decedent who dies domiciled in this state, without owning any probate real property or any interest in probate real property, may be administered upon affidavit without appointment of a personal representative. The affidavit must state that the entire personal probate estate, wherever located, consists only of small assets and that the aggregate fair market value of all of the small assets does not exceed $50,000. If the successor is nominated in the will, at least 30 days must have elapsed and no personal representative application may be pending or granted. If the successor is not nominated, or the decedent died intestate, at least 60 days must have elapsed, no application may be pending or granted, and no small-estate affidavit may have been filed by a nominated successor. On the same site, section 44-1A-1 still defines a small estate as probate personal property and assets not exceeding $50,000 and West Virginia real estate or interests not exceeding $100,000, excluding nonprobate real estate. Those two official sections do not use the same real-property rule.",
+    "smallEstateLimit": 50000,
+    "smallEstateSource": {
+      "title": "West Virginia Code section 44-1A-2",
+      "url": "https://code.wvlegislature.gov/44-1A-2/",
+      "quote": "the aggregate fair market value of all of the small assets does not exceed $50,000"
+    },
+    "taxKind": null,
+    "taxDetail": null,
+    "taxSource": null,
+    "community": null,
+    "communityDetail": null,
+    "communitySource": null,
+    "gaps": [
+      "taxKind",
+      "community",
+      "small estate definition conflict between 44-1A-1 and 44-1A-2"
+    ]
+  }
+]
