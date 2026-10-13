@@ -1,0 +1,512 @@
+[
+  {
+    "name": "Connecticut",
+    "slug": "connecticut",
+    "courtName": "Connecticut Probate Court",
+    "process": "The Connecticut Probate Courts have jurisdiction over probating wills and the administration of estates. When a person who owns property dies, the Probate Court oversees division of the property, either under a will or under Connecticut law if there is no will. The court sees that debts, funeral expenses, and taxes are paid before remaining assets are distributed. A petition asks the Probate Court to admit the will and issue letters testamentary, or to issue letters of administration if there is no will.",
+    "processSource": {
+      "title": "Trusts and Estates, Connecticut Probate Courts",
+      "url": "https://www.ctprobate.gov/trusts-estates",
+      "quote": "Probate Courts have jurisdiction over the administration and oversight of trusts and estates. These matters include the following: probating wills and the administration of estates"
+    },
+    "fees": "Connecticut has no statutory percentage schedule for an executor or administrator. An Office of Legislative Research report states that, under common law, fiduciaries are entitled to just and reasonable fees. The Probate Court reviews the fiduciary's bill and may reduce it. The report lists the factors as responsibility, character of the work, special problems, result, knowledge and skill, promptness, time, value of the estate, and any other relevant circumstances.",
+    "feesSource": {
+      "title": "Fiduciary Fees, Connecticut Office of Legislative Research, 97-R-1450",
+      "url": "https://www.cga.ct.gov/PS97/rpt/olr/htm/97-R-1450.htm",
+      "quote": "Under our common law (court made) fiduciaries are entitled to just and reasonable fees for performing their services."
+    },
+    "feeFormula": null,
+    "smallEstate": "Under General Statutes section 45a-273, if the decedent's solely owned tangible and intangible personal property, excluding property that passes outside probate by operation of law, does not exceed forty thousand dollars, and the decedent had no solely owned real property in Connecticut, a surviving spouse, next of kin, or other interested person may file an affidavit in the Probate Court instead of a petition for probate or letters. The court sends a copy to the Department of Administrative Services and shall not issue a decree until thirty days after that copy was sent.",
+    "smallEstateLimit": 40000,
+    "smallEstateSource": {
+      "title": "Conn. Gen. Stat. sec. 45a-273, Chapter 802b",
+      "url": "https://www.cga.ct.gov/current/pub/chap_802b.htm",
+      "quote": "If the aggregate value of a decedent's solely owned tangible and intangible personal property, excluding property that passes outside of probate by operation of law, does not exceed forty thousand dollars and the decedent had no solely owned real property in this state"
+    },
+    "taxKind": "estate",
+    "taxDetail": "For estates of decedents dying during 2026, the Connecticut estate tax exemption amount is $15 million. The 2026 estate tax table in the Department of Revenue Services instructions says none if the Connecticut taxable estate is not over $15,000,000, and 12% of the excess over the federal basic exclusion amount if it is over $15,000,000.",
+    "taxSource": {
+      "title": "Connecticut Department of Revenue Services, Estate and Gift Tax Information",
+      "url": "https://portal.ct.gov/drs/individuals/individual-income-tax-portal/estate-and-gift-taxes/tax-information",
+      "quote": "For estates of decedents dying during 2026, the Connecticut estate tax exemption amount is $15 million."
+    },
+    "community": "common-law",
+    "communityDetail": "The Judicial Branch law library pathfinder quotes the Connecticut rule, citing General Statutes section 46b-36, that neither husband nor wife acquires by the marriage any interest in the real or personal property of the other during that other's lifetime, and that either spouse may dispose of that spouse's property without the other's consent.",
+    "communitySource": {
+      "title": "Rights of Surviving Spouse in Connecticut, Connecticut Judicial Branch Law Library",
+      "url": "https://www.jud.ct.gov/lawlib/Notebooks/Pathfinders/SurvivingSpouse.PDF",
+      "quote": "under Connecticut law neither husband nor wife acquires, by virtue of the marriage, any interest in the real or personal property of the other during that other's lifetime."
+    },
+    "gaps": []
+  },
+  {
+    "name": "Delaware",
+    "slug": "delaware",
+    "courtName": "Register of Wills and the Court of Chancery",
+    "process": "An executor or administrator must render an account of administration to the Court of Chancery, in money, every year from the date of letters until the estate is closed and a final account is passed by the Court. The Register of Wills receives the accountings filed for the Court's approval and mails notice that an account is open for inspection and exception for 3 months. The ordinary path is appointment of a personal representative. Section 2306 is the alternative that avoids waiting for that appointment when its affidavit conditions are met.",
+    "processSource": {
+      "title": "12 Del. C. sec. 2301",
+      "url": "https://delcode.delaware.gov/title12/c023/sc01/index.html",
+      "quote": "Every executor or administrator shall render an account of their administration to the Court of Chancery, in money, every year from the date of their letters until the estate is closed and a final account passed by the Court."
+    },
+    "fees": "Title 12, section 2305 does not set a percentage. It says commissions and attorneys' fees shall be allowed as provided by rule of the Court of Chancery. No commission is allowed to an executor or administrator who has not complied with Title 30, Chapter 13, and the Court may reduce commissions and attorneys' fees if accounts are late. The opened Court of Chancery rules did not state an executor percentage schedule.",
+    "feesSource": {
+      "title": "12 Del. C. sec. 2305",
+      "url": "https://delcode.delaware.gov/title12/c023/sc01/index.html",
+      "quote": "Commissions and attorneys' fees shall be allowed as provided by rule of the Court of Chancery."
+    },
+    "feeFormula": null,
+    "smallEstate": "Section 2306 lets specified relatives, a qualifying named executor, a trustee of a trust created by the decedent, or a Delaware funeral director take the personal estate for distribution without waiting for a personal representative or probate of a will, by an affidavit. The affidavit must state that no appointment petition is pending or granted, that 30 days have elapsed since death, that the personal estate other than property described in section 1901(b) and (c) and other than jointly owned property does not exceed $50,000, that known debts are paid or provided for, that the spouse's allowance is paid, provided for, waived, or expired, and that the decedent did not own Delaware real estate solely or as tenants in common. The Register of Wills may issue the affidavit.",
+    "smallEstateLimit": 50000,
+    "smallEstateSource": {
+      "title": "12 Del. C. sec. 2306",
+      "url": "https://delcode.delaware.gov/title12/c023/sc01/index.html",
+      "quote": "The value of the personal estate of the decedent other than property described in section 1901(b) and (c) of this title and other than jointly owned property, does not exceed $50,000."
+    },
+    "taxKind": "none",
+    "taxDetail": "Title 30, Chapter 15, Estate Tax, is marked repealed, effective January 1, 2018, for sections 1501 through 1507. Title 30, Chapter 13, Subchapter I, the former inheritance tax provisions, is marked repealed by 71 Del. Laws, c. 353, section 10, effective January 1, 1999. The code pages say repealed. They do not use the sentence no estate or inheritance tax.",
+    "taxSource": {
+      "title": "30 Del. C. Chapter 15, Estate Tax [Repealed]",
+      "url": "https://delcode.delaware.gov/title30/c015/",
+      "quote": "repealed by 81 Del. Laws, c. 52, section 1, effective Jan. 1, 2018."
+    },
+    "community": null,
+    "communityDetail": null,
+    "communitySource": null,
+    "gaps": [
+      "marital property system"
+    ]
+  },
+  {
+    "name": "District of Columbia",
+    "slug": "district-of-columbia",
+    "courtName": "Probate Division of the Superior Court of the District of Columbia",
+    "process": "Decedents' estates are administered under Title 20 in the Probate Division of the Superior Court. If the property of the decedent subject to administration in the District of Columbia has a value of $80,000 or less, it may be administered as a small estate under that subchapter. A separate affidavit procedure can transfer a small asset without that administration when section 20-361 is met. The court small-estate page still describes a petition for administration of a small estate, but the code section opened states the $80,000 figure.",
+    "processSource": {
+      "title": "D.C. Code sec. 20-351",
+      "url": "https://code.dccouncil.gov/us/dc/council/code/sections/20-351",
+      "quote": "If the property of a decedent subject to administration in the District of Columbia has a value of $80,000 or less, the property may be administered as a small estate in accordance with the provisions of this subchapter."
+    },
+    "fees": "D.C. Code section 20-751 says a personal representative is entitled to reasonable compensation for services, except as the Court may otherwise order for good cause for a supervised personal representative or special administrator. If the will provides compensation and there is no contract with the decedent, the personal representative may renounce that provision and take reasonable compensation. There is no percentage schedule on that page.",
+    "feesSource": {
+      "title": "D.C. Code sec. 20-751",
+      "url": "https://code.dccouncil.gov/us/dc/council/code/sections/20-751",
+      "quote": "a personal representative is entitled to reasonable compensation for services."
+    },
+    "feeFormula": null,
+    "smallEstate": "Section 20-361 requires a person holding a small asset to deliver it on an affidavit by all known successors. The affidavit must state that the entire probate estate, less liens and encumbrances, as of death, wherever located, exceeds known liabilities but does not exceed $40,000, and includes no interest in real property. At least 60 days must have elapsed since death, no personal-representative application may be pending or granted in any jurisdiction, and funeral expenses must have been paid. The code page notes that this text includes temporary legislation expiring March 27, 2027. Separately, section 20-351 allows small-estate administration at $80,000 or less. The affidavit dollar limit on the code page is $40,000.",
+    "smallEstateLimit": 40000,
+    "smallEstateSource": {
+      "title": "D.C. Code sec. 20-361",
+      "url": "https://code.dccouncil.gov/us/dc/council/code/sections/20-361",
+      "quote": "The value of the decedent's entire probate estate, less liens and encumbrances, as of the date of the decedent's death, wherever located, exceeds the estate's known liabilities but does not exceed $40,000, and that such estate does not include an interest in real property"
+    },
+    "taxKind": "estate",
+    "taxDetail": "The Office of Tax and Revenue 2026 D-76 instructions state that estates of decedents who died January 1, 2026 through December 31, 2026 have an exclusion amount of $4,988,400.00, and a return is required when the gross estate is $4,988,400 or more. The same instructions show a 2026 computation worksheet beginning at 11.2% between $4,988,400 and $5,000,000. The Office of Tax and Revenue page on inheritance tax says an Inheritance Tax Return is required for estates of decedents whose deaths occurred prior to April 1, 1987.",
+    "taxSource": {
+      "title": "D.C. Office of Tax and Revenue, 2026 Form D-76 instructions",
+      "url": "https://otr.cfo.dc.gov/sites/default/files/dc/sites/otr/publication/attachments/2026_D-76_v1.0_final.pdf",
+      "quote": "Estates of decedents who died January 1, 2026 - December 31, 2026 have an exclusion amount of $4,988,400.00."
+    },
+    "community": null,
+    "communityDetail": null,
+    "communitySource": null,
+    "gaps": [
+      "marital property system"
+    ]
+  },
+  {
+    "name": "Maine",
+    "slug": "maine",
+    "courtName": "county probate court",
+    "process": "Title 18-C is the Probate Code article on probate of wills and administration. A personal representative administers the estate and is entitled to reasonable compensation. For a small estate, after 30 days a successor may collect personal property by affidavit filed in relation to the county probate court, if no application for a personal representative is pending or has been granted. If an inventory shows the entire estate, less liens and encumbrances, does not exceed the homestead allowance, exempt property, family allowance, costs and expenses of administration, reasonable funeral expenses, and last-illness medical and hospital expenses, the personal representative may distribute without notice to creditors and file a closing statement.",
+    "processSource": {
+      "title": "18-C M.R.S. sec. 3-719",
+      "url": "https://legislature.maine.gov/statutes/18-C/title18-Csec3-719.html",
+      "quote": "A personal representative is entitled to reasonable compensation for the personal representative's services."
+    },
+    "fees": "Section 3-719 states that a personal representative is entitled to reasonable compensation for services. If the will provides compensation and there is no contract with the decedent regarding compensation, the personal representative may renounce the will provision before qualifying and take reasonable compensation. A written renunciation of fee may be filed with the court. The section states no percentage.",
+    "feesSource": {
+      "title": "18-C M.R.S. sec. 3-719",
+      "url": "https://legislature.maine.gov/statutes/18-C/title18-Csec3-719.html",
+      "quote": "A personal representative is entitled to reasonable compensation for the personal representative's services."
+    },
+    "feeFormula": null,
+    "smallEstate": "Section 3-1201 allows collection of personal property by affidavit 30 days after death if the value of the entire estate, wherever located, less liens and encumbrances, does not exceed $40,000, adjusted for inflation under section 1-108, no personal-representative application is pending or granted, and the claiming successor is entitled to the property. A county probate court must annually publish that inflation-adjusted value on its website. No county publication of the current adjusted dollar amount was opened, so the integer limit is left empty.",
+    "smallEstateLimit": null,
+    "smallEstateSource": {
+      "title": "18-C M.R.S. sec. 3-1201",
+      "url": "https://legislature.maine.gov/statutes/18-C/title18-Csec3-1201.html",
+      "quote": "The value of the entire estate, wherever located, less liens and encumbrances, does not exceed $40,000, adjusted for inflation pursuant to section 1-108"
+    },
+    "taxKind": "estate",
+    "taxDetail": "Maine Revenue Services states that the 2026 Maine estate tax exclusion amount, which is the filing threshold, is $7,160,000. A Form 706ME is required if a federal estate tax return is required, or if the federal gross estate plus taxable gifts within one year of death plus Maine elective property exceeds that threshold, and the decedent was a Maine resident or a nonresident who owned Maine real or tangible personal property. The rate table was not on the FAQ page that was opened.",
+    "taxSource": {
+      "title": "Estate Tax FAQ, Maine Revenue Services",
+      "url": "https://www.maine.gov/revenue/faq/estate-tax",
+      "quote": "2026 $7,160,000"
+    },
+    "community": null,
+    "communityDetail": null,
+    "communitySource": null,
+    "gaps": [
+      "published inflation-adjusted affidavit limit",
+      "estate tax rate table",
+      "marital property system"
+    ]
+  },
+  {
+    "name": "Maryland",
+    "slug": "maryland",
+    "courtName": "the court under the Estates and Trusts Article",
+    "process": "The Estates and Trusts Article provides for administration of a decedent's property in Maryland. If property subject to administration in Maryland is $50,000 or less as of death, the estate may be administered as a small estate under sections 5-602 through 5-607. If the surviving spouse is the sole legatee or heir, that small-estate value is $100,000 or less. A petition for administration of a small estate is filed by a person entitled to administration. The opened pages do not give the Orphans' Court name in those words, and they do not describe a full formal administration timeline.",
+    "processSource": {
+      "title": "Md. Code, Estates and Trusts sec. 5-601",
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=5-601",
+      "quote": "If the property of the decedent subject to administration in Maryland is established to have a value of $50,000 or less as of the date of the death of the decedent, the estate may be administered in accordance with the provisions of sections 5-602 through 5-607 of this subtitle."
+    },
+    "fees": "Section 7-601 says a personal representative or special administrator is entitled to reasonable compensation for services. Unless the will provides a larger measure, the court may allow commissions it considers appropriate, but they may not exceed 9% if the property subject to administration is not over $20,000, or $1,800 plus 3.6% of the excess over $20,000 if it is over $20,000. Real estate broker commissions are an administration expense and are not deducted from the personal representative's commissions.",
+    "feesSource": {
+      "title": "Md. Code, Estates and Trusts sec. 7-601",
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=7-601",
+      "quote": "A personal representative or special administrator is entitled to reasonable compensation for services."
+    },
+    "feeFormula": {
+      "kind": "brackets",
+      "base": "property subject to administration, as a maximum the court may allow, unless the will provides a larger measure of compensation",
+      "brackets": [
+        {
+          "upTo": 20000,
+          "rate": 0.09
+        }
+      ],
+      "aboveNote": "Over $20,000, the commission may not exceed $1,800 plus 3.6% of the excess over $20,000."
+    },
+    "smallEstate": "Maryland uses a small-estate administration petition, not a collection affidavit, on the pages opened. The general cap is $50,000 of property subject to administration in Maryland, valued at fair market value less debts of record secured by the property as of death, to the extent insurance is not payable to the lienholder. If the surviving spouse is the sole legatee or heir, the cap is $100,000. There is no affidavit limit on the official page.",
+    "smallEstateLimit": null,
+    "smallEstateSource": {
+      "title": "Md. Code, Estates and Trusts sec. 5-601",
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=get&section=5-601",
+      "quote": "If the surviving spouse is the sole legatee or heir of the decedent ... the property of the decedent subject to administration in Maryland is established to have a value of $100,000 or less"
+    },
+    "taxKind": "both",
+    "taxDetail": "Tax-General section 7-204 sets the inheritance tax rate at 10% of the clear value of property that passes from a decedent. Clear value means fair market value minus expenses. Section 7-203 exempts property passing to a grandparent, parent, spouse, child or lineal descendant of a child, spouse of a child or of a lineal descendant, surviving spouse of a deceased child or deceased lineal descendant, brother or sister, and certain family entities, plus other listed exemptions including the first $1,000 to any one person and property from an estate that qualifies as a small estate. The Comptroller tax tip states that the amount that can be excluded for Maryland estate tax for decedents dying on or after January 1, 2019 is $5.0 million.",
+    "taxSource": {
+      "title": "Md. Code, Tax-General sec. 7-204",
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gtg&section=7-204",
+      "quote": "The inheritance tax rate is 10% of the clear value of the property that passes from a decedent."
+    },
+    "community": null,
+    "communityDetail": null,
+    "communitySource": null,
+    "gaps": [
+      "formal court name on an opened page",
+      "marital property system"
+    ]
+  },
+  {
+    "name": "Massachusetts",
+    "slug": "massachusetts",
+    "courtName": "the court of the county where the decedent resided",
+    "process": "Chapter 190B is the Massachusetts Uniform Probate Code. For an ordinary estate a personal representative is appointed by the court. Section 3-719 provides compensation for that personal representative. A separate voluntary procedure is available in the court of the county where the decedent resided when the estate is entirely personal property within the section 3-1201 limit and 30 days have passed with no petition for a personal representative. Summary administration under section 3-1203 is available when the entire estate, less liens and encumbrances, does not exceed family allowances, exempt property, costs and expenses of administration, reasonable funeral expenses, and last-illness medical and hospital expenses.",
+    "processSource": {
+      "title": "Mass. Gen. Laws ch. 190B, sec. 3-1201",
+      "url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleII/Chapter190B/Section3-1201",
+      "quote": "file with said court upon a form prescribed by the court a statement, verified by oath, or affirmation"
+    },
+    "fees": "Section 3-719 says a personal representative is entitled to reasonable compensation for services. If the will provides compensation and there is no contract with the decedent, the personal representative may renounce that provision before qualifying and take reasonable compensation. A written renunciation of fee may be filed with the court. Section 3-720 allows necessary expenses and reasonable attorneys' fees for a personal representative who defends or prosecutes a proceeding in good faith. No percentage schedule is stated.",
+    "feesSource": {
+      "title": "Mass. Gen. Laws ch. 190B, sec. 3-719",
+      "url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleII/Chapter190B/Section3-719",
+      "quote": "A personal representative is entitled to reasonable compensation for services."
+    },
+    "feeFormula": null,
+    "smallEstate": "Section 3-1201 applies when a person domiciled in the commonwealth dies leaving an estate consisting entirely of personal property, the total value of which may include a motor vehicle of which the decedent was the owner, and other personal property not exceeding $25,000 in value. After 30 days from death, if no petition for a personal representative has been filed in the court of the county where the decedent resided, an interested person may file a verified statement and act as voluntary personal representative. The $25,000 figure on the page is the cap on the other personal property. The motor vehicle is described separately in the same sentence.",
+    "smallEstateLimit": 25000,
+    "smallEstateSource": {
+      "title": "Mass. Gen. Laws ch. 190B, sec. 3-1201",
+      "url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleII/Chapter190B/Section3-1201",
+      "quote": "an estate consisting entirely of personal property the total value of which may include a motor vehicle of which the decedent was the owner, and other personal property not exceeding $25,000 in value"
+    },
+    "taxKind": "estate",
+    "taxDetail": "Mass.gov states that the estate tax is a transfer tax on the value of the decedent's estate before distribution to any beneficiary. For estates of decedents dying in 2023 or after, the applicable exclusion amount is $2,000,000. Future changes to the federal estate tax law have no impact on the Massachusetts estate tax. Returns and payments are due 9 months after death. A rate table was not on the page that was opened.",
+    "taxSource": {
+      "title": "File an estate tax return, Mass.gov",
+      "url": "https://www.mass.gov/how-to/file-an-estate-tax-return",
+      "quote": "For estates of decedents dying in 2023 or after, the applicable exclusion amount is $2,000,000."
+    },
+    "community": null,
+    "communityDetail": null,
+    "communitySource": null,
+    "gaps": [
+      "estate tax rate table",
+      "marital property system"
+    ]
+  },
+  {
+    "name": "New Hampshire",
+    "slug": "new-hampshire",
+    "courtName": "probate court",
+    "process": "RSA 553 provides for appointment of an administrator by the probate court. Except for waiver estates, the administrator gives bond, returns an inventory within 90 days, and renders an account within one year. The clerk publishes notice of appointment, except that no publication is required when the estate has a gross value of $10,000 or less. Waiver of administration under RSA 553:32 drops the inventory, bond, and accounting requirements in listed situations, such as a sole beneficiary who is also the administrator. Summary administration under RSA 553:33, for other estates, may be requested not less than 6 months after appointment and eliminates the final account.",
+    "processSource": {
+      "title": "RSA 553:13 and RSA 553:32",
+      "url": "https://www.gencourt.state.nh.us/rsa/html/LVI/553/553-mrg.htm",
+      "quote": "no person shall administer the estate of a person deceased until such person has given bond to the judge"
+    },
+    "fees": null,
+    "feesSource": null,
+    "feeFormula": null,
+    "smallEstate": "The opened chapter does not state a collection-by-affidavit dollar limit. RSA 553:32 is waiver of administration based on who the beneficiaries and the administrator are, not a dollar cap. RSA 553:33 is summary administration to close an estate not less than 6 months after appointment, with no dollar cap on the page. There is no affidavit limit on the official page. RSA 553:16 separately says publication of notice of appointment is not required when the gross value is $10,000 or less. That is a notice rule, not an affidavit procedure.",
+    "smallEstateLimit": null,
+    "smallEstateSource": {
+      "title": "RSA 553:33",
+      "url": "https://www.gencourt.state.nh.us/rsa/html/LVI/553/553-mrg.htm",
+      "quote": "An administrator may file a motion for summary administration to close an estate not less than 6 months after the date of appointment of the administrator."
+    },
+    "taxKind": "estate",
+    "taxDetail": "RSA 87:1 imposes an estate tax on the transfer of the estate of every decedent who leaves an estate subject to federal estate tax and who has property in New Hampshire. The amount equals the maximum federal estate tax credit allowable for state death taxes with respect to property subject to New Hampshire's jurisdiction. The tax is imposed in every case in which that credit is available on the federal estate tax return. No opened page stated an inheritance tax rate or a repeal of inheritance tax.",
+    "taxSource": {
+      "title": "RSA 87:1",
+      "url": "https://www.gencourt.state.nh.us/rsa/html/V/87/87-1.htm",
+      "quote": "The amount of the New Hampshire estate tax shall be equal to the maximum federal estate tax credit allowable for state death taxes with respect to property subject to this state's jurisdiction to impose a tax."
+    },
+    "community": null,
+    "communityDetail": null,
+    "communitySource": null,
+    "gaps": [
+      "personal representative compensation",
+      "inheritance tax status",
+      "marital property system"
+    ]
+  },
+  {
+    "name": "New Jersey",
+    "slug": "new-jersey",
+    "courtName": "county Surrogate and the Superior Court",
+    "process": "N.J.S. 3B:3-17 says the surrogates of the several counties or the Superior Court may take depositions to wills, admit wills to probate, and grant letters testamentary or letters of administration with the will annexed. Creditors must present claims in writing and under oath to the personal representative within nine months from the date of death. For small intestate estates, an affidavit before the Surrogate or the Superior Court can pass assets without a full administration under N.J.S. 3B:10-3 or 3B:10-4.",
+    "processSource": {
+      "title": "N.J.S. 3B:3-17",
+      "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1/3735/3772",
+      "quote": "The surrogates of the several counties or the Superior Court may take depositions to wills, admit the same to probate, and grant thereon letters testamentary or letters of administration with the will annexed."
+    },
+    "fees": "N.J.S. 3B:18-14 states commissions on all corpus received by the fiduciary: 5% on the first $200,000, 3.5% on the excess over $200,000 up to $1,000,000, 2% on the excess over $1,000,000, and 1% of all corpus for each additional fiduciary, provided that no one fiduciary shall be entitled to any greater commission than that which would be allowed if there were but one fiduciary involved. The same section says such commissions may be reduced by the court having jurisdiction over the estate only upon application by a beneficiary adversely affected.",
+    "feesSource": {
+      "title": "N.J.S. 3B:18-14 Corpus commissions",
+      "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll?f=xhitlist&xhitlist_q=3B%3A18-14+Corpus+commissions",
+      "quote": "Commissions on all corpus received by the fiduciary may be taken as follows: 5% on the first $200,000 of all corpus received by the fiduciary; 3.5% on the excess over $200,000 up to $1,000,000; 2% on the excess over $1,000,000"
+    },
+    "feeFormula": {
+      "kind": "brackets",
+      "base": "all corpus received by the fiduciary",
+      "brackets": [
+        {
+          "upTo": 200000,
+          "rate": 0.05
+        },
+        {
+          "upTo": 1000000,
+          "rate": 0.035
+        }
+      ],
+      "aboveNote": "2% on the excess over $1,000,000. An additional 1% of all corpus is allowed for each additional fiduciary, and no one fiduciary may receive more than the commission allowed if there were but one fiduciary."
+    },
+    "smallEstate": "There are two affidavit procedures, so one integer is not used. Under N.J.S. 3B:10-3, if the total value of the real and personal assets of an intestate will not exceed $50,000, the surviving spouse, civil union partner, or domestic partner may execute an affidavit before the Surrogate or the Superior Court and take all the real and personal assets without administration. Assets up to $10,000 are free from the intestate's debts. Under N.J.S. 3B:10-4, if there is no surviving spouse, civil union partner, or domestic partner and the real and personal assets will not exceed $20,000, an heir with the written consent of the other heirs may use an affidavit and receive the assets without administration or a bond. No waiting period is stated on those pages.",
+    "smallEstateLimit": null,
+    "smallEstateSource": {
+      "title": "N.J.S. 3B:10-3 and 3B:10-4",
+      "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1/3735/3877",
+      "quote": "Where the total value of the real and personal assets of the estate of an intestate will not exceed $50,000, the surviving spouse, partner in a civil union, or domestic partner upon the execution of an affidavit"
+    },
+    "taxKind": "inheritance",
+    "taxDetail": "The Division of Taxation states that New Jersey Estate Tax is no longer imposed for individuals who died on or after January 1, 2018. Inheritance tax remains. On the Division's tax-rates page, Class A is no tax. Class C is no tax on the first $25,000, then 11% on the next $1,075,000, 13% on the next $300,000, 14% on the next $300,000, and 16% over $1,700,000. Class D is 15% on the first $700,000 and 16% over $700,000.",
+    "taxSource": {
+      "title": "New Jersey Division of Taxation, Inheritance and Estate Tax",
+      "url": "https://www.nj.gov/treasury/taxation/inheritance-estate/inheritance.shtml",
+      "quote": "New Jersey Estate Tax is no longer imposed for individuals who died on or after January 1, 2018."
+    },
+    "community": null,
+    "communityDetail": null,
+    "communitySource": null,
+    "gaps": [
+      "single small estate dollar limit",
+      "marital property system"
+    ]
+  },
+  {
+    "name": "New York",
+    "slug": "new-york",
+    "courtName": "Surrogate's Court",
+    "process": "The New York courts state that a voluntary administration, also called a small estate, is filed in Surrogate's Court when personal property is within the small-estate dollar limit, whether or not there is a will. The Surrogate's Court appoints a voluntary administrator and issues a certificate for each asset listed. If the decedent owned real property in that person's name alone, the court pages say a small estate may not be used and a probate or administration proceeding is filed instead. SCPA 2307 governs commissions on the settlement of an account of a fiduciary other than a trustee.",
+    "processSource": {
+      "title": "Small Estate / Voluntary Administration, NY CourtHelp",
+      "url": "https://www.nycourts.gov/CourtHelp/WhenSomeoneDies/smallEstate.shtml",
+      "quote": "In a small estate proceeding, the Surrogate's Court appoints a Voluntary Administrator."
+    },
+    "fees": "SCPA 2307 requires the court, on settlement of the account of a fiduciary other than a trustee, to allow reasonable and necessary expenses actually paid, and if the fiduciary is a New York attorney who rendered legal services, just and reasonable compensation for those legal services. In addition the court must allow fiduciary commissions for receiving and paying out sums of money: 5% on sums not exceeding $100,000, 4% on additional sums not exceeding $200,000, 3% on additional sums not exceeding $700,000, 2 1/2% on additional sums not exceeding $4,000,000, and 2% on all sums above $5,000,000. The commission is computed separately for receiving and for paying out, at one-half the statutory rates for each. A voluntary administrator under SCPA 1307 serves without compensation.",
+    "feesSource": {
+      "title": "SCPA 2307",
+      "url": "https://www.nysenate.gov/legislation/laws/SCP/2307",
+      "quote": "For receiving and paying out all sums of money not exceeding $100,000 at the rate of 5 percent."
+    },
+    "feeFormula": {
+      "kind": "brackets",
+      "base": "sums of money received and paid out, with the listed rates split one-half for receiving and one-half for paying out",
+      "brackets": [
+        {
+          "upTo": 100000,
+          "rate": 0.05
+        },
+        {
+          "upTo": 300000,
+          "rate": 0.04
+        },
+        {
+          "upTo": 1000000,
+          "rate": 0.03
+        },
+        {
+          "upTo": 5000000,
+          "rate": 0.025
+        }
+      ],
+      "aboveNote": "For receiving and paying out all sums above $5,000,000 at the rate of 2 percent. Each listed rate is computed separately at one-half for receiving and one-half for paying out."
+    },
+    "smallEstate": "The New York City Surrogate's Court FAQ states that voluntary administration is available when personal assets in the decedent's name alone do not exceed $50,000, exclusive of certain types of property, for persons who died on or after January 1, 2009, or $20,000 for persons who died before then, and that it may not be used to administer real property. CourtHelp states the test as less than $50,000 of personal property. The 7th Judicial District Surrogate's Court page says the value of the assets does not exceed $50,000, exclusive of property set off under EPTL 5-3.1, and that the proceeding is for personal property only. The integer used is 50000 from the pages that say does not exceed $50,000.",
+    "smallEstateLimit": 50000,
+    "smallEstateSource": {
+      "title": "New York City Surrogate's Court FAQ",
+      "url": "https://nycourts.gov/courts/nyc/surrogates/faqs.shtml",
+      "quote": "personal assets in the decedent's name alone do not exceed $50,000 (exclusive of certain types of property"
+    },
+    "taxKind": "estate",
+    "taxDetail": "The Department of Taxation and Finance states that the basic exclusion amount for dates of death on or after January 1, 2026, through December 31, 2026 is $7,350,000. A resident estate must file if the federal gross estate plus includible gifts exceeds that amount. The page says the tax is calculated using the table on Form ET-706. That rate table was not copied into this entry.",
+    "taxSource": {
+      "title": "Estate tax, New York State Department of Taxation and Finance",
+      "url": "https://www.tax.ny.gov/pit/estate/etidx.htm",
+      "quote": "The basic exclusion amount for dates of death on or after January 1, 2026, through December 31, 2026 is $7,350,000."
+    },
+    "community": null,
+    "communityDetail": null,
+    "communitySource": null,
+    "gaps": [
+      "2026 estate tax rate table",
+      "marital property system"
+    ]
+  },
+  {
+    "name": "Pennsylvania",
+    "slug": "pennsylvania",
+    "courtName": "orphans' court division",
+    "process": "Title 20 places settlement of a small estate before the orphans' court division of the county where the decedent was domiciled. On petition, that court may direct distribution of qualifying personal property whether or not letters have been issued or a will probated. For a personal representative who is appointed, section 3537 provides for compensation allowed by the court. The opened chapter does not set a claims period or a full timeline for ordinary letters.",
+    "processSource": {
+      "title": "20 Pa.C.S. sec. 3102",
+      "url": "https://www.legis.state.pa.us/WU01/LI/LI/CT/HTM/20/00.031.002.000..HTM",
+      "quote": "the orphans' court division of the county wherein the decedent was domiciled at the time of his death, upon petition of any party in interest"
+    },
+    "fees": "Section 3537 says the court shall allow such compensation to the personal representative as shall in the circumstances be reasonable and just, and may calculate such compensation on a graduated percentage. The section does not list percentage brackets.",
+    "feesSource": {
+      "title": "20 Pa.C.S. sec. 3537",
+      "url": "https://www.legis.state.pa.us/WU01/LI/LI/CT/HTM/20/00.035.037.000..HTM",
+      "quote": "The court shall allow such compensation to the personal representative as shall in the circumstances be reasonable and just, and may calculate such compensation on a graduated percentage."
+    },
+    "feeFormula": null,
+    "smallEstate": "Section 3102 is a petition to the orphans' court, not an affidavit. It applies when a person dies domiciled in the Commonwealth owning property, exclusive of real estate and of property payable under section 3101, but including personal property claimed as the family exemption, of a gross value not exceeding $50,000. The court may direct distribution with or without appraisement and with such notice as the court directs. Ownership of real estate, regardless of value, does not restrict distribution of the personal property. There is no affidavit limit on the official page. A party may petition to revoke the decree within one year.",
+    "smallEstateLimit": null,
+    "smallEstateSource": {
+      "title": "20 Pa.C.S. sec. 3102",
+      "url": "https://www.legis.state.pa.us/WU01/LI/LI/CT/HTM/20/00.031.002.000..HTM",
+      "quote": "owning property (exclusive of real estate and of property payable under section 3101 (relating to payments to family and funeral directors), but including personal property claimed as the family exemption) of a gross value not exceeding $50,000"
+    },
+    "taxKind": "inheritance",
+    "taxDetail": "Section 2116 of the Tax Reform Code sets inheritance tax at four and one-half percent for a grandfather, grandmother, father, mother (except the zero-rate transfers in subclause 1.2), lineal descendants, and the wife or widow and husband or widower of a child. A transfer to a husband or wife is zero percent for decedents dying on or after January 1, 1995. A transfer from a child 21 or younger to a parent, and a transfer to a child 21 or younger from a parent, is zero percent. A sibling is twelve percent. All other persons, other than those exempt under section 2111(m), are fifteen percent. No opened page stated whether a separate estate tax is imposed.",
+    "taxSource": {
+      "title": "72 P.S. sec. 9116, Tax Reform Code section 2116",
+      "url": "https://www.legis.state.pa.us/WU01/LI/LI/US/HTM/1971/0/0002.021.000..HTM",
+      "quote": "Inheritance tax upon the transfer of property passing to or for the use of any of the following shall be at the rate of four and one-half per cent"
+    },
+    "community": null,
+    "communityDetail": null,
+    "communitySource": null,
+    "gaps": [
+      "estate tax status",
+      "marital property system"
+    ]
+  },
+  {
+    "name": "Rhode Island",
+    "slug": "rhode-island",
+    "courtName": "probate court of the city or town",
+    "process": "Title 33 places voluntary administration of a qualifying small estate in the probate court of the city or town where the decedent resided. After 30 days, if no petition for letters has been filed, a verified statement is filed and the clerk may issue a certification of appointment of voluntary administrator after review by the probate judge. For other estates, executors and administrators account to the probate court under chapter 33-14, and the court allows their compensation.",
+    "processSource": {
+      "title": "R.I. Gen. Laws sec. 33-24-1",
+      "url": "https://webserver.rilegislature.gov/Statutes/TITLE33/33-24/33-24-1.htm",
+      "quote": "file with said probate court upon a form prescribed by the court a statement, verified by oath or affirmation"
+    },
+    "fees": "Section 33-14-8 says executors and administrators shall be allowed in their accounts such compensation for their services as the probate court shall consider just. Section 33-14-6 allows all reasonable and proper charges and disbursements for the funeral and in the execution of the trust. No percentage is stated.",
+    "feesSource": {
+      "title": "R.I. Gen. Laws sec. 33-14-8",
+      "url": "https://webserver.rilegislature.gov/Statutes/TITLE33/33-14/33-14-8.htm",
+      "quote": "Executors and administrators shall, also, be allowed in their accounts such compensation for their services as the probate court shall consider just."
+    },
+    "feeFormula": null,
+    "smallEstate": "Section 33-24-1 applies if a Rhode Island resident dies leaving an estate consisting entirely of personal property, the total value of which otherwise subject to a probate inventory under section 33-9-1, exclusive of tangible personal property of which the decedent was owner, does not exceed $15,000. After 30 days, if no petition for letters has been filed, a spouse, child, grandchild, parent, brother, sister, niece, nephew, aunt, uncle, or any interested party, if of full age and legal capacity and a resident of the state, may file a verified statement. The clerk's filing fee on the page is $30, and the certification fee is $5. Tangible personal property is excluded from the $15,000 count.",
+    "smallEstateLimit": 15000,
+    "smallEstateSource": {
+      "title": "R.I. Gen. Laws sec. 33-24-1",
+      "url": "https://webserver.rilegislature.gov/Statutes/TITLE33/33-24/33-24-1.htm",
+      "quote": "exclusive of tangible personal property of which the decedent was owner, does not exceed fifteen thousand dollars ($15,000) in value"
+    },
+    "taxKind": "estate",
+    "taxDetail": "The Division of Taxation states that for decedents dying on or after January 1, 2026, the estate tax credit amount is $87,940, exempting from taxation the first $1,838,056 of an estate. A net taxable estate valued at $1,838,056 or less will not be subject to the estate tax. A return is required for a 2026 gross estate of more than $1,838,056. The $50 filing fee is eliminated for dates of death on or after January 1, 2025.",
+    "taxSource": {
+      "title": "Rhode Island Division of Taxation, Advisory 2025-27",
+      "url": "https://tax.ri.gov/sites/g/files/xkgbur541/files/2025-12/ADV_2025_27_Estate_Updates.pdf",
+      "quote": "For decedents dying on or after January 1, 2026, the credit amount is $87,940, exempting from taxation the first $1,838,056 of an estate."
+    },
+    "community": null,
+    "communityDetail": null,
+    "communitySource": null,
+    "gaps": [
+      "marital property system"
+    ]
+  },
+  {
+    "name": "Vermont",
+    "slug": "vermont",
+    "courtName": "Probate Division of the Superior Court",
+    "process": "Title 14 places small estates and executor accounts in the Probate Division of the Superior Court. A small estate is opened by petition under section 1901. If there is a will, it is admitted and letters of administration are issued. If there is no will, letters of administration are issued. Letters issued in a small estate are effective for one year unless the court extends them. For other estates, the executor or administrator renders an account until the estate is settled, and may close by an affidavit of administration not less than six months and not more than one year after appointment unless the court extends that time.",
+    "processSource": {
+      "title": "14 V.S.A. sec. 1902",
+      "url": "https://legislature.vermont.gov/statutes/section/14/081/01902",
+      "quote": "If the decedent had a will, the will shall be admitted and letters of administration shall be issued"
+    },
+    "fees": "Section 1065 says an executor or administrator shall be allowed necessary expenses in the care, management, and settlement of the estate and reasonable fees for services. If the will makes some other provision for compensation, that is full satisfaction unless the executor renounces it by a written instrument filed in the Probate Division, or unless the court orders otherwise. No percentage is stated.",
+    "feesSource": {
+      "title": "14 V.S.A. sec. 1065",
+      "url": "https://legislature.vermont.gov/statutes/section/14/063/01065",
+      "quote": "An executor or administrator shall be allowed necessary expenses in the care, management, and settlement of the estate and reasonable fees for services."
+    },
+    "feeFormula": null,
+    "smallEstate": "Section 1901 is a court small-estate opening, not a collection-by-affidavit transfer. It applies when the estate has a fair market value of not more than $45,000.00 and consists entirely of personal property, except that it may include a time-share estate as defined by 32 V.S.A. section 3619(a). The filing includes a petition, a list of interested persons, the filing fee, an original death certificate, an inventory, an affidavit of paid and outstanding funeral expenses and other known or reasonably ascertainable debts, a bond without surety in the amount of the fair market value, and the will if any. An interested party who does not consent in writing gets notice and 14 days to object. There is no separate collection-affidavit dollar limit on the page. The $45,000.00 figure is the cap for this small-estate proceeding.",
+    "smallEstateLimit": 45000,
+    "smallEstateSource": {
+      "title": "14 V.S.A. sec. 1901",
+      "url": "https://legislature.vermont.gov/statutes/section/14/081/01901",
+      "quote": "When a decedent's estate has a fair market value of not more than $45,000.00 and consists entirely of personal property, provided that the estate may include a time-share estate"
+    },
+    "taxKind": "estate",
+    "taxDetail": "The Vermont Department of Taxes states that in 2026 the Legislature increased the estate tax filing threshold to $5 million to match the payment threshold, effective June 18, 2026. Form EST-191 must be filed if the person has an interest in Vermont property and either the federal gross estate plus federal adjusted taxable gifts made within two years of death is worth more than $5 million, or a federal Form 706 is required. The page says the estate tax is assessed only on the gross estate value exceeding $5 million plus taxable gifts made within two years of death. A percentage rate was not on the page that was opened.",
+    "taxSource": {
+      "title": "Estate Tax, Vermont Department of Taxes",
+      "url": "https://tax.vermont.gov/individuals/estate-tax",
+      "quote": "In 2026, the Vermont Legislature increased the Estate Tax filing threshold to $5 million to match the Estate Tax payment threshold."
+    },
+    "community": null,
+    "communityDetail": null,
+    "communitySource": null,
+    "gaps": [
+      "estate tax percentage rate",
+      "marital property system"
+    ]
+  }
+]
