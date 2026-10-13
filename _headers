@@ -31,3 +31,7 @@
 /fonts/*
   Content-Type: font/woff2
   Cache-Control: public, max-age=31536000, immutable
+
+/img/*
+  Content-Type: image/webp
+  Cache-Control: public, max-age=31536000, immutable
