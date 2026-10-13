@@ -338,7 +338,7 @@ def json_ld(row, url):
         "@type": "BreadcrumbList",
         "itemListElement": [
             {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://taxfreetrusts.com/"},
-            {"@type": "ListItem", "position": 2, "name": "States", "item": "https://taxfreetrusts.com/states"},
+            {"@type": "ListItem", "position": 2, "name": "States", "item": "https://taxfreetrusts.com/states/"},
             {"@type": "ListItem", "position": 3, "name": name, "item": url},
         ],
     }
@@ -363,7 +363,7 @@ def chrome(current_learn=False):
     foot = f'''<footer class="site-foot"><div class="wrap"><div class="foot-grid">
 <div>{BRAND}<p style="margin-top:14px;max-width:24em">A draft desk for wills and living trusts. Five questions, posted prices, a packet you print, sign and fund.</p></div>
 <div><h2>Packets</h2><ul><li><a href="/pricing">Plans and prices</a></li><li><a href="/start">Start the planner</a></li></ul></div>
-<div><h2>Learn</h2><ul><li><a href="/learn-living-trust">Living trusts</a></li><li><a href="/learn-fund">Funding a trust</a></li><li><a href="/learn-taxes">Trusts and taxes</a></li><li><a href="/states">Probate by state</a></li></ul></div>
+<div><h2>Learn</h2><ul><li><a href="/learn-living-trust">Living trusts</a></li><li><a href="/learn-fund">Funding a trust</a></li><li><a href="/learn-taxes">Trusts and taxes</a></li><li><a href="/states/">Probate by state</a></li></ul></div>
 <div><h2>The desk</h2><ul><li><a href="/about">About</a></li><li><a href="/support">Support</a></li><li><a href="mailto:plan@taxfreetrusts.com">plan@taxfreetrusts.com</a></li><li><a href="/privacy">Privacy</a></li><li><a href="/terms">Terms</a></li></ul></div>
 </div><div class="foot-line"><span>Education and document drafts. Not legal or tax advice.</span><span>&copy; 2026 TaxFreeTrusts.com</span></div></div></footer>'''
     return nav, foot
@@ -438,7 +438,7 @@ def page_for(row):
 {nav}
 <main id="main">
 <section class="page-head has-seal"><div class="wrap">
-<p class="crumb"><a href="/">Home</a> / <a href="/states">States</a> / {esc(name)}</p>
+<p class="crumb"><a href="/">Home</a> / <a href="/states/">States</a> / {esc(name)}</p>
 <p class="eyebrow">Living trust or probate</p>
 <h1>{esc(name)}</h1>
 <p class="lede">What a funded revocable living trust changes, and the {esc(name)} probate rules we could verify from a statute or a court site.</p>
@@ -465,7 +465,7 @@ def page_for(row):
 <p class="muted">Five questions. The state field opens on {esc(name)}.</p>
 <a class="btn btn-ink btn-block" href="/start?state={esc(slug)}">Start the planner</a>
 <p style="margin:14px 0 0"><a href="/pricing">Living trust packet, $349</a></p>
-<p style="margin:14px 0 0"><a href="/states">All states</a></p>
+<p style="margin:14px 0 0"><a href="/states/">All states</a></p>
 </div></aside>
 </div>
 </main>
@@ -480,7 +480,7 @@ def page_for(row):
 
 
 def hub(rows):
-    url = "https://taxfreetrusts.com/states"
+    url = "https://taxfreetrusts.com/states/"
     desc = "Probate and living trusts in all 50 states and the District of Columbia, with statute and court sources."
     crumbs = {
         "@context": "https://schema.org",
@@ -657,7 +657,7 @@ def sitemap(urls):
         "https://taxfreetrusts.com/support",
         "https://taxfreetrusts.com/privacy",
         "https://taxfreetrusts.com/terms",
-        "https://taxfreetrusts.com/states",
+        "https://taxfreetrusts.com/states/",
     ]
     locs = core + urls
     body = "\n".join(f"  <url><loc>{u}</loc></url>" for u in locs)
