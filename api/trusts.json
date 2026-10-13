@@ -1,11 +1,13 @@
 {
   "site": "https://taxfreetrusts.com",
-  "updated": "2026-09-21",
+  "updated": "2026-10-13",
   "disclaimer": "Education only. Not legal advice. Confirm IRS.gov.",
   "federal_2026": {
     "estate_gift_exemption_individual_usd": 15000000,
     "estate_gift_exemption_married_usd": 30000000,
-    "top_rate": 0.4
+    "married_figure_means": "Sum of two 2026 basic exclusion amounts. The IRS publishes a per person basic exclusion, not a separate married exemption. Portability of unused exclusion requires Form 706.",
+    "top_rate": 0.4,
+    "source": "https://www.irs.gov/newsroom/irs-releases-tax-inflation-adjustments-for-tax-year-2026-including-amendments-from-the-one-big-beautiful-bill"
   },
   "structures": [
     {"id": "ilit", "name": "Irrevocable Life Insurance Trust"},
