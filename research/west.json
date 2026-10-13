@@ -1,0 +1,610 @@
+[
+  {
+    "name": "Alaska",
+    "slug": "alaska",
+    "courtName": "Superior Court",
+    "process": "The Alaska Court System says that generally only Superior Courts handle probate cases, filed in a Superior Court location in the judicial district where the person lived. Informal probate, which the court describes as the most common type when probate is necessary, appoints a personal representative to gather property, notify creditors and beneficiaries or heirs, handle debts and taxes, and transfer title, and the personal representative can take those steps without asking the court for approval. Informal probate usually does not require a hearing. If the requirements for informal probate are not met, the court says a petition for formal probate is usually required.",
+    "processSource": {
+      "title": "Informal Probate, Alaska Court System",
+      "url": "https://courts.alaska.gov/shc/probate/informal.htm",
+      "quote": "Informal probate is a court process that allows the Personal Representative to transfer the property of a person who died to the persons who are supposed to receive it with minimal court supervision."
+    },
+    "fees": "AS 13.16.430 says a personal representative is entitled to reasonable compensation for services. If a will provides for compensation and there is no contract with the decedent regarding compensation, the personal representative may renounce the provision before qualifying and be entitled to reasonable compensation. A written renunciation of fee may be filed with the court. AS 13.16.440 says the court may review the reasonableness of compensation of any person employed by the personal representative, including any attorney, and the personal representative's own compensation. No percentage schedule was on the opened pages.",
+    "feesSource": {
+      "title": "Alaska Statutes section 13.16.430, Compensation of personal representative",
+      "url": "https://www.akleg.gov/basis/statutes.asp?media=print&secEnd=13.16.440&secStart=13.16.430",
+      "quote": "A personal representative is entitled to reasonable compensation for services."
+    },
+    "feeFormula": null,
+    "smallEstate": "AS 13.16.680 allows collection of personal property by affidavit 30 days after death. The affidavit must state that the entire estate, wherever located, less liens and encumbrances, consists only of not more than vehicles subject to registration under AS 28.10.011 with a total value that does not exceed $100,000, and personal property, other than those vehicles, that does not exceed $50,000. It must also state that 30 days have elapsed, that no application or petition for appointment of a personal representative is pending or has been granted in any jurisdiction, and that the claiming successor is entitled to payment or delivery. There is no single dollar cap. A separate summary procedure in AS 13.16.690 applies when the estate does not exceed the homestead allowance, exempt property, family allowance, costs and expenses of administration, reasonable funeral expenses, and reasonable and necessary medical and hospital expenses of the last illness.",
+    "smallEstateLimit": null,
+    "smallEstateSource": {
+      "title": "Alaska Statutes section 13.16.680, Collection of personal property by affidavit",
+      "url": "https://www.akleg.gov/basis/statutes.asp?media=print&secEnd=13.16.695&secStart=13.16.680",
+      "quote": "vehicles subject to registration under AS 28.10.011 with a total value that does not exceed $100,000"
+    },
+    "taxKind": null,
+    "taxDetail": null,
+    "taxSource": null,
+    "community": "opt-in",
+    "communityDetail": "AS 34.77.030(a) says that, except for property classified otherwise in the chapter, property of spouses is community property under the chapter only to the extent provided in a community property agreement or a community property trust. AS 34.77.090(a) says a community property agreement must be contained in a written document signed by both spouses and classify some or all of the property of the spouses as community property. The chapter may be cited as the Alaska Community Property Act.",
+    "communitySource": {
+      "title": "Alaska Statutes section 34.77.030, Classification of property of spouses",
+      "url": "https://www.akleg.gov/basis/statutes.asp?media=print&secEnd=34.77.995&secStart=34.77.010",
+      "quote": "property of spouses is community property under this chapter only to the extent provided in a community property agreement or a community property trust."
+    },
+    "gaps": [
+      "smallEstateLimit",
+      "taxKind",
+      "taxDetail",
+      "taxSource"
+    ]
+  },
+  {
+    "name": "Arizona",
+    "slug": "arizona",
+    "courtName": "Superior Court",
+    "process": "The Arizona Code of Judicial Administration adopts statewide forms for probate matters in the superior court, including personal representative cases, under the Arizona Rules of Probate Procedure. The opened code section defines a personal representative to include an executor, an administrator, a successor personal representative, and a special administrator. The opened pages do not set out the hearing, notice, or inventory steps of an ordinary estate.",
+    "processSource": {
+      "title": "Arizona Code of Judicial Administration section 3-302, Forms",
+      "url": "https://www.azcourts.gov/Portals/0/0/admcode/pdfcurrentcode/3-302%20Forms%20Amended%201-2026.pdf",
+      "quote": "this section shall govern the forms, schedules, worksheets, and instructions for use statewide in probate matters in the superior court."
+    },
+    "fees": "A.R.S. section 14-3719 says a personal representative is entitled to reasonable compensation for his services. If a will provides for compensation and there is no contract with the decedent regarding compensation, he may renounce the provision before qualifying and be entitled to reasonable compensation. A written renunciation of fee may be filed with the court. The opened section states no percentage and does not state a separate attorney schedule.",
+    "feesSource": {
+      "title": "A.R.S. section 14-3719, Compensation of personal representative",
+      "url": "https://www.azleg.gov/ars/14/03719.htm",
+      "quote": "A personal representative is entitled to reasonable compensation for his services."
+    },
+    "feeFormula": null,
+    "smallEstate": "A.R.S. section 14-3971(B) requires a holder of a decedent's personal property, 30 days after death, to pay or deliver it to a claiming successor on an affidavit. One path requires that no personal representative application is pending and none has been appointed, and that the value of all personal property in the decedent's estate, wherever located, less liens and encumbrances, does not exceed $200,000 as valued as of the date of death. The affidavit must also state that funeral expenses and expenses of the last illness have been paid. Subsection E is a separate real-property affidavit, not sooner than six months after death, and one path requires that the value of all real property in the decedent's estate located in this state, less liens and encumbrances, does not exceed $300,000 as valued at the date of death, using full cash value on the assessment rolls except for a debt secured by a lien. smallEstateLimit is the subsection B personal-property cap.",
+    "smallEstateLimit": 200000,
+    "smallEstateSource": {
+      "title": "A.R.S. section 14-3971, Collection of personal property by affidavit",
+      "url": "https://www.azleg.gov/ars/14/03971.htm",
+      "quote": "the value of all personal property in the decedent's estate, wherever located, less liens and encumbrances, does not exceed $200,000 as valued as of the date of death."
+    },
+    "taxKind": null,
+    "taxDetail": "The Arizona Department of Revenue estate-tax forms page says the Arizona estate tax return was based on the state death tax credit allowed on the federal estate tax return, that federal law eliminated that credit effective January 1, 2005, and that because Arizona conforms to the federal law, there is no longer an estate tax in Arizona after January 2005. That page does not say whether an inheritance tax exists.",
+    "taxSource": {
+      "title": "Arizona Department of Revenue, Estate Tax Forms",
+      "url": "https://azdor.gov/forms/estate-tax-forms",
+      "quote": "there is no longer an estate tax in Arizona after January 2005."
+    },
+    "community": "community",
+    "communityDetail": "A.R.S. section 25-211(A) says all property acquired by either husband or wife during the marriage is the community property of the husband and wife, except property acquired by gift, devise, or descent, and property acquired after service of a petition for dissolution of marriage, legal separation, or annulment if the petition results in a decree.",
+    "communitySource": {
+      "title": "A.R.S. section 25-211, Property acquired during marriage as community property",
+      "url": "https://www.azleg.gov/ars/25/00211.htm",
+      "quote": "All property acquired by either husband or wife during the marriage is the community property of the husband and wife"
+    },
+    "gaps": [
+      "ordinary probate steps",
+      "attorney fee schedule",
+      "inheritance tax"
+    ]
+  },
+  {
+    "name": "California",
+    "slug": "california",
+    "courtName": "Superior Court",
+    "process": "The California Courts self-help guide says the probate division of the superior court handles what happens to property, bills, and debts after death. To open probate, a petitioner files a Petition for Probate (form DE-111) in the county where the decedent lived, or in the California county where the decedent owned property if the decedent lived outside California. The probate clerk gives a hearing date, notice is mailed and published, and at the hearing the judge appoints a personal representative, also called an administrator or executor. The personal representative inventories assets, gives notice to creditors, pays debts if there is money to do so, reports to the court, and files a final report and petition for final distribution.",
+    "processSource": {
+      "title": "Guide to property after someone dies, California Courts Self Help",
+      "url": "https://selfhelp.courts.ca.gov/probate",
+      "quote": "The probate division of the superior court handles these issues."
+    },
+    "fees": "The opened Probate Code section 10810 text says that for ordinary services the attorney for the personal representative shall receive compensation based on the value of the estate accounted for by the personal representative: four percent on the first $100,000; three percent on the next $100,000; two percent on the next $800,000; one percent on the next $9,000,000; one-half of 1 percent on the next $15,000,000; and for all amounts above $25,000,000, a reasonable amount to be determined by the court. The value is the total amount of the appraisal of property in the inventory, plus gains over the appraisal value on sales, plus receipts, less losses from the appraisal value on sales, without reference to encumbrances or other obligations on estate property. The opened section 10800 extract states the same first bracket for the personal representative, four percent on the first $100,000. The rest of the 10800 list was not displayed on the page extract that opened.",
+    "feesSource": {
+      "title": "California Probate Code section 10810",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PROB&sectionNum=10810",
+      "quote": "Four percent on the first one hundred thousand dollars ($100,000)."
+    },
+    "feeFormula": {
+      "kind": "brackets",
+      "base": "the value of the estate accounted for by the personal representative",
+      "brackets": [
+        {
+          "upTo": 100000,
+          "rate": 0.04
+        },
+        {
+          "upTo": 200000,
+          "rate": 0.03
+        },
+        {
+          "upTo": 1000000,
+          "rate": 0.02
+        },
+        {
+          "upTo": 10000000,
+          "rate": 0.01
+        },
+        {
+          "upTo": 25000000,
+          "rate": 0.005
+        }
+      ],
+      "aboveNote": "For all amounts above twenty-five million dollars ($25,000,000), a reasonable amount to be determined by the court. These brackets are the section 10810 attorney schedule. Section 10800's opened extract states only the first personal-representative bracket."
+    },
+    "smallEstate": "Probate Code sections 13100 and 13101 let a successor collect or transfer personal property without full probate if the estate is under the amount for the date of death and 40 days have passed. The Judicial Council page and form DE-300 adjustment table print these maximum values for sections 13100 and 13101: $166,250 if the person died before April 1, 2022; $184,500 for April 1, 2022 through March 31, 2025; and $208,850 on or after April 1, 2025. The self-help page says to add real and personal property and life insurance or retirement benefits paid to the estate, and not to include cars, boats, mobile homes, real property outside California, property held in trust, joint tenancy, property that passed to a surviving spouse or domestic partner, or assets that pass directly to beneficiaries. The next adjustment date printed on the page is April 1, 2028. smallEstateLimit is the on-or-after April 1, 2025 figure.",
+    "smallEstateLimit": 208850,
+    "smallEstateSource": {
+      "title": "California Courts, Maximum property values for summary succession, Probate Code sections 13100 and 13101",
+      "url": "https://selfhelp.courts.ca.gov/probate/simple-transfer",
+      "quote": "On or after April 1, 2025: $208,850"
+    },
+    "taxKind": null,
+    "taxDetail": null,
+    "taxSource": null,
+    "community": "community",
+    "communityDetail": "Family Code section 760 says that, except as otherwise provided by statute, all property, real or personal, wherever situated, acquired by a married person during the marriage while domiciled in this state is community property.",
+    "communitySource": {
+      "title": "California Family Code section 760",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=FAM&sectionNum=760",
+      "quote": "all property, real or personal, wherever situated, acquired by a married person during the marriage while domiciled in this state is community property."
+    },
+    "gaps": [
+      "Probate Code 10800 brackets after the first $100,000",
+      "taxKind",
+      "taxDetail",
+      "taxSource"
+    ]
+  },
+  {
+    "name": "Colorado",
+    "slug": "colorado",
+    "courtName": "District Court, or Denver Probate Court in Denver",
+    "process": "Colorado Judicial Branch probate forms are captioned for District Court or Denver Probate Court. Informal probate instructions say the probate registrar appoints the personal representative instead of the judge, and that the Information of Appointment must be given within 30 days of appointment. A proposed probate-rule draft on the judicial branch site says the probate rules govern procedure in the probate court for the city and county of Denver and in district courts when sitting in probate. The opened materials do not set out creditor-claim or final-distribution deadlines.",
+    "processSource": {
+      "title": "Colorado Judicial Branch, Information of Appointment, informal probate instructions",
+      "url": "https://www.courts.state.co.us/userfiles/file/Court_Probation/10th_Judicial_District/Pueblo/Self-Help%20Center/Probate/Informal%20Probate%20-%20Without%20a%20Will/4_0%20Information%20of%20Appointment.pdf",
+      "quote": "Since you are filing this case as an informal case (Probate Registrar appoints you instead of the Judge) you will mark the informal box"
+    },
+    "fees": "Colorado Revised Statutes section 15-12-719, Compensation of personal representative, is repealed. Section 15-10-602(1) says a fiduciary and his or her lawyer are entitled to reasonable compensation for services rendered on behalf of an estate. The court determines reasonableness, and a person who receives excessive compensation must make an appropriate refund. There is no percentage schedule on the opened page.",
+    "feesSource": {
+      "title": "Colorado Revised Statutes section 15-10-602, Recovery of reasonable compensation and costs",
+      "url": "https://content.leg.colorado.gov/sites/default/files/images/olls/crs2024-title-15.pdf",
+      "quote": "A fiduciary and his or her lawyer are entitled to reasonable compensation for services rendered on behalf of an estate."
+    },
+    "feeFormula": null,
+    "smallEstate": "Section 15-12-1201 allows collection of personal property by affidavit at any time ten or more days after death. The affidavit must state that the fair market value of property owned by the decedent and subject to disposition by will or intestate succession at the time of death, wherever located, less liens and encumbrances, does not exceed twice the amount set forth in section 15-11-403, as adjusted by section 15-10-112. The Colorado Department of Revenue form DR 2712, revised 04/30/26 and published 05/01/26, prints the adjusted caps, including year of death 2026 is $88,000 and year of death 2025 is $86,000. The form also states that at least ten days have elapsed and that no application or petition for appointment of a personal representative is pending or has been granted in any jurisdiction.",
+    "smallEstateLimit": 88000,
+    "smallEstateSource": {
+      "title": "Colorado Department of Revenue form DR 2712, Affidavit for Collection of Personal Property Pursuant to Small Estate Proceeding",
+      "url": "https://dmv.colorado.gov/sites/dmv/files/documents/DR%202712%20-%20State%20of%20Colorado%20Affidavit%20for%20Collection%20of%20Personal%20Property%20Pusuant%20to%20Small%20Estate%20Proceeding.pdf",
+      "quote": "Y.O.D. 2026 is $88,000"
+    },
+    "taxKind": null,
+    "taxDetail": null,
+    "taxSource": null,
+    "community": null,
+    "communityDetail": null,
+    "communitySource": null,
+    "gaps": [
+      "taxKind",
+      "taxDetail",
+      "taxSource",
+      "community",
+      "communityDetail",
+      "communitySource"
+    ]
+  },
+  {
+    "name": "Hawaii",
+    "slug": "hawaii",
+    "courtName": null,
+    "process": null,
+    "processSource": null,
+    "fees": "HRS section 560:3-719 says a personal representative is entitled to reasonable compensation for the personal representative's services. If a will provides for compensation and there is no contract with the decedent regarding compensation, the personal representative may renounce the provision before qualifying and be entitled to reasonable compensation. A written renunciation of fee may be filed with the court. Section 560:3-721 says the court may review the reasonableness of compensation of any person employed by the personal representative, including any attorney, and the personal representative's own compensation. No percentage schedule was on the opened pages.",
+    "feesSource": {
+      "title": "HRS section 560:3-719, Compensation of personal representative",
+      "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol12_Ch0501-0588/HRS0560/HRS_0560-0003-0719.htm",
+      "quote": "A personal representative is entitled to reasonable compensation for the personal representative's services."
+    },
+    "feeFormula": null,
+    "smallEstate": "HRS section 560:3-1201 says a holder of a decedent's tangible personal property or an instrument evidencing a debt, obligation, stock, chose in action, or other intangible personal property shall pay or deliver it upon presentation of a death certificate and an affidavit stating that the gross value of the decedent's estate in this State does not exceed $100,000, except that any motor vehicles registered in the decedent's name may be transferred regardless of value. The affidavit must also state that no application or petition for the appointment of a personal representative is pending or has been granted in this State, and that the claimed successor is entitled to the property, explaining the relationship to the decedent. The opened section does not state a waiting period.",
+    "smallEstateLimit": 100000,
+    "smallEstateSource": {
+      "title": "HRS section 560:3-1201, Collection of personal property by affidavit",
+      "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol12_Ch0501-0588/HRS0560/HRS_0560-0003-1201.htm",
+      "quote": "The gross value of the decedent's estate in this State does not exceed $100,000"
+    },
+    "taxKind": "estate",
+    "taxDetail": "HRS section 236E-8 imposes a tax, for decedents dying after January 25, 2012, on the Hawaii net taxable estate: 10.0% if $1,000,000 or less; $100,000 plus 11.0% of the amount over $1,000,000 if over $1,000,000 but not over $2,000,000; $210,000 plus 12% of the amount over $2,000,000 if not over $3,000,000; $330,000 plus 13% of the amount over $3,000,000 if not over $4,000,000; $460,000 plus 14% of the amount over $4,000,000 if not over $5,000,000; $600,000 plus 15.7% of the amount over $5,000,000 if not over $10,000,000; and $1,385,000 plus 20% of the amount over $10,000,000. HRS section 236E-6 allows an exclusion equal to the federal applicable exclusion amount, the exemption equivalent of the unified credit reduced by taxable gifts, or the exemption equivalent of the unified credit on the decedent's federal estate tax return, as set forth in chapter 11 of the Internal Revenue Code as amended as of December 21, 2017, as if the decedent died on December 31, 2017. For residents the exclusion is 100 percent of that amount. The opened statute does not print a dollar exclusion.",
+    "taxSource": {
+      "title": "HRS section 236E-8, Tax imposed; credit for tax paid other state",
+      "url": "https://data.capitol.hawaii.gov/hrscurrent/Vol04_Ch0201-0257/HRS0236E/HRS_0236E-0008.htm",
+      "quote": "$1,000,000 or less 10.0% of the Hawaii net taxable estate"
+    },
+    "community": null,
+    "communityDetail": null,
+    "communitySource": null,
+    "gaps": [
+      "courtName",
+      "process",
+      "processSource",
+      "community",
+      "communityDetail",
+      "communitySource",
+      "dollar amount of the estate-tax exclusion"
+    ]
+  },
+  {
+    "name": "Idaho",
+    "slug": "idaho",
+    "courtName": null,
+    "process": "Idaho Code section 15-3-301 says applications for informal probate, for an informal statement of intestacy where the estate is community and there is a surviving spouse, or for informal appointment are directed to the registrar and verified by the applicant. A community-estate application includes an affidavit that there is no will, that the decedent's estate consists solely of community property of the decedent and surviving spouse, and that the applicant is the surviving spouse. The opened page does not name the court.",
+    "processSource": {
+      "title": "Idaho Code section 15-3-301, Informal probate or appointment proceedings",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-301/",
+      "quote": "Applications for informal probate, informal statement of intestacy where the estate is community and there is a surviving spouse, or informal appointment shall be directed to the registrar"
+    },
+    "fees": "Idaho Code section 15-3-719 says a personal representative is entitled to reasonable compensation for his services. If a will provides for compensation and there is no contract with the decedent regarding compensation, he may renounce the provision before qualifying and be entitled to reasonable compensation. A written renunciation of fee may be filed with the court. The opened section states no percentage and does not state an attorney schedule.",
+    "feesSource": {
+      "title": "Idaho Code section 15-3-719, Compensation of personal representative",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-719/",
+      "quote": "A personal representative is entitled to reasonable compensation for his services."
+    },
+    "feeFormula": null,
+    "smallEstate": "Idaho Code section 15-3-1201 says that 30 days after death, a person indebted to the decedent or holding tangible personal property or an instrument evidencing a debt, obligation, stock, or chose in action shall pay or deliver it to a claiming successor on an affidavit. The affidavit must state that the fair market value of the entire estate of the decedent which is subject to probate, wherever located, less liens and encumbrances, does not exceed $100,000; that 30 days have elapsed; that no application or petition for appointment of a personal representative or for summary administration is pending or has been granted in any jurisdiction; and that the claiming successor is entitled to payment or delivery, including entitlement as a trust pursuant to a will.",
+    "smallEstateLimit": 100000,
+    "smallEstateSource": {
+      "title": "Idaho Code section 15-3-1201, Collection of personal property by affidavit",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title15/t15ch3/sect15-3-1201/",
+      "quote": "does not exceed one hundred thousand dollars ($100,000)"
+    },
+    "taxKind": "none",
+    "taxDetail": "The Idaho State Tax Commission says Idaho has no gift tax or inheritance tax, and its estate tax for deaths expired in 2004.",
+    "taxSource": {
+      "title": "Idaho State Tax Commission, Estates and Taxes",
+      "url": "https://tax.idaho.gov/taxes/estates-and-taxes/",
+      "quote": "Idaho has no gift tax or inheritance tax, and its estate tax for deaths expired in 2004."
+    },
+    "community": "community",
+    "communityDetail": "Idaho Code section 32-906(1) says all other property acquired after marriage by either husband or wife is community property. The income, including the rents, issues, and profits, of all property, separate or community, is community property unless the conveyance provides otherwise or both spouses declare otherwise by written agreement.",
+    "communitySource": {
+      "title": "Idaho Code section 32-906, Community property",
+      "url": "https://legislature.idaho.gov/statutesrules/idstat/title32/t32ch9/sect32-906/",
+      "quote": "All other property acquired after marriage by either husband or wife is community property."
+    },
+    "gaps": [
+      "courtName",
+      "attorney fee schedule"
+    ]
+  },
+  {
+    "name": "Montana",
+    "slug": "montana",
+    "courtName": null,
+    "process": null,
+    "processSource": null,
+    "fees": "Montana Code Annotated section 72-3-631 says a personal representative is entitled to reasonable compensation for services. If the will provides for compensation and there is no contract with the decedent regarding compensation, the personal representative may renounce the provision before qualifying and be entitled to compensation under that section. A written renunciation of fee may be filed with the court. Section 72-3-634 says that on a motion for settlement of fees the court must review and determine the reasonableness of compensation of any person employed by the personal representative, including any attorney, and the personal representative's own compensation. No percentage schedule was on the opened pages.",
+    "feesSource": {
+      "title": "Montana Code Annotated section 72-3-631, Compensation of personal representative",
+      "url": "https://mca.legmt.gov/bills/mca/title_0720/chapter_0030/part_0060/section_0310/0720-0030-0060-0310.html",
+      "quote": "A personal representative is entitled to reasonable compensation for services."
+    },
+    "feeFormula": null,
+    "smallEstate": "Section 72-3-1101 says that 30 days after death, a person indebted to the decedent or holding tangible personal property or an instrument evidencing a debt, obligation, stock, or chose in action shall pay or deliver it to a claiming successor on an affidavit. The affidavit must state that the value of the probate estate, wherever located, less liens and encumbrances, does not exceed $100,000, except as provided in subsection (2); that 30 days have elapsed; that no application or petition for appointment of a personal representative is pending or has been granted in any jurisdiction; and that the claiming successor is entitled to payment or delivery. Subsection (2) lets the department of revenue refund unclaimed property of $5,000 or less regardless of the value of the estate.",
+    "smallEstateLimit": 100000,
+    "smallEstateSource": {
+      "title": "Montana Code Annotated section 72-3-1101, Collection of personal property by affidavit",
+      "url": "https://mca.legmt.gov/bills/mca/title_0720/chapter_0030/part_0110/section_0010/0720-0030-0110-0010.html",
+      "quote": "the value of the probate estate, wherever located, less liens and encumbrances, does not exceed $100,000"
+    },
+    "taxKind": "none",
+    "taxDetail": "The Montana Department of Revenue says Montana no longer collects estate or inheritance taxes. It says the inheritance tax was repealed in November 2000 and does not apply to any death after January 1, 2001, and that Montana does not have an estate tax for deaths after 2004.",
+    "taxSource": {
+      "title": "Montana Department of Revenue, Montana Estate and Inheritance Tax",
+      "url": "https://revenue.mt.gov/taxes/fiduciaries/estate-and-inheritance-tax",
+      "quote": "Montana no longer collects estate or inheritance taxes."
+    },
+    "community": null,
+    "communityDetail": null,
+    "communitySource": null,
+    "gaps": [
+      "courtName",
+      "process",
+      "processSource",
+      "community",
+      "communityDetail",
+      "communitySource"
+    ]
+  },
+  {
+    "name": "Nevada",
+    "slug": "nevada",
+    "courtName": null,
+    "process": null,
+    "processSource": null,
+    "fees": "NRS 150.020 says that if no compensation is provided by the will, or the personal representative renounces all claims to it, fees must be allowed upon the whole amount of the estate which has been accounted for, less liens and encumbrances: 4 percent for the first $15,000; 3 percent for the next $85,000; and 2 percent for all above $100,000. The same fees are allowed if there is no will. The court may allow additional just and reasonable fees if the statutory fees are not sufficient. NRS 150.060 says an attorney for a personal representative is entitled to reasonable compensation for the attorney's services, to be paid out of the decedent's estate. The opened attorney section does not set a percentage schedule.",
+    "feesSource": {
+      "title": "NRS 150.020, General compensation",
+      "url": "https://www.leg.state.nv.us/NRs/NRS-150.html",
+      "quote": "For the first $15,000, at the rate of 4 percent."
+    },
+    "feeFormula": {
+      "kind": "brackets",
+      "base": "the whole amount of the estate which has been accounted for, less liens and encumbrances",
+      "brackets": [
+        {
+          "upTo": 15000,
+          "rate": 0.04
+        },
+        {
+          "upTo": 100000,
+          "rate": 0.03
+        }
+      ],
+      "aboveNote": "For all above $100,000, at the rate of 2 percent. The court may allow additional fees it deems just and reasonable if the subsection 1 fees are not sufficient to reasonably compensate the personal representative. Attorney compensation under NRS 150.060 is reasonable compensation, not this schedule."
+    },
+    "smallEstate": "NRS 146.080 allows transfer of assets without letters if the decedent leaves no real property, nor interest therein, nor mortgage or lien thereon, in this State, and the gross value of the decedent's property in this State, over and above amounts due for services in the Armed Forces and the value of any motor vehicles registered to the decedent, does not exceed the applicable amount. The claimant may act 40 days after death. The applicable amount is $150,000 if the claimant is the surviving spouse and $25,000 for any other claimant. The affidavit must also state that no petition for appointment of a personal representative is pending or has been granted, that debts including funeral and burial expenses have been paid or provided for, and that written notice was given to every person with an equal or superior right and at least 14 days have elapsed. Separately, NRS 146.070 allows the court to set aside an estate without administration if its value does not exceed $150,000, and proceedings must not begin until at least 30 days after death. There is no single affidavit cap.",
+    "smallEstateLimit": null,
+    "smallEstateSource": {
+      "title": "NRS 146.080, Estates not exceeding certain amounts",
+      "url": "https://www.leg.state.nv.us/nrs/nrs-146.html",
+      "quote": "If the claimant is the surviving spouse of the decedent, $150,000."
+    },
+    "taxKind": null,
+    "taxDetail": "A Nevada Department of Taxation notice of intent to adopt regulation R045-24 says the estate tax is not currently imposed or collected in Nevada. The notice does not state whether an inheritance tax exists.",
+    "taxSource": {
+      "title": "Nevada Department of Taxation, Notice of Intent to Adopt a Regulation, R045-24",
+      "url": "https://tax.nv.gov/wp-content/uploads/2024/07/NoticeofIntenttoAdoptaRegulation-R045-24.pdf",
+      "quote": "The estate tax is not currently imposed or collected in Nevada"
+    },
+    "community": "community",
+    "communityDetail": "NRS 123.220 says all property, other than that stated in NRS 123.130, acquired after marriage by either spouse or both spouses, is community property unless otherwise provided by an agreement in writing between the spouses, a decree of separate maintenance, NRS 123.190, or a decree or written agreement under NRS 123.259. NRS 123.225 says the respective interests of each spouse in community property during the marriage are present, existing, and equal interests, subject to NRS 123.230.",
+    "communitySource": {
+      "title": "NRS 123.220, Community property defined",
+      "url": "https://www.leg.state.nv.us/Division/Legal/LawLibrary/NRS/NRS-123.html",
+      "quote": "All property, other than that stated in NRS 123.130, acquired after marriage by either spouse or both spouses, is community property"
+    },
+    "gaps": [
+      "courtName",
+      "process",
+      "processSource",
+      "smallEstateLimit",
+      "inheritance tax"
+    ]
+  },
+  {
+    "name": "New Mexico",
+    "slug": "new-mexico",
+    "courtName": "Probate Court",
+    "process": "The New Mexico courts self-help guide says a probate case is filed with the Probate Court in the county where the decedent was domiciled at death, and that some cases must instead be filed in District Court. If there is a will, the original will and a certified death certificate are submitted and the court appoints the person designated in the will as personal representative. If there is no will, a spouse has the highest priority for appointment, followed by the decedent's children, and a person seeking appointment must have written consent of others with the same or higher priority. The personal representative notifies heirs, gathers and inventories assets, pays debts to the extent funds are available, distributes under the will or intestacy laws, and closes by a sworn statement. The guide says the case must be open for a minimum of 3 months before it can be closed.",
+    "processSource": {
+      "title": "New Mexico District Court Self Help Guide, Probate",
+      "url": "https://nmcourts.gov/wp-content/uploads/2024/01/SRL_Probate.pdf",
+      "quote": "the probate case must be filed with the Probate Court in the county where the decedent was domiciled (physically living) at the time of his/her death."
+    },
+    "fees": "The same court guide says the personal representative is entitled to fair compensation from the estate for the time spent administering the estate and cites NMSA 1978 section 45-3-719. The guide says the personal representative should keep a written record of tasks and time. The opened guide does not print a percentage schedule, and the text of section 45-3-719 itself was not opened.",
+    "feesSource": {
+      "title": "New Mexico District Court Self Help Guide, Probate",
+      "url": "https://nmcourts.gov/wp-content/uploads/2024/01/SRL_Probate.pdf",
+      "quote": "the PR is entitled to fair compensation from the estate for the time spent administering the estate"
+    },
+    "feeFormula": null,
+    "smallEstate": "The New Mexico Taxation and Revenue Department Motor Vehicle Division affidavit of claiming successor, made pursuant to section 45-3-1201, states that the entire estate of the decedent, less liens and encumbrances, is not worth over $50,000; that thirty days have elapsed since the death; that no application or petition for appointment of a personal representative is pending or has been granted in any jurisdiction; and that the claiming successor is entitled to the transfer. The courts guide describes a small estate as one where the total estate is worth less than $50,000 and does not include real property, and says an affidavit of successor in interest may be used if at least 30 days have passed and no probate has been filed. The guide is dated July 2016 and says it may not be current. smallEstateLimit uses the $50,000 figure printed on the motor vehicle affidavit.",
+    "smallEstateLimit": 50000,
+    "smallEstateSource": {
+      "title": "New Mexico MVD Affidavit of Claiming Successor, section 45-3-1201",
+      "url": "https://realfile.tax.newmexico.gov/mvd10013.pdf",
+      "quote": "THE ENTIRE ESTATE OF DECEDENT, LESS LIENS AND ENCUMBRANCES, IS NOT WORTH OVER $50,000"
+    },
+    "taxKind": "none",
+    "taxDetail": "The New Mexico Taxation and Revenue Department says New Mexico's estate tax is phased out due to federal tax law changes as of January 1, 2005, and that if a federal Form 706 must be filed, a New Mexico estate tax return should also be filed so the department can issue a certificate of no tax due. The same page says New Mexico does not impose an inheritance tax.",
+    "taxSource": {
+      "title": "New Mexico Taxation and Revenue Department, Estate, Trust, and Fiduciary Income Tax",
+      "url": "https://www.tax.newmexico.gov/individuals/personal-income-tax-information-overview/estate-trust-and-fiduciary-income-tax/",
+      "quote": "New Mexico does not impose an inheritance tax"
+    },
+    "community": "community",
+    "communityDetail": "A New Mexico Court of Appeals opinion quotes NMSA 1978 section 40-3-8(B) as defining community property as property acquired by either or both spouses during marriage which is not separate property. The same opinion quotes section 40-3-8(A)(1) as defining separate property to include property acquired by either spouse before marriage.",
+    "communitySource": {
+      "title": "New Mexico Court of Appeals, Pozen v. Fickler, No. A-1-CA-37682",
+      "url": "https://coa.nmcourts.gov/wp-content/uploads/sites/43/2024/01/April-6-2020-Lana-S.-Pozen-v.-Raymond-Mark-Fickler-No.-A-1-CA-37682.pdf",
+      "quote": "property acquired by either or both spouses during marriage which is not separate property"
+    },
+    "gaps": [
+      "text of NMSA section 45-3-719"
+    ]
+  },
+  {
+    "name": "Oregon",
+    "slug": "oregon",
+    "courtName": "probate court",
+    "process": "ORS 114.515 says a simple estate affidavit is filed with the clerk of the probate court in any county where there is venue for a proceeding seeking appointment of a personal representative. The Oregon Judicial Department probate FAQ for Multnomah County says a personal representative is the person appointed by the court to act as a fiduciary to administer the estate, and describes probate as a legal process where a court oversees the distribution of assets left by a deceased person. ORS 116.173 says that, unless the court has granted a different determination under ORS 113.038, a personal representative applies to the court for the statutory commission.",
+    "processSource": {
+      "title": "ORS 114.515, Simple estate affidavit",
+      "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors114.html",
+      "quote": "file a simple estate affidavit with the clerk of the probate court"
+    },
+    "fees": "ORS 116.173 says the personal representative's compensation is a commission upon the whole estate: upon property subject to the jurisdiction of the court, seven percent of any sum not exceeding $1,000; four percent of all above $1,000 and not exceeding $10,000; three percent of all above $10,000 and not exceeding $50,000; and two percent of all above $50,000. It also allows one percent of the property, exclusive of life insurance proceeds, not subject to the jurisdiction of the court but reportable for Oregon estate tax or federal estate tax purposes. Further just and reasonable compensation may be allowed for extraordinary and unusual services. ORS 116.183 says the personal representative is allowed reasonable fees of attorneys. The attorney award considers customary fees in the community, time spent, experience, skill, the result obtained, any fee agreement, and the amount of responsibility assumed considering the total value of the estate. No single factor is controlling. There is no attorney percentage schedule.",
+    "feesSource": {
+      "title": "ORS 116.173, Compensation of personal representative",
+      "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors116.html",
+      "quote": "Seven percent of any sum not exceeding $1,000."
+    },
+    "feeFormula": {
+      "kind": "brackets",
+      "base": "a commission upon the whole estate, upon the property subject to the jurisdiction of the court",
+      "brackets": [
+        {
+          "upTo": 1000,
+          "rate": 0.07
+        },
+        {
+          "upTo": 10000,
+          "rate": 0.04
+        },
+        {
+          "upTo": 50000,
+          "rate": 0.03
+        }
+      ],
+      "aboveNote": "Two percent of all above $50,000 of property subject to the jurisdiction of the court. Also one percent of the property, exclusive of life insurance proceeds, not subject to the jurisdiction of the court but reportable for Oregon estate tax or federal estate tax purposes."
+    },
+    "smallEstate": "ORS 114.510 says a simple estate affidavit may be filed only if not more than $75,000 of the fair market value of the estate is attributable to personal property other than manufactured homes, and not more than $200,000 of the fair market value of the estate is attributable to the combined fair market value of real property and manufactured homes. A second path applies when property above those amounts is specifically devised to the trustee of a described trust, with the same $75,000 and $200,000 caps on property devised to other devisees. ORS 114.515 says the affidavit may not be filed until 30 days after the death of the decedent, and it is filed with the clerk of the probate court. There is no single dollar cap.",
+    "smallEstateLimit": null,
+    "smallEstateSource": {
+      "title": "ORS 114.510, Simple estate criteria",
+      "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors114.html",
+      "quote": "Not more than $75,000 of the fair market value of the estate is attributable to personal property other than manufactured homes"
+    },
+    "taxKind": "estate",
+    "taxDetail": "The 2025 Oregon Form OR-706 instructions say a return must be filed if the value of the gross estate at the date of death is $1,000,000 or more. The instructions' tax table applies to the taxable estate. The printed rows are: $1,000,000 to under $1,500,000, tax on the column 1 amount $0, rate 10.0%; $1,500,000 to under $2,500,000, $50,000, rate 10.25%; $2,500,000 to under $3,500,000, $152,500, rate 10.5%; $3,500,000 to under $4,500,000, $257,500, rate 11.0%; $4,500,000 to under $5,500,000, $367,500, rate 11.5%; $5,500,000 to under $6,500,000, $482,500, rate 12.0%; $6,500,000 to under $7,500,000, $602,500, rate 13.0%; $7,500,000 to under $8,500,000, $732,500, rate 14.0%; $8,500,000 to under $9,500,000, $872,500, rate 15.0%; and $9,500,000 and over, $1,022,500, rate 16.0%. The page calls the tax an estate transfer tax. It does not say there is no inheritance tax.",
+    "taxSource": {
+      "title": "Oregon Department of Revenue, 2025 Form OR-706 instructions",
+      "url": "https://www.oregon.gov/dor/forms/FormsPubs/form-or-706-inst_104-001-1_2025.pdf",
+      "quote": "A return must be filed if the value of the gross estate at the date of death is $1,000,000 or more."
+    },
+    "community": null,
+    "communityDetail": null,
+    "communitySource": null,
+    "gaps": [
+      "smallEstateLimit",
+      "community",
+      "communityDetail",
+      "communitySource"
+    ]
+  },
+  {
+    "name": "Utah",
+    "slug": "utah",
+    "courtName": "District Court",
+    "process": "The Utah Courts informal-probate page says a probate case may be filed in the district court of the county where the decedent lived at the time of death, or in the district court of the county where the decedent owned property, citing Utah Code 75-3-201. Informal probate asks the court to appoint a personal representative without a hearing and is usually used when all interested parties agree. Formal probate asks for appointment with a hearing, usually because there is disagreement. The applicant files an application, the filing fee, and a Utah District Court Cover Sheet for Probate Actions. If the court appoints the applicant, it signs letters of administration if there is no will or letters testamentary if there is a will.",
+    "processSource": {
+      "title": "Utah Courts, Informal Probate",
+      "url": "https://www.utcourts.gov/en/self-help/case-categories/probate/informal-probate.html",
+      "quote": "A probate case may be filed in the district court of the county where the decedent lived at the time of death"
+    },
+    "fees": "Utah Code section 75-3-718 says a personal representative and an attorney are entitled to reasonable compensation for their services. If a petition seeks approval of that compensation and no interested person objects, reasonable compensation shall be the compensation sought in the petition. If an interested person objects, the court determines reasonable compensation for the personal representative based on the quality, quantity, and value of the services and the circumstances, and determines reasonable compensation for the attorney. There is no percentage schedule.",
+    "feesSource": {
+      "title": "Utah Code section 75-3-718, Compensation of personal representative and attorney",
+      "url": "https://le.utah.gov/xcode/Title75/Chapter3/75-3-S718.html",
+      "quote": "A personal representative and an attorney are entitled to reasonable compensation for their services."
+    },
+    "feeFormula": null,
+    "smallEstate": "Utah Code section 75-3-1201, effective May 7, 2025, says that 30 days after death a holder of tangible personal property, including an instrument evidencing a debt, obligation, stock, or chose in action, shall pay or deliver it to a claiming successor on an affidavit. The affidavit must state that the value of the entire estate subject to administration, wherever located, less liens and encumbrances, does not exceed $100,000; that 30 days have elapsed; that no application or petition for appointment of a personal representative is pending or has been granted in any jurisdiction; and that the claiming successor is entitled to payment or delivery. For not more than four boats, motor vehicles, trailers, or semitrailers, the affidavit instead states that the value of the entire estate subject to administration, other than those vehicles, does not exceed $100,000. Shares of stock in a water company transferred under section 73-1-10 or Title 70A, Chapter 8, are not eligible for transfer under this part.",
+    "smallEstateLimit": 100000,
+    "smallEstateSource": {
+      "title": "Utah Code section 75-3-1201, Collection of personal property by affidavit",
+      "url": "https://le.utah.gov/xcode/Title75/Chapter3/75-3-S1201.html",
+      "quote": "the value of the entire estate subject to administration, wherever located, less liens and encumbrances, does not exceed $100,000"
+    },
+    "taxKind": "none",
+    "taxDetail": "The Utah State Tax Commission says Utah's estate tax system is a pick-up tax based on the federal credit for state death taxes, that federal changes eliminated Utah's inheritance tax after December 31, 2004, and that there is no longer a basis for the Utah inheritance tax. It says Utah inheritance tax returns do not need to be filed.",
+    "taxSource": {
+      "title": "Utah State Tax Commission, Inheritance Tax",
+      "url": "https://tax.utah.gov/business/other-taxes/inheritance-tax/",
+      "quote": "eliminated Utah's inheritance tax after December 31, 2004."
+    },
+    "community": null,
+    "communityDetail": null,
+    "communitySource": null,
+    "gaps": [
+      "community",
+      "communityDetail",
+      "communitySource"
+    ]
+  },
+  {
+    "name": "Washington",
+    "slug": "washington",
+    "courtName": "Superior Court",
+    "process": "A Washington Court of Appeals opinion states that for a decedent's property to pass by will, the will must be probated in the superior court, that the superior court adjudicates testacy and decides whether to admit or reject the will, and that the superior court names the personal representative and issues letters testamentary, citing RCW 11.96A.040(1), RCW 11.20.020(1), and RCW 11.28.010. RCW 11.48.210 provides for the personal representative's compensation and for an attorney performing services for the estate at the instance of the personal representative. The opened pages do not set creditor-claim or closing deadlines.",
+    "processSource": {
+      "title": "Washington Court of Appeals, Division II, No. 47013-6-II",
+      "url": "https://www.courts.wa.gov/opinions/pdf/D2%2047013-6-II%20Published%20Opinion.pdf",
+      "quote": "For a decedent's property to pass via will, the will must be probated in the superior court."
+    },
+    "fees": "RCW 11.48.210 says that if the testator by will makes provision for the compensation of the personal representative, that shall be taken as full compensation unless the personal representative files a written renunciation before qualifying. When no compensation is provided in the will, when the personal representative renounces it, or when the personal representative administers an intestate estate, the personal representative shall be allowed such compensation as the court shall deem just and reasonable. An attorney performing services for the estate at the instance of the personal representative shall have such compensation out of the estate as the court shall deem just and reasonable. There is no percentage schedule.",
+    "feesSource": {
+      "title": "RCW 11.48.210, Compensation, Attorney's fees",
+      "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=11.48.210",
+      "quote": "shall be allowed such compensation for his or her services as the court shall deem just and reasonable."
+    },
+    "feeFormula": null,
+    "smallEstate": "RCW 11.62.010 says that at any time after forty days from the date of death, a person indebted to the decedent or holding personal property belonging to the decedent, or to the decedent and the surviving spouse or surviving domestic partner as a community, which is an asset subject to probate, shall pay or deliver it to a claiming successor on proof of death and an affidavit. The affidavit must state that the value of the decedent's entire estate subject to probate, not including the surviving spouse's or surviving domestic partner's community property interest in any assets which are subject to probate, wherever located, less liens and encumbrances, does not exceed one hundred thousand dollars. It must also state that the decedent was a Washington resident, that forty days have elapsed, that no application or petition for appointment of a personal representative is pending or has been granted, that all debts including funeral and burial expenses have been paid or provided for, and that written notice was given to all other successors and at least ten days have elapsed.",
+    "smallEstateLimit": 100000,
+    "smallEstateSource": {
+      "title": "RCW 11.62.010, Disposition of personal property, debts by affidavit",
+      "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=11.62.010",
+      "quote": "does not exceed one hundred thousand dollars"
+    },
+    "taxKind": "estate",
+    "taxDetail": "The Department of Revenue says Washington does not have an inheritance tax and Washington does have an estate tax. Its estate-tax table for a death from July 1, 2026 to December 31, 2026 lists a filing threshold of 3,000,000 and an applicable exclusion amount of 3,000,000. The filing threshold is based on the gross estate, not the net estate. For dates of death on July 1, 2026 and after, the printed tax on the Washington taxable estate is 10.0% from $0 to $1,000,000; 14.0% from $1,000,000 to $2,000,000; 15.0% from $2,000,000 to $3,000,000; 16.0% from $3,000,000 to $4,000,000; 18.0% from $4,000,000 to $6,000,000; 19.0% from $6,000,000 to $7,000,000; 19.5% from $7,000,000 to $9,000,000; and 20.0% on $9,000,000 and up. A separate higher rate table is printed for deaths from July 1, 2025 to June 30, 2026.",
+    "taxSource": {
+      "title": "Washington Department of Revenue, Estate tax tables",
+      "url": "https://dor.wa.gov/taxes-rates/other-taxes/estate-tax-tables",
+      "quote": "7/1/2026 to 12/31/2026 | 3,000,000 | 3,000,000"
+    },
+    "community": "community",
+    "communityDetail": "RCW 26.16.030 says property not acquired or owned as prescribed in RCW 26.16.010 and 26.16.020, acquired after marriage or after registration of a state registered domestic partnership by either domestic partner or either husband or wife or both, is community property. Neither person shall devise or bequeath by will more than one-half of the community property.",
+    "communitySource": {
+      "title": "RCW 26.16.030, Community property defined",
+      "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=26.16.030",
+      "quote": "is community property."
+    },
+    "gaps": []
+  },
+  {
+    "name": "Wyoming",
+    "slug": "wyoming",
+    "courtName": "District Court",
+    "process": "W.S. 2-2-202 requires the clerk of the district court in each county to make a docket of all estates of deceased persons pending in the county, including the date of letters testamentary or of administration and the names of the executors or administrators, and requires the judge of the district court to read that probate docket at least once every six months. W.S. 2-7-801 says administration of each estate shall be completed within one year from the date of appointment of the personal representative unless good cause is shown and the court orders a continuance. The opened pages do not set out the petition, notice, or hearing used to open the estate.",
+    "processSource": {
+      "title": "Wyoming Statutes section 2-7-801, administration to be completed within one year",
+      "url": "https://www.wyoleg.gov/statutes/compress/title02.pdf",
+      "quote": "The administration of each estate of a decedent shall be completed within one (1) year from the date of appointment of the personal representative"
+    },
+    "fees": "W.S. 2-7-803 computes personal representative fees for ordinary services on the amount of the decedent's probate estate accounted for: ten percent of the first $1,000; five percent of all sums over $1,000 but not exceeding $5,000; three percent of all sums over $5,000 but not exceeding $20,000; and two percent of all sums over $20,000. W.S. 2-7-804 uses the same four brackets for the attorney for the estate. The court may allow an additional fee for unusual circumstances and further just and reasonable fees for extraordinary services. Nothing in section 2-7-804 prevents the personal representative and the attorney from negotiating lower fees. Fees are paid only upon order of the court.",
+    "feesSource": {
+      "title": "Wyoming Statutes section 2-7-803, Fees of personal representative",
+      "url": "https://www.wyoleg.gov/statutes/compress/title02.pdf",
+      "quote": "For the first one thousand dollars ($1,000.00) of the basis, ten percent (10%)"
+    },
+    "feeFormula": {
+      "kind": "brackets",
+      "base": "the amount of the decedent's probate estate accounted for",
+      "brackets": [
+        {
+          "upTo": 1000,
+          "rate": 0.1
+        },
+        {
+          "upTo": 5000,
+          "rate": 0.05
+        },
+        {
+          "upTo": 20000,
+          "rate": 0.03
+        }
+      ],
+      "aboveNote": "For all sums over twenty thousand dollars ($20,000.00) of the basis, two percent (2%). The same brackets are in W.S. 2-7-803 for the personal representative and W.S. 2-7-804 for the attorney for the estate."
+    },
+    "smallEstate": "W.S. 2-1-201 says that not earlier than thirty days after death, a person indebted to the decedent or holding tangible personal property or an instrument evidencing a debt, obligation, stock, or chose in action shall pay or deliver it to the claiming distributee, or the attorney for the distributee, on an affidavit. The affidavit must state that the value of the entire estate located in Wyoming subject to administration, either testate or intestate, less liens and encumbrances, does not exceed $400,000; that thirty days have elapsed; that no application for appointment of a personal representative is pending or has been granted in any jurisdiction in this state; and the facts showing the distributee's entitlement. The affidavit is filed with the county clerk, and a certified copy is presented to the holder.",
+    "smallEstateLimit": 400000,
+    "smallEstateSource": {
+      "title": "Wyoming Statutes section 2-1-201, Payment of indebtedness and delivery of tangible personal property",
+      "url": "https://www.wyoleg.gov/statutes/compress/title02.pdf",
+      "quote": "does not exceed four hundred thousand dollars ($400,000.00)"
+    },
+    "taxKind": null,
+    "taxDetail": null,
+    "taxSource": null,
+    "community": null,
+    "communityDetail": null,
+    "communitySource": null,
+    "gaps": [
+      "opening steps for an ordinary estate",
+      "taxKind",
+      "taxDetail",
+      "taxSource",
+      "community",
+      "communityDetail",
+      "communitySource"
+    ]
+  }
+]
