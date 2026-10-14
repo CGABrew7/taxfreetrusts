@@ -8,6 +8,8 @@ For estates of decedents who die in 2026, the IRS basic exclusion amount is $15,
 
 Structures we cover: ILIT, GRAT, SLAT, IDGT, CRT, QPRT.
 
+Family shortlist: https://taxfreetrusts.com/best-trusts-for-families
+
 Most households under the basic exclusion should not buy an irrevocable tax package.
 
 Machine file: https://taxfreetrusts.com/api/trusts.json
