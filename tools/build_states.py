@@ -33,6 +33,18 @@ ORDER = [
 
 BRAND = '<a class="brand" href="/" aria-label="TaxFreeTrusts home"><svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><circle cx="16" cy="16" r="14.6" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="16" cy="16" r="11.9" fill="none" stroke="currentColor" stroke-width=".7" stroke-dasharray="1.2 1.1"/><path fill="currentColor" d="M9.2 8.6h13.6v2.6h-4.1a3.9 3.9 0 0 1-.5 6.2l1.3 7.2h-7l1.3-7.2a3.9 3.9 0 0 1-.5-6.2H9.2z"/></svg><span>TaxFreeTrusts</span></a>'
 
+UPDATED = "2026-10-14"
+UPDATED_LABEL = "October 14, 2026"
+BYLINE = (
+    '<p class="byline">By <a href="/about">TaxFreeTrusts</a></p>\n'
+    f'<p class="dateline"><time datetime="{UPDATED}">Last updated {UPDATED_LABEL}</time></p>'
+)
+AUTHOR_BIO = (
+    '<div class="author-bio"><p class="k">TaxFreeTrusts</p>'
+    '<p><a href="/about">TaxFreeTrusts</a> writes the guides on this site and drafts the will and living trust packets at the prices posted on the page. '
+    'Dollar figures in the guides are copied from the statute, IRS page, or court site linked beside them.</p></div>'
+)
+
 DROP_SENTENCE = re.compile(
     r"integer used|smallEstateLimit|opened page|pages opened|page that was opened|"
     r"page extract|was not displayed|was not copied|pages that were opened|"
@@ -56,7 +68,7 @@ def clean(text):
             .replace("\u00a0", " ").replace("\u00bd", " 1/2"))
     text = re.sub(r"[ \t]+", " ", text)
     text = re.sub(r"\s*\n\s*", " ", text).strip()
-    if re.search(r"\bhonest\b", text, re.I) or re.search(r"\bJeff\b", text):
+    if re.search(r"\bhonest\b", text, re.I) or re.search(r"\bJeff\b", text) or re.search(r"Hanok", text):
         raise SystemExit("banned word in copy")
     if "\u2014" in text or "\u2013" in text:
         raise SystemExit("dash left in copy")
@@ -272,21 +284,110 @@ def gaps_for(row):
     return gaps
 
 
-def para(text):
-    text = public_prose(text)
-    if not text:
-        return ""
-    return f"<p>{esc(text)}</p>"
+def sentences(text):
+    return [p for p in re.split(r"(?<=[.])\s+", text.strip()) if p]
 
 
-def section(title, text, source):
-    body = para(text)
-    if not body:
+def split_answer(text):
+    parts = sentences(text)
+    if not parts:
         return ""
+    if len(parts) <= 2:
+        return f'<p class="answer">{esc(" ".join(parts))}</p>'
+    n = 1 if len(parts[0]) >= 220 else 2
+    answer = " ".join(parts[:n])
+    detail = " ".join(parts[n:])
+    html = f'<p class="answer">{esc(answer)}</p>'
+    if detail:
+        html += f"\n<p>{esc(detail)}</p>"
+    return html
+
+
+def section(title, text, source, lead=""):
+    prose = public_prose(text)
+    if not prose:
+        return ""
+    if lead:
+        body = f'<p class="answer">{esc(lead)}</p>\n<p>{esc(prose)}</p>'
+    else:
+        body = split_answer(prose)
     src = ""
     if source and source.get("url"):
         src = f'<p class="sources">Source: <a href="{esc(source["url"])}">{esc(clean(source.get("title") or "Statute or court page"))}</a></p>'
     return f"<h2>{esc(title)}</h2>\n{body}\n{src}\n"
+
+
+def place(name):
+    if name == "District of Columbia":
+        return "the District of Columbia"
+    return name
+
+
+def sentence_place(name):
+    text = place(name)
+    return text[:1].upper() + text[1:]
+
+
+def court_phrase(court):
+    court = clean(court)
+    if court[:1].islower():
+        court = court[:1].upper() + court[1:]
+    if court.lower().startswith(("the ", "a ", "an ")):
+        return court
+    return "the " + court
+
+
+def tax_lead(name, card):
+    mapping = {
+        "No current estate tax": f"{sentence_place(name)} has no current estate tax on the page linked below.",
+        "Estate tax": f"{sentence_place(name)} levies an estate tax.",
+        "Inheritance tax": f"{sentence_place(name)} levies an inheritance tax.",
+        "Estate and inheritance tax": f"{sentence_place(name)} levies an estate tax and an inheritance tax.",
+        "Tied to a federal credit": f"{sentence_place(name)}'s estate tax on the page linked below is tied to a federal credit.",
+    }
+    return mapping.get(card, f"The tax result for {place(name)} on this page is {card}.")
+
+
+def spouse_lead(name, card):
+    mapping = {
+        "Community property": f"Spouses in {place(name)} hold community property.",
+        "Separate property": f"Spouses in {place(name)} hold separate property.",
+        "Marital property": f"Spouses in {place(name)} hold marital property.",
+        "May be held as community property": f"Spouses in {place(name)} may hold property as community property.",
+        "Opt-in community property": f"Spouses in {place(name)} may opt into community property.",
+    }
+    return mapping.get(card, f"Spouses in {place(name)}: {card}.")
+
+
+def fee_lead(name, fees):
+    where = place(name)
+    role = fee_role(fees)
+    if role == "Reasonable compensation":
+        return f"In {where}, probate compensation is reasonable compensation under the statute linked below."
+    if role == "Presumed reasonable":
+        return f"In {where}, the statute states a fee it calls presumed reasonable."
+    article = "an" if role[:1].lower() in "aeiou" else "a"
+    return f"In {where}, probate compensation is {article} {role[0].lower() + role[1:]}."
+
+
+def section_leads(row):
+    name = row["name"]
+    leads = {}
+    if row.get("courtName") and public_prose(row.get("process")):
+        leads["The probate path"] = f"In {place(name)}, the estate is opened in {court_phrase(row['courtName'])}."
+    if public_prose(row.get("fees")):
+        leads["Fees"] = fee_lead(name, row.get("fees") or "")
+    if public_prose(row.get("smallEstate")):
+        limit = row.get("smallEstateLimit")
+        if isinstance(limit, (int, float)):
+            leads["Small estate"] = f"{sentence_place(name)}'s small-estate figure on this page is {money(limit)} when the statute's conditions are met."
+        else:
+            leads["Small estate"] = f"{sentence_place(name)} has a small-estate procedure. The statute states who can use it."
+    if public_prose(row.get("taxDetail")) and tax_card(row):
+        leads["Estate or inheritance tax"] = tax_lead(name, tax_card(row))
+    if public_prose(row.get("communityDetail")) and community_card(row):
+        leads["Property of spouses"] = spouse_lead(name, community_card(row))
+    return leads
 
 
 def fact_cards(row):
@@ -350,7 +451,22 @@ def json_ld(row, url):
             for q, a in faqs(row)
         ],
     }
-    blob = json.dumps([crumbs, faq], ensure_ascii=True).replace("<", "\\u003c")
+    article = {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": f"Living trust vs probate in {name}",
+        "datePublished": "2026-10-13",
+        "dateModified": UPDATED,
+        "author": {"@type": "Organization", "name": "TaxFreeTrusts", "url": "https://taxfreetrusts.com/about"},
+        "publisher": {
+            "@type": "Organization",
+            "name": "TaxFreeTrusts",
+            "url": "https://taxfreetrusts.com/",
+            "logo": {"@type": "ImageObject", "url": "https://taxfreetrusts.com/icon-512.png"},
+        },
+        "mainEntityOfPage": url,
+    }
+    blob = json.dumps([crumbs, faq, article], ensure_ascii=True).replace("<", "\\u003c")
     return f'<script type="application/ld+json">{blob}</script>'
 
 
@@ -408,13 +524,10 @@ def page_for(row):
     url = f"https://taxfreetrusts.com/states/{slug}"
     desc = f"Living trust or probate in {name}: the court path, fees, small-estate rule, tax, and spouses' property, each point linked to a statute or a court site."
     if len(desc) > 160:
-        desc = f"Living trust or probate in {name}, with the statute or court page linked for each point we could verify."
+        desc = f"Living trust or probate in {name}, with the statute or court page linked for each point."
     ld = json_ld(row, url)
     nav, foot = chrome()
     gaps = gaps_for(row)
-    gap_html = ""
-    if gaps:
-        gap_html = f'<p class="gap-note">Not stated here, because we did not verify it from a statute or a court site: {esc(", ".join(gaps))}.</p>'
     faq_html = "".join(
         f"<details><summary>{esc(q)}</summary><div class=\"ans\"><p>{esc(a)}</p></div></details>"
         for q, a in faqs(row)
@@ -425,13 +538,15 @@ def page_for(row):
     calc = f'''<form class="calc" data-state="{esc(slug)}" action="#calc-{esc(slug)}">
 <p class="eyebrow">Calculator</p>
 <h2 id="calc-{esc(slug)}">Probate cost</h2>
-<p>Enter a dollar amount. The result uses only a statutory schedule on this page. It leaves out court filing fees, extraordinary services, and any amount the statute leaves to the judge.</p>
+<p class="answer">The result is the statutory schedule on this page applied to the amount you enter.</p>
 <div class="field"><label for="estate-{esc(slug)}">Amount to test</label>
 <span class="hint" style="display:block;font-weight:400;color:var(--muted);font-size:14.5px;margin:0 0 8px">{esc(base_hint)}</span>
 <input id="estate-{esc(slug)}" name="estate" inputmode="decimal" autocomplete="off"></div>
 <button class="btn btn-ink" type="submit">Calculate</button>
 <div class="calc-out" role="status" aria-live="polite"></div>
 </form>'''
+    leads = section_leads(row)
+    trust_copy = "A revocable living trust holds assets you title in the trustee's name. You can serve as trustee while you are able. At death, the successor trustee handles those assets. Property you leave in your own name can still go through the probate court. A pour-over will sends leftover assets into the trust, and those leftover assets may pass through probate first."
     body = f'''{head(f"Living trust vs probate in {name} | TaxFreeTrusts", desc, url, ld)}
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -439,25 +554,28 @@ def page_for(row):
 <main id="main">
 <section class="page-head has-seal"><div class="wrap">
 <p class="crumb"><a href="/">Home</a> / <a href="/states/">States</a> / {esc(name)}</p>
+{BYLINE}
 <p class="eyebrow">Living trust or probate</p>
 <h1>{esc(name)}</h1>
-<p class="lede">What a funded revocable living trust changes, and the {esc(name)} probate rules we could verify from a statute or a court site.</p>
+<p class="lede">A funded revocable living trust lets the successor trustee handle assets titled to the trustee. Property left in your own name can still be a probate matter in {esc(place(name))}.</p>
 </div></section>
 <div class="wrap article-grid"><article class="prose">
 {fact_cards(row)}
 <h2>Living trust or probate</h2>
-<p>A revocable living trust holds assets you title in the trustee's name. You can serve as trustee while you are able. At death, the successor trustee handles those assets. Property you leave in your own name can still go through the probate court. A pour-over will sends leftover assets into the trust, and those leftover assets may pass through probate first.</p>
-{section("The probate path", row.get("process"), row.get("processSource"))}
-{section("Fees", row.get("fees"), row.get("feesSource"))}
+{split_answer(trust_copy)}
+{section("The probate path", row.get("process"), row.get("processSource"), leads.get("The probate path", ""))}
+{section("Fees", row.get("fees"), row.get("feesSource"), leads.get("Fees", ""))}
 {calc}
-{section("Small estate", row.get("smallEstate"), row.get("smallEstateSource"))}
-{section("Estate or inheritance tax", row.get("taxDetail"), row.get("taxSource"))}
-{section("Property of spouses", row.get("communityDetail"), row.get("communitySource"))}
-{gap_html}
+{section("Small estate", row.get("smallEstate"), row.get("smallEstateSource"), leads.get("Small estate", ""))}
+{section("Estate or inheritance tax", row.get("taxDetail"), row.get("taxSource"), leads.get("Estate or inheritance tax", ""))}
+{section("Property of spouses", row.get("communityDetail"), row.get("communitySource"), leads.get("Property of spouses", ""))}
 <h2>Questions</h2>
+<p class="answer">The answers use the same statute and court pages as the sections above.</p>
 <div class="faq">{faq_html}</div>
 <h2>Sources</h2>
+<p class="answer">These are the statute and court pages used above.</p>
 <ul class="sources">{src_html}</ul>
+{AUTHOR_BIO}
 </article>
 <aside><div class="aside-card">
 <p class="eyebrow">Planner</p>
@@ -491,8 +609,8 @@ def hub(rows):
         ],
     }
     faq_pairs = [
-        ("What is on each state page?", "Each page covers the probate path, fees, the small-estate procedure, estate or inheritance tax, and how spouses hold property, but only where a statute or a court site states the point. A missing point is left off the page."),
-        ("Does the calculator invent a fee?", "No. It multiplies a statutory schedule when the page has one. If the statute says reasonable compensation and gives no percentage, the calculator does not invent a dollar fee."),
+        ("What is on each state page?", "Each page states the probate path, fees, the small-estate procedure, estate or inheritance tax, and how spouses hold property, with the statute or court page linked."),
+        ("How does the probate cost calculator get its number?", "The calculator multiplies a statutory schedule printed on that state's page. When the statute sets no percentage, the calculator returns no dollar fee."),
     ]
     faq = {
         "@context": "https://schema.org",
@@ -502,7 +620,21 @@ def hub(rows):
             for q, a in faq_pairs
         ],
     }
-    ld = json.dumps([crumbs, faq], ensure_ascii=True).replace("<", "\\u003c")
+    page = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Probate by state",
+        "url": url,
+        "dateModified": UPDATED,
+        "author": {"@type": "Organization", "name": "TaxFreeTrusts", "url": "https://taxfreetrusts.com/about"},
+        "publisher": {
+            "@type": "Organization",
+            "name": "TaxFreeTrusts",
+            "url": "https://taxfreetrusts.com/",
+            "logo": {"@type": "ImageObject", "url": "https://taxfreetrusts.com/icon-512.png"},
+        },
+    }
+    ld = json.dumps([crumbs, faq, page], ensure_ascii=True).replace("<", "\\u003c")
     nav, foot = chrome()
     links = []
     for name, slug in ORDER:
@@ -524,15 +656,16 @@ def hub(rows):
 <main id="main">
 <section class="page-head has-seal"><div class="wrap">
 <p class="crumb"><a href="/">Home</a> / States</p>
+{BYLINE}
 <p class="eyebrow">Living trust or probate</p>
 <h1>Probate by state</h1>
-<p class="lede">Fifty states and the District of Columbia. Each page keeps a point only when a statute or a court site states it.</p>
+<p class="lede">A funded revocable living trust lets the successor trustee handle assets titled to the trustee. Open a state for the court, the fee rule, the small-estate figure, tax, and how spouses hold property.</p>
 </div></section>
 <div class="wrap" style="padding-top:clamp(36px,5vw,64px);padding-bottom:clamp(64px,8vw,100px)">
 <form class="calc" data-state="alabama" action="#calc-hub">
 <p class="eyebrow">Calculator</p>
 <h2 id="calc-hub">Probate cost</h2>
-<p>Pick a state and enter an amount. The result uses that state's statutory schedule when we verified one. It leaves out filing fees and anything the statute leaves to the judge.</p>
+<p class="answer">The result is that state's statutory schedule applied to the amount you enter.</p>
 <div class="field"><label for="calc-state">State</label>
 <select id="calc-state" name="state">{options}</select></div>
 <div class="field"><label for="estate-hub">Amount to test</label>
@@ -542,9 +675,12 @@ def hub(rows):
 <p style="margin:14px 0 0"><a id="calc-link" href="/states/alabama">Open the Alabama page</a></p>
 </form>
 <h2>The states</h2>
+<p class="answer">Fifty states and the District of Columbia. Each link opens that state's guide.</p>
 <ul class="state-dir">{''.join(links)}</ul>
 <h2>Questions</h2>
+<p class="answer">The answers below use the same statute and court pages as the state guides.</p>
 <div class="faq">{faq_html}</div>
+{AUTHOR_BIO}
 </div>
 </main>
 {foot}
@@ -689,7 +825,7 @@ def main():
         html_text, forms, gaps = page_for(row)
         if "\u2014" in html_text or "\u2013" in html_text:
             raise SystemExit("dash in " + slug)
-        if re.search(r"\bhonest\b", html_text, re.I) or "Jeff" in html_text:
+        if re.search(r"\bhonest\b", html_text, re.I) or "Jeff" in html_text or "Hanok" in html_text:
             raise SystemExit("banned word in " + slug)
         (OUT / f"{slug}.html").write_text(html_text)
         calc[slug] = {

@@ -356,6 +356,14 @@ table.compare { width: 100%; min-width: 640px; border-collapse: collapse; font-s
 .prose ul, .prose ol { padding-left: 1.2em; margin: 0 0 1.2em; }
 .prose li { margin-bottom: .5em; }
 .prose .callout { border-left: 3px solid var(--accent); padding: 4px 0 4px 20px; margin: 1.6em 0; font-family: var(--serif); font-size: 21px; line-height: 1.45; color: var(--ink); }
+.byline { margin: 0 0 6px; font-size: 15.5px; }
+.byline a { font-weight: 600; }
+.dateline { margin: 0 0 16px; color: var(--muted); font-size: 14.5px; }
+.dateline time { color: inherit; }
+.prose .answer { margin-top: 0; }
+.author-bio { margin: 2.2em 0 0; padding-top: 16px; border-top: 1px solid var(--rule); }
+.author-bio .k { font: 500 12px/1.2 var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); display: block; margin: 0 0 8px; }
+.author-bio p { margin: 0; max-width: 40em; }
 .aside-card { position: sticky; top: 24px; background: var(--sheet); border: 1px solid var(--rule); border-radius: var(--radius); padding: 22px; }
 .aside-card h2 { font-size: 22px; }
 .aside-card ul { list-style: none; padding: 0; margin: 0 0 20px; }
