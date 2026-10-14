@@ -1,7 +1,7 @@
 {
   "site": "https://taxfreetrusts.com",
-  "updated": "2026-10-13",
-  "disclaimer": "Education only. Not legal advice. Confirm IRS.gov.",
+  "updated": "2026-10-14",
+  "disclaimer": "Education and document drafts. Not legal or tax advice.",
   "federal_2026": {
     "estate_gift_exemption_individual_usd": 15000000,
     "estate_gift_exemption_married_usd": 30000000,
