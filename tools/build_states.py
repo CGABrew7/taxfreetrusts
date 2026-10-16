@@ -480,7 +480,7 @@ def chrome(current_learn=False):
 <div>{BRAND}<p style="margin-top:14px;max-width:24em">A draft desk for wills and living trusts. Five questions, posted prices, a packet you print, sign and fund.</p></div>
 <div><h2>Packets</h2><ul><li><a href="/pricing">Plans and prices</a></li><li><a href="/start">Start the planner</a></li></ul></div>
 <div><h2>Learn</h2><ul><li><a href="/learn-living-trust">Living trusts</a></li><li><a href="/learn-fund">Funding a trust</a></li><li><a href="/learn-taxes">Trusts and taxes</a></li><li><a href="/states/">Probate by state</a></li></ul></div>
-<div><h2>The desk</h2><ul><li><a href="/about">About</a></li><li><a href="/support">Support</a></li><li><a href="mailto:plan@taxfreetrusts.com">plan@taxfreetrusts.com</a></li><li><a href="/privacy">Privacy</a></li><li><a href="/terms">Terms</a></li></ul></div>
+<div><h2>The desk</h2><ul><li><a href="/about">About</a></li><li><a href="/support">Support</a></li><li><!--email_off--><a href="mailto:plan@taxfreetrusts.com">plan@taxfreetrusts.com</a><!--/email_off--></li><li><a href="/privacy">Privacy</a></li><li><a href="/terms">Terms</a></li></ul></div>
 </div><div class="foot-line"><span>Education and document drafts. Not legal or tax advice.</span><span>&copy; 2026 TaxFreeTrusts.com</span></div></div></footer>'''
     return nav, foot
 
