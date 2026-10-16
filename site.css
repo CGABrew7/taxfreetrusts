@@ -478,7 +478,8 @@ fieldset.field { border: 0; margin: 0; padding: 0; min-width: 0; }
   .price-area { --s: 118px; }
   .note-peel { font-size: 22px; top: 64px; }
 }
-.nav-mob ul { width: min(260px, calc(100vw - 48px)); }
+.nav-mob ul { width: min(260px, calc(100vw - 48px)); max-height: min(70vh, 420px); overflow: auto; z-index: 5; }
+body.home .site-head { position: sticky; top: 0; z-index: 40; background: var(--paper); }
 
 .note-plain{color:var(--muted);max-width:40em;}
 

@@ -1,0 +1,395 @@
+/* Homepage scroll: moss over the family stone, then the packet turns. */
+
+.stone-stage {
+  --p: 1;
+  --moss: #1b4a32;
+  --moss-2: #2f6d46;
+  --moss-3: #4e8d5c;
+  --granite: #6e7874;
+  --fog: #101412;
+  background: var(--fog);
+  color: #f3f6f4;
+  position: relative;
+  z-index: 1;
+  overflow-x: clip;
+}
+
+.js .stone-stage { --p: 0; height: 300vh; }
+@media (min-width: 980px) {
+  .js .stone-stage { height: 460vh; }
+}
+
+.stone-pin {
+  position: relative;
+  display: grid;
+  grid-template-rows: minmax(210px, 1.15fr) auto;
+  gap: 6px;
+  align-items: stretch;
+  padding: 10px var(--gutter) 18px;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.js .stone-pin {
+  position: sticky;
+  top: 72px;
+  height: calc(100vh - 72px);
+  height: calc(100svh - 72px);
+  overflow: hidden;
+}
+
+@media (min-width: 980px) {
+  .js .stone-pin,
+  .stone-pin {
+    grid-template-columns: minmax(300px, 440px) minmax(0, 1fr);
+    grid-template-rows: minmax(0, 1fr);
+    align-items: center;
+    gap: 12px 28px;
+    padding-top: 18px;
+    padding-bottom: 28px;
+  }
+  .stone-copy { grid-column: 1; grid-row: 1; }
+  .stone-scene { grid-column: 2; grid-row: 1; }
+}
+
+.stone-scene {
+  position: relative;
+  min-height: 460px;
+  height: 62vw;
+  max-height: 720px;
+  isolation: isolate;
+  overflow: hidden;
+}
+.js .stone-scene { min-height: 0; height: 100%; max-height: none; }
+
+.fog {
+  position: absolute;
+  inset: -8% -10%;
+  pointer-events: none;
+  z-index: 0;
+}
+.fog-a {
+  background:
+    radial-gradient(46% 38% at 68% 72%, rgba(120, 146, 136, .22), transparent 70%),
+    radial-gradient(40% 32% at 24% 30%, rgba(168, 186, 178, .1), transparent 72%);
+  transform: translate3d(calc(var(--p) * -18px), calc(var(--p) * 10px), 0);
+}
+.fog-b {
+  background: radial-gradient(50% 28% at 50% 100%, rgba(16, 28, 24, .9), transparent 72%);
+  transform: translate3d(calc(var(--p) * 12px), 0, 0);
+}
+
+.stone-svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  overflow: visible;
+}
+
+.moss {
+  --grow: clamp(0, (var(--p) - .04) / .7, 1);
+  -webkit-mask-image: linear-gradient(to bottom, transparent calc((1 - var(--grow)) * 100% - 8%), #000 calc((1 - var(--grow)) * 100% + 10%));
+  mask-image: linear-gradient(to bottom, transparent calc((1 - var(--grow)) * 100% - 8%), #000 calc((1 - var(--grow)) * 100% + 10%));
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+}
+.tuft, .carpet {
+  transform-box: fill-box;
+  transform-origin: center bottom;
+}
+.moss .tuft { opacity: 1; transform: none; }
+.tuft {
+  opacity: clamp(0, (var(--p) - var(--d, 0)) * 5.2, 1);
+  transform: scale(clamp(.08, (var(--p) - var(--d, 0)) * 4.4, 1));
+}
+.carpet {
+  transform-origin: center center;
+  opacity: clamp(0, var(--p) * 3.4, 1);
+  transform: scaleX(clamp(.15, var(--p) * 2.4, 1));
+}
+.tendril {
+  fill: none;
+  stroke: var(--moss-2);
+  stroke-width: 3.4;
+  stroke-linecap: round;
+  stroke-dasharray: 100;
+  stroke-dashoffset: calc(100 * (1 - clamp(0, (var(--p) - var(--d, 0)) * 3.1, 1)));
+}
+.lichen {
+  transform-origin: center center;
+}
+
+.stone-stage.is-live .tuft,
+.stone-stage.is-live .tendril,
+.stone-stage.is-live .trust-card,
+.stone-stage.is-live .carpet {
+  will-change: transform, opacity;
+}
+
+.scene-plate {
+  position: absolute;
+  z-index: 3;
+  left: 4%;
+  top: 5%;
+  width: min(148px, 38%);
+  margin: 0;
+  opacity: 1;
+  transform: none;
+  pointer-events: none;
+}
+.js .scene-plate {
+  opacity: clamp(0, 1 - max(0, var(--p) - .08) * 4.4, 1);
+  transform: rotate(-3.5deg);
+}
+.scene-plate img {
+  aspect-ratio: 4 / 5;
+  max-height: 180px;
+  box-shadow: 0 18px 30px -22px rgba(0, 0, 0, .8);
+}
+.scene-plate figcaption {
+  color: #c5d0ca;
+  font-size: 12px;
+  margin-top: 6px;
+}
+
+@media (min-width: 980px) {
+  .scene-plate { width: min(200px, 32%); left: 3%; top: 8%; }
+  .scene-plate img { max-height: 230px; }
+}
+
+.card-rig {
+  position: absolute;
+  z-index: 4;
+  left: 56%;
+  top: 44%;
+  width: min(262px, 70%);
+  transform: translate(-50%, -50%);
+  perspective: 1400px;
+  pointer-events: none;
+}
+.trust-card {
+  --t: clamp(0, (var(--p) - .64) / .36, 1);
+  position: relative;
+  transform-style: preserve-3d;
+  opacity: clamp(0, (var(--p) - .58) * 6.5, 1);
+  transform:
+    translate3d(calc(64px * (1 - var(--t))), calc(12px * (1 - var(--t))), 0)
+    rotateY(calc(72deg * (1 - var(--t))))
+    rotateZ(calc(-5deg * (1 - var(--t))));
+}
+.trust-edge {
+  position: absolute;
+  top: 3px;
+  bottom: 3px;
+  left: 0;
+  width: 16px;
+  transform-origin: left center;
+  transform: rotateY(90deg);
+  background: linear-gradient(180deg, #e4e8e4, #c5ccc8 46%, #eef1ee);
+}
+.trust-face {
+  position: relative;
+  background: #f6f7f4 var(--noise);
+  color: var(--ink);
+  border: 1px solid #d7ddd8;
+  border-radius: 2px;
+  padding: 0 18px 18px;
+  box-shadow: 0 28px 44px -24px rgba(0, 0, 0, .65);
+  transform: translateZ(8px);
+}
+.trust-face::before {
+  content: "";
+  position: absolute;
+  inset: 10px;
+  border: 1px solid var(--rule-2);
+  pointer-events: none;
+}
+.trust-face .plan-band { opacity: .4; margin: 14px 0 12px; }
+.trust-k {
+  margin: 0 0 6px;
+  font: 500 11px/1 var(--mono);
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.trust-name {
+  margin: 0;
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -.02em;
+}
+.trust-rule {
+  width: 28px;
+  height: 2px;
+  margin: 12px 0 10px;
+  background: var(--accent);
+}
+.trust-price {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 40px;
+  line-height: 1;
+  font-variant-numeric: lining-nums;
+  letter-spacing: -.03em;
+}
+.trust-once {
+  margin: 4px 0 10px;
+  color: var(--muted);
+  font-size: 13px;
+}
+.trust-sub {
+  margin: 0;
+  font-size: 13.5px;
+  line-height: 1.4;
+  color: var(--ink-2);
+  max-width: 18em;
+}
+.trust-mark { width: 26px; height: 26px; display: block; margin: 0 0 8px; color: var(--ink); }
+
+.scroll-hint {
+  position: absolute;
+  z-index: 4;
+  right: 4%;
+  bottom: 8%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  color: #c5d0ca;
+  font: 500 11px/1 var(--mono);
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  opacity: clamp(0, 1 - var(--p) * 6, 1);
+}
+.scroll-hint i {
+  display: block;
+  width: 1px;
+  height: 36px;
+  background: linear-gradient(#c5d0ca, transparent);
+}
+
+.stone-copy { position: relative; z-index: 5; min-width: 0; padding-bottom: 34px; }
+.stone-stage .eyebrow { color: #c9d4ce; margin-bottom: 10px; }
+.stone-stage .byline { color: #e7eeea; font-size: 14.5px; }
+.stone-stage .byline a { color: #f3f6f4; }
+.stone-stage .byline a:hover { color: #fff; }
+.stone-stage .dateline { color: #b7c2bb; font-size: 13.5px; margin-bottom: 12px; }
+.stone-stage h1 {
+  color: #f3f6f4;
+  font-size: clamp(38px, 8.4vw, 68px);
+  line-height: .96;
+  letter-spacing: -.03em;
+  margin: 0 0 .28em;
+  max-width: 11ch;
+}
+.stone-stage .lede {
+  color: #d5ded9;
+  font-size: 16.5px;
+  line-height: 1.45;
+  margin: 0 0 .9em;
+  max-width: 28em;
+}
+.stone-h {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: clamp(32px, 4.6vw, 54px);
+  line-height: 1.02;
+  letter-spacing: -.025em;
+  color: #f3f6f4;
+  margin: 0 0 .4em;
+  max-width: 14ch;
+}
+.beat p:last-child { margin-bottom: 0; }
+.beat-visual p { color: #d5ded9; font-size: 16.5px; line-height: 1.45; max-width: 34em; }
+.beat-visual { pointer-events: none; }
+
+.js .beat-lead {
+  --b: .18;
+  opacity: clamp(0, (var(--b) - var(--p)) / .08, 1);
+}
+.js .beat-visual {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  opacity: clamp(0, min((var(--p) - var(--a)) / .08, (var(--b) - var(--p)) / .08), 1);
+}
+.stone-stage.is-ready .beat-lead:not(.is-on) { pointer-events: none; }
+.stone-stage .btn-ink { background: #fff; color: var(--ink); }
+.stone-stage .btn-ink:hover { background: #e7eeea; color: var(--ink); }
+
+.stone-meter {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.stone-meter li {
+  width: 18px;
+  height: 2px;
+  background: rgba(243, 246, 244, .28);
+}
+.stone-stage[data-beat="0"] .stone-meter li:nth-child(-n+1),
+.stone-stage[data-beat="1"] .stone-meter li:nth-child(-n+2),
+.stone-stage[data-beat="2"] .stone-meter li:nth-child(-n+3),
+.stone-stage[data-beat="3"] .stone-meter li:nth-child(-n+4),
+.stone-stage[data-beat="4"] .stone-meter li:nth-child(-n+5),
+.stone-stage[data-beat="5"] .stone-meter li:nth-child(-n+6) {
+  background: #f3f6f4;
+}
+.stone-stage[data-beat="0"] .stone-meter li:nth-child(1),
+.stone-stage[data-beat="1"] .stone-meter li:nth-child(2),
+.stone-stage[data-beat="2"] .stone-meter li:nth-child(3),
+.stone-stage[data-beat="3"] .stone-meter li:nth-child(4),
+.stone-stage[data-beat="4"] .stone-meter li:nth-child(5),
+.stone-stage[data-beat="5"] .stone-meter li:nth-child(6) {
+  width: 32px;
+}
+
+.chooser { padding: clamp(56px, 8vw, 96px) 0 clamp(28px, 5vw, 48px); }
+
+@media (max-width: 699px) {
+  .stone-stage h1 { font-size: clamp(36px, 10vw, 46px); }
+  .stone-h { font-size: clamp(30px, 8vw, 40px); }
+  .card-rig { left: 64%; top: 48%; width: min(188px, 54%); }
+  .trust-face { padding: 0 12px 12px; }
+  .trust-name { font-size: 24px; }
+  .trust-price { font-size: 30px; }
+  .trust-sub { font-size: 12px; line-height: 1.35; }
+  .trust-mark { width: 22px; height: 22px; margin-bottom: 4px; }
+  .scroll-hint { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .js .stone-stage { --p: 1; height: auto; }
+  .js .stone-pin {
+    position: relative;
+    top: auto;
+    height: auto;
+    overflow: visible;
+  }
+  .js .beat-lead { opacity: 1; }
+  .js .beat-visual { display: none; }
+  .js .stone-scene { min-height: 480px; height: min(68vw, 640px); max-height: 640px; }
+  .js .scene-plate { opacity: 1; transform: none; }
+  .scroll-hint { display: none; }
+  .tuft, .carpet, .tendril, .trust-card, .fog-a, .fog-b { transition: none; }
+}
+
+@media (max-width: 389px) {
+  .stone-stage .btn { min-height: 46px; padding: 11px 16px; }
+  .trust-name { font-size: 28px; }
+  .trust-price { font-size: 34px; }
+  .scene-plate { width: min(120px, 36%); }
+}

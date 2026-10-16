@@ -25,10 +25,12 @@
 <link rel="icon" href="/favicon-16x16.png" type="image/png" sizes="16x16">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
+<script>document.documentElement.classList.add("js")</script>
 <link rel="stylesheet" href="fonts.css">
 <link rel="stylesheet" href="site.css">
+<link rel="stylesheet" href="stone.css">
 </head>
-<body>
+<body class="home">
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-head">
 <div class="wrap">
@@ -38,45 +40,153 @@
 </div>
 </header>
 <main id="main">
-<section class="hero">
-<div class="wrap">
-<div class="hero-top">
-<div>
+<section class="stone-stage" data-beat="0" aria-labelledby="which">
+<div class="stone-pin">
+<div class="stone-scene">
+<div class="fog fog-a" aria-hidden="true"></div>
+<div class="fog fog-b" aria-hidden="true"></div>
+<svg class="stone-svg" viewBox="0 0 760 900" width="760" height="900" preserveAspectRatio="xMidYMax meet" aria-hidden="true" focusable="false">
+<defs>
+<linearGradient id="graniteGrad" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#b7c0bb"/>
+<stop offset=".28" stop-color="#8b9691"/>
+<stop offset=".62" stop-color="#5c6662"/>
+<stop offset="1" stop-color="#343c39"/>
+</linearGradient>
+<linearGradient id="faceGrad" x1="0" y1="0" x2=".2" y2="1">
+<stop offset="0" stop-color="#d5dbd7"/>
+<stop offset=".45" stop-color="#9aa39e"/>
+<stop offset="1" stop-color="#6a736f"/>
+</linearGradient>
+<linearGradient id="mossGrad" x1="0" y1="1" x2="0" y2="0">
+<stop offset="0" stop-color="#0c2e20"/>
+<stop offset=".4" stop-color="#164832"/>
+<stop offset=".72" stop-color="#1f6a40"/>
+<stop offset="1" stop-color="#3d8a54"/>
+</linearGradient>
+<clipPath id="slabClip"><path d="M390 150 C430 148 455 170 478 200 C510 240 540 250 555 300 C575 360 568 400 572 460 C578 530 560 590 540 640 C522 690 500 730 460 760 C420 792 370 808 330 800 C280 790 240 760 220 720 C196 670 180 630 176 580 C170 510 168 450 186 390 C200 340 190 290 220 250 C248 210 270 180 310 162 C340 150 360 148 390 150Z"/></clipPath>
+</defs>
+<ellipse cx="250" cy="800" rx="92" ry="28" fill="#3a4440"/>
+<ellipse cx="560" cy="812" rx="74" ry="22" fill="#313a36"/>
+<path d="M150 760 C190 700 250 720 248 790 C246 840 120 860 86 810 C64 776 110 790 150 760Z" fill="#4e5854"/>
+<path d="M168 748 C200 710 236 728 230 770 C224 808 150 820 128 786 C114 762 146 768 168 748Z" fill="#7c8682"/>
+<path d="M560 770 C610 730 670 755 662 805 C654 848 560 858 522 820 C498 794 520 792 560 770Z" fill="#454e4b"/>
+<path d="M588 778 C624 754 656 770 648 804 C640 834 586 842 562 816 C546 798 566 792 588 778Z" fill="#8a938f"/>
+<ellipse class="carpet" cx="380" cy="828" rx="250" ry="28" fill="#10281e" style="--d:0"/>
+<ellipse class="carpet" cx="300" cy="836" rx="140" ry="16" fill="#1a4632" style="--d:0"/>
+<g clip-path="url(#slabClip)">
+<path d="M390 150 C430 148 455 170 478 200 C510 240 540 250 555 300 C575 360 568 400 572 460 C578 530 560 590 540 640 C522 690 500 730 460 760 C420 792 370 808 330 800 C280 790 240 760 220 720 C196 670 180 630 176 580 C170 510 168 450 186 390 C200 340 190 290 220 250 C248 210 270 180 310 162 C340 150 360 148 390 150Z" fill="url(#graniteGrad)"/>
+<path d="M400 210 C470 230 510 310 516 410 C522 520 490 630 430 700 C390 746 320 760 276 710 C230 656 228 520 248 400 C264 310 320 230 400 210Z" fill="url(#faceGrad)" opacity=".9"/>
+<path d="M470 190 C560 280 590 520 520 780 L430 800 C520 680 540 420 470 250Z" fill="#1a201e" opacity=".28"/>
+<g fill="#1c2220" opacity=".35">
+<ellipse cx="340" cy="300" rx="3" ry="2"/><ellipse cx="410" cy="360" rx="2" ry="3"/>
+<ellipse cx="360" cy="450" rx="2.5" ry="1.6"/><ellipse cx="450" cy="500" rx="3" ry="2"/>
+<ellipse cx="300" cy="520" rx="2" ry="2"/><ellipse cx="400" cy="580" rx="2.4" ry="1.5"/>
+<ellipse cx="470" cy="420" rx="1.6" ry="2.2"/><ellipse cx="330" cy="640" rx="2.2" ry="1.4"/>
+</g>
+<g fill="#f4f7f5" opacity=".18">
+<ellipse cx="310" cy="280" rx="2" ry="1.2"/><ellipse cx="380" cy="330" rx="1.4" ry="2"/>
+<ellipse cx="430" cy="470" rx="1.8" ry="1.1"/><ellipse cx="290" cy="460" rx="1.2" ry="1.6"/>
+</g>
+<path d="M330 280 C350 360 318 460 372 560 C402 620 358 700 400 760" fill="none" stroke="#232a28" stroke-width="1.6" opacity=".45"/>
+<path d="M300 430 C360 418 430 442 500 424" fill="none" stroke="#2a312e" stroke-width="1.4" opacity=".4"/>
+<g class="moss">
+<path d="M390 150 C430 148 455 170 478 200 C510 240 540 250 555 300 C575 360 568 400 572 460 C578 530 560 590 540 640 C522 690 500 730 460 760 C420 792 370 808 330 800 C280 790 240 760 220 720 C196 670 180 630 176 580 C170 510 168 450 186 390 C200 340 190 290 220 250 C248 210 270 180 310 162 C340 150 360 148 390 150Z" fill="url(#mossGrad)" opacity=".9"/>
+<g class="tuft" style="--d:0.02"><path d="M 370.9 748.0 C 369.3 754.5 352.1 761.2 340.3 765.5 C 328.4 769.9 315.4 773.4 300.0 774.2 C 284.6 775.1 259.6 775.0 248.0 770.7 C 236.5 766.3 228.8 754.7 230.9 748.0 C 232.9 741.3 248.8 735.6 260.3 730.7 C 271.8 725.8 285.1 719.1 300.0 718.4 C 314.9 717.7 337.8 721.4 349.6 726.4 C 361.4 731.3 372.5 741.5 370.9 748.0Z" fill="#143528"/><path d="M 345.0 739.5 C 345.0 742.5 331.6 747.0 323.2 748.6 C 314.7 750.3 302.2 751.0 294.2 749.5 C 286.2 748.0 275.4 742.8 275.4 739.5 C 275.4 736.2 286.4 731.0 294.3 729.6 C 302.2 728.1 314.4 728.9 322.8 730.6 C 331.3 732.3 344.9 736.5 345.0 739.5Z" fill="#e7f2df" fill-opacity=".16"/></g><g class="tuft" style="--d:0.05"><path d="M 485.2 760.0 C 486.6 766.0 485.4 774.2 474.6 779.4 C 463.7 784.6 437.3 791.3 420.0 791.0 C 402.7 790.7 382.2 782.7 370.7 777.5 C 359.1 772.4 352.3 766.4 350.8 760.0 C 349.2 753.6 350.1 743.7 361.6 739.2 C 373.2 734.8 402.6 732.6 420.0 733.3 C 437.4 734.0 455.3 739.1 466.1 743.6 C 477.0 748.0 483.8 754.0 485.2 760.0Z" fill="#10281e"/><path d="M 462.3 752.0 C 461.8 755.7 458.2 760.6 449.9 762.3 C 441.5 764.0 420.6 763.8 412.1 762.1 C 403.5 760.4 398.1 755.2 398.5 752.0 C 398.9 748.8 405.3 745.1 414.3 743.1 C 423.3 741.2 444.5 738.8 452.5 740.3 C 460.5 741.8 462.7 748.3 462.3 752.0Z" fill="#e7f2df" fill-opacity=".16"/></g><g class="tuft" style="--d:0.08"><path d="M 287.2 710.0 C 286.7 715.5 281.0 721.1 274.8 725.5 C 268.6 729.9 259.5 735.7 250.0 736.4 C 240.5 737.2 223.6 734.7 217.6 730.2 C 211.6 725.8 213.1 716.2 214.0 710.0 C 214.9 703.8 217.0 697.7 223.0 693.1 C 229.0 688.5 240.9 682.4 250.0 682.3 C 259.1 682.3 271.5 688.1 277.7 692.7 C 283.9 697.3 287.7 704.5 287.2 710.0Z" fill="#1c4d34"/><path d="M 274.5 702.5 C 274.4 705.3 269.2 709.0 264.3 710.6 C 259.5 712.2 250.1 713.7 245.4 712.3 C 240.7 711.0 235.8 705.5 236.1 702.5 C 236.4 699.5 242.5 695.9 247.3 694.5 C 252.1 693.0 260.3 692.6 264.8 693.9 C 269.4 695.3 274.5 699.7 274.5 702.5Z" fill="#e7f2df" fill-opacity=".16"/></g><g class="tuft" style="--d:0.10"><path d="M 409.3 730.0 C 410.9 735.5 411.1 744.6 402.9 748.8 C 394.7 752.9 372.6 755.8 360.0 755.0 C 347.4 754.3 336.6 748.4 327.4 744.3 C 318.2 740.1 306.1 735.3 304.8 730.0 C 303.5 724.7 310.3 715.9 319.5 712.3 C 328.7 708.7 347.7 707.9 360.0 708.5 C 372.3 709.0 385.0 711.9 393.2 715.5 C 401.4 719.1 407.7 724.5 409.3 730.0Z" fill="#245c3c"/><path d="M 392.3 723.0 C 392.0 726.3 387.7 730.8 381.5 732.2 C 375.4 733.6 361.3 732.8 355.3 731.2 C 349.3 729.7 345.7 725.9 345.6 723.0 C 345.4 720.1 347.8 715.8 354.2 714.0 C 360.5 712.3 377.2 711.0 383.6 712.4 C 390.0 713.9 392.7 719.7 392.3 723.0Z" fill="#e7f2df" fill-opacity=".16"/></g><g class="tuft" style="--d:0.13"><path d="M 522.6 720.0 C 522.2 726.2 510.0 734.4 501.3 738.0 C 492.5 741.6 480.2 741.7 470.0 741.6 C 459.8 741.5 448.5 740.8 440.1 737.2 C 431.8 733.6 420.1 725.8 420.0 720.0 C 419.9 714.2 431.4 706.2 439.7 702.5 C 448.0 698.8 459.4 698.2 470.0 697.9 C 480.6 697.6 494.7 697.0 503.5 700.7 C 512.2 704.4 522.9 713.8 522.6 720.0Z" fill="#163f2c"/><path d="M 500.0 712.5 C 500.2 715.5 492.9 721.0 487.5 722.3 C 482.0 723.6 472.7 722.0 467.3 720.4 C 461.8 718.7 455.2 715.4 454.8 712.5 C 454.5 709.6 459.9 704.1 465.1 702.7 C 470.3 701.3 480.1 702.5 485.9 704.1 C 491.7 705.7 499.7 709.5 500.0 712.5Z" fill="#e7f2df" fill-opacity=".16"/></g><g class="tuft" style="--d:0.18"><path d="M 240.0 650.0 C 240.8 655.4 239.8 664.5 234.8 667.9 C 229.8 671.4 217.3 671.6 210.0 670.9 C 202.7 670.2 196.4 667.2 191.0 663.7 C 185.5 660.3 177.8 654.9 177.3 650.0 C 176.9 645.1 182.9 637.5 188.3 634.3 C 193.8 631.2 203.0 630.7 210.0 630.9 C 217.0 631.1 225.1 632.3 230.1 635.5 C 235.1 638.7 239.2 644.6 240.0 650.0Z" fill="#1a4a32"/><path d="M 229.2 643.5 C 229.1 646.4 225.5 650.6 221.9 651.8 C 218.3 653.0 211.1 652.1 207.7 650.7 C 204.3 649.3 201.8 646.2 201.5 643.5 C 201.2 640.8 202.3 635.8 205.9 634.3 C 209.4 632.7 218.9 632.7 222.8 634.3 C 226.7 635.8 229.4 640.6 229.2 643.5Z" fill="#e7f2df" fill-opacity=".16"/></g><g class="tuft" style="--d:0.24"><path d="M 258.5 590.0 C 257.5 595.0 250.4 599.3 245.7 602.5 C 240.9 605.8 235.8 608.9 230.0 609.4 C 224.2 609.9 214.8 608.6 210.7 605.4 C 206.7 602.2 205.2 594.6 205.9 590.0 C 206.6 585.4 210.7 581.3 214.7 577.8 C 218.7 574.3 223.8 569.7 230.0 568.9 C 236.2 568.0 247.2 568.9 251.9 572.4 C 256.7 576.0 259.6 585.0 258.5 590.0Z" fill="#31724a"/><path d="M 245.7 584.0 C 245.7 586.1 241.8 589.2 238.9 590.4 C 235.9 591.5 231.1 592.1 227.8 591.1 C 224.4 590.0 218.7 586.5 218.7 584.0 C 218.6 581.5 223.9 577.4 227.3 576.3 C 230.6 575.3 235.7 576.4 238.8 577.7 C 241.9 579.0 245.7 581.9 245.7 584.0Z" fill="#e7f2df" fill-opacity=".16"/></g><g class="tuft" style="--d:0.20"><path d="M 544.7 640.0 C 544.9 645.3 544.0 652.2 539.9 656.4 C 535.8 660.6 526.5 665.3 520.0 665.2 C 513.5 665.0 505.1 659.8 501.0 655.6 C 496.9 651.4 495.9 645.6 495.4 640.0 C 494.9 634.4 493.9 626.7 498.0 621.9 C 502.1 617.1 513.2 610.9 520.0 611.4 C 526.8 611.8 534.6 619.8 538.7 624.6 C 542.8 629.4 544.5 634.7 544.7 640.0Z" fill="#1d5236"/><path d="M 535.9 633.0 C 535.9 635.8 534.3 639.8 530.9 641.6 C 527.6 643.3 519.0 645.0 515.6 643.6 C 512.1 642.2 509.8 636.0 510.3 633.0 C 510.7 630.0 514.8 627.0 518.2 625.6 C 521.6 624.2 527.9 623.4 530.8 624.6 C 533.8 625.8 535.9 630.2 535.9 633.0Z" fill="#e7f2df" fill-opacity=".16"/></g><g class="tuft" style="--d:0.28"><path d="M 524.6 570.0 C 524.9 574.3 521.3 580.7 517.2 583.5 C 513.1 586.2 505.4 586.8 500.0 586.5 C 494.6 586.2 489.6 584.6 484.9 581.8 C 480.3 579.1 472.5 574.4 471.9 570.0 C 471.3 565.6 476.6 557.9 481.3 555.3 C 485.9 552.6 494.3 553.6 500.0 554.0 C 505.7 554.4 511.5 555.1 515.6 557.8 C 519.7 560.4 524.3 565.7 524.6 570.0Z" fill="#3c7c52"/><path d="M 516.0 564.5 C 516.2 567.0 513.1 571.5 510.1 572.6 C 507.2 573.6 501.0 571.9 498.2 570.6 C 495.4 569.3 493.4 566.7 493.3 564.5 C 493.2 562.3 494.9 558.8 497.6 557.6 C 500.2 556.4 506.1 556.4 509.2 557.5 C 512.3 558.7 515.9 562.0 516.0 564.5Z" fill="#e7f2df" fill-opacity=".16"/></g><g class="tuft" style="--d:0.32"><path d="M 303.7 540.0 C 303.6 543.6 301.0 547.6 297.1 550.7 C 293.1 553.8 286.3 558.1 280.0 558.5 C 273.7 558.9 263.1 556.0 259.3 553.0 C 255.4 549.9 256.6 544.2 256.9 540.0 C 257.1 535.8 257.0 531.1 260.9 528.1 C 264.8 525.0 273.9 521.7 280.0 521.8 C 286.1 522.0 293.8 525.9 297.7 528.9 C 301.7 532.0 303.8 536.4 303.7 540.0Z" fill="#246444"/><path d="M 295.5 535.0 C 295.4 537.0 293.0 539.6 289.9 540.7 C 286.8 541.8 280.0 542.5 276.9 541.6 C 273.8 540.6 271.0 537.0 271.2 535.0 C 271.5 533.0 275.1 530.8 278.3 529.8 C 281.5 528.7 287.5 528.0 290.3 528.8 C 293.2 529.7 295.6 533.0 295.5 535.0Z" fill="#e7f2df" fill-opacity=".16"/></g><g class="tuft" style="--d:0.36"><path d="M 477.1 520.0 C 478.0 524.3 478.2 531.1 473.6 534.4 C 469.1 537.8 457.0 540.8 450.0 540.3 C 443.0 539.7 436.6 534.6 431.6 531.3 C 426.5 527.9 420.5 524.2 419.7 520.0 C 419.0 515.8 421.9 508.8 426.9 505.9 C 432.0 503.0 443.1 502.3 450.0 502.7 C 456.9 503.2 463.9 505.9 468.4 508.7 C 473.0 511.6 476.3 515.7 477.1 520.0Z" fill="#184832"/><path d="M 467.8 514.5 C 467.6 517.1 465.6 520.6 462.1 521.7 C 458.7 522.8 450.6 522.3 447.2 521.1 C 443.8 519.9 441.9 516.7 441.8 514.5 C 441.8 512.3 443.4 509.1 447.0 507.7 C 450.6 506.3 459.8 505.0 463.3 506.2 C 466.8 507.3 468.0 511.9 467.8 514.5Z" fill="#e7f2df" fill-opacity=".16"/></g><g class="tuft" style="--d:0.40"><path d="M 225.4 480.0 C 224.9 484.3 219.6 489.4 215.4 491.9 C 211.2 494.3 205.3 494.5 200.0 494.6 C 194.7 494.7 187.4 495.1 183.6 492.6 C 179.8 490.2 177.0 483.9 177.4 480.0 C 177.9 476.1 182.5 472.0 186.3 469.5 C 190.1 466.9 194.6 465.3 200.0 464.7 C 205.4 464.1 214.2 463.3 218.5 465.8 C 222.7 468.3 225.9 475.7 225.4 480.0Z" fill="#2f6e48"/><path d="M 214.2 475.0 C 214.2 476.9 210.6 479.8 208.0 480.7 C 205.4 481.6 201.4 481.2 198.6 480.3 C 195.8 479.4 191.6 477.1 191.3 475.0 C 191.0 472.9 194.1 468.6 196.8 467.7 C 199.6 466.8 205.0 468.3 207.9 469.5 C 210.7 470.7 214.2 473.1 214.2 475.0Z" fill="#e7f2df" fill-opacity=".16"/></g><g class="tuft" style="--d:0.42"><path d="M 549.7 470.0 C 549.5 474.2 547.7 478.9 544.4 482.2 C 541.1 485.5 534.9 489.9 530.0 490.0 C 525.1 490.1 518.0 486.1 514.9 482.8 C 511.8 479.4 511.3 474.3 511.2 470.0 C 511.2 465.7 511.3 460.6 514.4 456.8 C 517.6 453.0 524.8 447.1 530.0 447.1 C 535.2 447.1 542.1 453.1 545.4 457.0 C 548.7 460.8 549.9 465.8 549.7 470.0Z" fill="#1b4e34"/><path d="M 542.4 464.5 C 542.3 466.6 540.6 469.4 538.0 470.8 C 535.4 472.1 529.4 473.7 526.7 472.7 C 524.0 471.7 521.4 466.8 521.7 464.5 C 522.0 462.2 525.9 459.8 528.6 458.7 C 531.4 457.7 535.8 457.2 538.1 458.1 C 540.4 459.1 542.4 462.4 542.4 464.5Z" fill="#e7f2df" fill-opacity=".16"/></g><g class="tuft" style="--d:0.38"><path d="M 357.8 480.0 C 358.3 483.0 358.1 487.8 355.2 490.1 C 352.2 492.4 344.6 493.9 340.0 493.6 C 335.4 493.3 330.6 490.6 327.5 488.3 C 324.4 486.1 322.0 483.3 321.2 480.0 C 320.3 476.7 319.5 470.8 322.6 468.4 C 325.8 466.0 335.1 464.9 340.0 465.4 C 344.9 466.0 349.3 469.4 352.2 471.8 C 355.2 474.3 357.3 477.0 357.8 480.0Z" fill="#4a8a58"/><path d="M 351.4 476.0 C 351.5 477.8 350.9 480.7 348.5 481.7 C 346.1 482.6 339.6 482.7 337.2 481.7 C 334.9 480.8 334.1 477.7 334.3 476.0 C 334.5 474.3 336.2 472.4 338.5 471.5 C 340.7 470.7 345.8 470.2 347.9 470.9 C 350.1 471.7 351.3 474.2 351.4 476.0Z" fill="#e7f2df" fill-opacity=".16"/></g><g class="tuft" style="--d:0.48"><path d="M 267.0 400.0 C 266.8 403.5 261.7 408.1 257.2 410.3 C 252.7 412.5 246.0 412.8 240.0 413.0 C 234.0 413.1 226.6 413.3 221.4 411.2 C 216.2 409.0 208.6 403.6 208.9 400.0 C 209.1 396.4 217.6 391.9 222.8 389.7 C 228.0 387.5 234.2 386.9 240.0 386.8 C 245.8 386.8 253.4 387.1 257.9 389.3 C 262.4 391.5 267.1 396.5 267.0 400.0Z" fill="#21583a"/><path d="M 258.5 395.5 C 258.6 397.3 253.3 400.5 250.0 401.3 C 246.6 402.1 241.4 401.2 238.4 400.2 C 235.4 399.2 232.2 397.3 232.0 395.5 C 231.8 393.7 234.3 390.5 237.2 389.6 C 240.1 388.8 245.8 389.3 249.4 390.3 C 252.9 391.2 258.4 393.7 258.5 395.5Z" fill="#e7f2df" fill-opacity=".16"/></g><g class="tuft" style="--d:0.52"><path d="M 516.9 380.0 C 516.3 383.8 511.0 387.6 506.5 390.3 C 502.0 393.0 496.7 395.5 490.0 396.2 C 483.3 396.9 471.2 397.4 466.5 394.7 C 461.8 392.0 460.7 384.1 461.9 380.0 C 463.1 375.9 469.0 372.5 473.7 369.8 C 478.4 367.1 483.9 364.1 490.0 363.7 C 496.1 363.3 505.6 364.7 510.1 367.5 C 514.5 370.2 517.5 376.2 516.9 380.0Z" fill="#2c6a46"/><path d="M 508.5 375.0 C 508.5 376.8 502.9 379.4 499.5 380.3 C 496.0 381.3 491.1 381.5 487.9 380.6 C 484.7 379.8 480.3 377.0 480.2 375.0 C 480.2 373.0 484.2 369.7 487.4 368.9 C 490.5 368.0 495.9 368.7 499.4 369.8 C 502.9 370.8 508.5 373.2 508.5 375.0Z" fill="#e7f2df" fill-opacity=".16"/></g><g class="tuft" style="--d:0.56"><path d="M 234.5 340.0 C 234.6 343.0 234.3 346.7 231.9 349.5 C 229.5 352.3 224.0 356.7 220.0 356.7 C 216.0 356.7 210.4 352.4 208.0 349.6 C 205.6 346.8 205.5 343.2 205.5 340.0 C 205.6 336.8 205.9 333.0 208.3 330.7 C 210.7 328.3 216.2 325.7 220.0 325.8 C 223.8 325.9 228.5 328.9 230.9 331.3 C 233.3 333.6 234.3 337.0 234.5 340.0Z" fill="#3e7e50"/><path d="M 229.3 336.0 C 229.2 337.7 228.1 339.7 226.2 340.6 C 224.3 341.5 220.1 342.0 218.1 341.2 C 216.1 340.4 214.3 337.6 214.4 336.0 C 214.6 334.4 216.8 332.7 218.9 331.8 C 221.0 330.9 225.1 329.9 226.9 330.6 C 228.6 331.3 229.5 334.3 229.3 336.0Z" fill="#e7f2df" fill-opacity=".16"/></g><g class="tuft" style="--d:0.58"><path d="M 528.7 320.0 C 528.3 323.0 524.3 326.0 521.2 328.1 C 518.1 330.3 514.4 332.5 510.0 333.0 C 505.6 333.4 498.0 333.1 495.0 330.9 C 492.0 328.8 491.2 323.2 491.8 320.0 C 492.4 316.8 495.5 314.1 498.6 311.7 C 501.6 309.3 505.8 305.8 510.0 305.5 C 514.2 305.3 520.4 307.8 523.5 310.2 C 526.6 312.6 529.1 317.0 528.7 320.0Z" fill="#184430"/><path d="M 522.2 316.0 C 522.2 317.4 518.8 319.4 516.4 320.2 C 514.1 321.0 510.3 321.7 508.1 321.0 C 505.9 320.3 503.1 317.6 503.2 316.0 C 503.3 314.4 506.3 312.2 508.6 311.5 C 510.8 310.8 514.2 311.0 516.5 311.7 C 518.8 312.5 522.2 314.6 522.2 316.0Z" fill="#e7f2df" fill-opacity=".16"/></g><g class="tuft" style="--d:0.62"><path d="M 380.2 250.0 C 380.4 252.9 379.4 256.6 376.0 259.2 C 372.7 261.8 365.4 265.5 360.0 265.5 C 354.6 265.5 347.0 262.0 343.5 259.4 C 340.1 256.8 339.7 253.3 339.5 250.0 C 339.2 246.7 338.7 242.1 342.2 239.8 C 345.6 237.5 354.6 235.8 360.0 236.1 C 365.4 236.4 371.3 239.3 374.7 241.6 C 378.1 243.9 379.9 247.1 380.2 250.0Z" fill="#1e5638"/><path d="M 373.0 246.0 C 372.9 247.7 371.7 250.1 369.1 250.9 C 366.5 251.8 360.1 252.0 357.4 251.2 C 354.7 250.4 352.8 247.6 352.9 246.0 C 353.1 244.4 355.7 242.7 358.5 241.7 C 361.2 240.8 367.3 239.8 369.7 240.5 C 372.2 241.2 373.2 244.3 373.0 246.0Z" fill="#e7f2df" fill-opacity=".16"/></g><g class="tuft" style="--d:0.66"><path d="M 449.4 210.0 C 449.7 213.0 448.2 217.8 445.0 219.5 C 441.7 221.3 434.5 220.8 430.0 220.6 C 425.5 220.3 421.1 219.6 417.7 217.8 C 414.4 216.1 410.0 212.7 409.9 210.0 C 409.8 207.3 413.9 203.6 417.3 201.9 C 420.6 200.2 425.7 200.0 430.0 199.9 C 434.3 199.9 440.0 199.9 443.2 201.6 C 446.4 203.3 449.1 207.0 449.4 210.0Z" fill="#2d6c44"/><path d="M 442.0 206.5 C 442.0 208.0 439.4 210.2 437.1 210.8 C 434.9 211.5 430.9 211.0 428.7 210.3 C 426.6 209.5 424.6 208.0 424.4 206.5 C 424.1 205.0 425.0 202.1 427.2 201.3 C 429.4 200.5 435.0 201.0 437.5 201.9 C 439.9 202.7 442.1 205.0 442.0 206.5Z" fill="#e7f2df" fill-opacity=".16"/></g><g class="tuft" style="--d:0.70"><path d="M 344.4 190.0 C 343.9 192.4 340.6 194.4 338.1 196.1 C 335.7 197.8 333.0 200.0 330.0 200.2 C 327.0 200.5 322.0 199.3 319.9 197.6 C 317.8 195.9 317.3 192.3 317.6 190.0 C 317.9 187.7 319.7 185.7 321.7 183.8 C 323.8 181.9 326.7 179.0 330.0 178.6 C 333.3 178.2 338.9 179.6 341.3 181.5 C 343.7 183.4 345.0 187.6 344.4 190.0Z" fill="#6aa068"/><path d="M 338.1 187.0 C 338.1 188.1 336.3 189.5 334.7 190.1 C 333.1 190.8 330.3 191.3 328.6 190.8 C 326.8 190.3 323.9 188.2 323.9 187.0 C 324.0 185.8 327.0 184.0 328.8 183.5 C 330.6 182.9 333.2 183.2 334.7 183.8 C 336.3 184.4 338.2 185.9 338.1 187.0Z" fill="#e7f2df" fill-opacity=".16"/></g><g class="tuft" style="--d:0.64"><path d="M 473.7 270.0 C 474.1 272.3 473.7 276.0 471.5 277.6 C 469.2 279.3 463.5 280.3 460.0 280.1 C 456.5 279.8 453.2 277.9 450.7 276.2 C 448.3 274.5 446.0 272.5 445.4 270.0 C 444.7 267.5 444.4 263.0 446.8 261.2 C 449.2 259.5 456.3 259.0 460.0 259.5 C 463.7 259.9 466.9 262.1 469.2 263.9 C 471.4 265.6 473.3 267.7 473.7 270.0Z" fill="#3f8154"/><path d="M 468.7 267.0 C 468.8 268.4 468.3 270.7 466.5 271.4 C 464.7 272.1 459.8 271.9 458.1 271.2 C 456.3 270.4 455.7 268.3 455.9 267.0 C 456.0 265.7 457.1 264.2 458.8 263.6 C 460.5 263.0 464.3 262.6 466.0 263.1 C 467.6 263.7 468.6 265.6 468.7 267.0Z" fill="#e7f2df" fill-opacity=".16"/></g><g class="tuft" style="--d:0.06"><path d="M250 690 C310 650 390 670 460 650 C520 634 545 690 500 735 C430 778 300 786 246 748 C210 722 214 712 250 690Z" fill="#143d2a"/></g><g class="tuft" style="--d:0.22"><path d="M214 600 C270 560 360 575 430 548 C500 524 540 570 510 620 C450 666 280 650 220 612 C190 590 190 620 214 600Z" fill="#1a4a34"/></g><g class="tuft" style="--d:0.44"><path d="M230 430 C290 390 380 410 450 385 C510 366 530 420 490 470 C430 516 280 500 236 456 C208 428 200 448 230 430Z" fill="#163f2e"/></g><g class="tuft" style="--d:0.60"><path d="M300 250 C350 210 430 220 470 250 C500 276 470 330 410 340 C340 352 270 310 286 262 C292 246 280 260 300 250Z" fill="#1e5638"/></g><g class="tuft lichen" style="--d:0.72"><circle cx="400" cy="230" r="8" fill="none" stroke="#d5e2b4" stroke-width="1.3"/><circle cx="400" cy="230" r="2.2" fill="#e4efc8"/></g><g class="tuft lichen" style="--d:0.66"><circle cx="350" cy="300" r="8" fill="none" stroke="#d5e2b4" stroke-width="1.3"/><circle cx="350" cy="300" r="2.2" fill="#e4efc8"/></g><g class="tuft lichen" style="--d:0.74"><circle cx="470" cy="360" r="8" fill="none" stroke="#d5e2b4" stroke-width="1.3"/><circle cx="470" cy="360" r="2.2" fill="#e4efc8"/></g><g class="tuft lichen" style="--d:0.58"><circle cx="260" cy="460" r="8" fill="none" stroke="#d5e2b4" stroke-width="1.3"/><circle cx="260" cy="460" r="2.2" fill="#e4efc8"/></g>
+<path class="tendril" style="--d:0.12" d="M 250 760 C 230 680 210 600 236 520" pathLength="100" stroke="#1f5a3a"/>
+<path class="tendril" style="--d:0.18" d="M 470 750 C 520 670 540 580 500 490" pathLength="100" stroke="#245c3c"/>
+<path class="tendril" style="--d:0.26" d="M 350 760 C 330 650 310 540 348 430" pathLength="100" stroke="#1a4a32"/>
+<path class="tendril" style="--d:0.34" d="M 430 720 C 470 620 450 500 400 390" pathLength="100" stroke="#2f6d46"/>
+<path class="tendril" style="--d:0.48" d="M 280 520 C 260 430 310 340 370 270" pathLength="100" stroke="#3c7c52"/>
+</g>
+</g>
+<path d="M250 250 C300 210 360 230 390 200" fill="none" stroke="#f7f8f6" stroke-width="10" stroke-linecap="round" opacity=".08"/>
+</svg>
+<figure class="plate scene-plate">
+<img src="img/porch-960.webp" srcset="img/porch-640.webp 640w, img/porch-960.webp 960w, img/porch-1440.webp 1440w" sizes="(min-width: 980px) 200px, 120px" width="1440" height="1800" alt="A shaded front porch with two wooden chairs on a white clapboard house." fetchpriority="high" decoding="async">
+<figcaption>The house is usually why people start.</figcaption>
+</figure>
+<div class="card-rig" aria-hidden="true">
+<div class="trust-card">
+<div class="trust-edge"></div>
+<div class="trust-face">
+<div class="plan-band"></div>
+<svg class="trust-mark" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><circle cx="16" cy="16" r="14.6" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="16" cy="16" r="11.9" fill="none" stroke="currentColor" stroke-width=".7" stroke-dasharray="1.2 1.1"/><path fill="currentColor" d="M9.2 8.6h13.6v2.6h-4.1a3.9 3.9 0 0 1-.5 6.2l1.3 7.2h-7l1.3-7.2a3.9 3.9 0 0 1-.5-6.2H9.2z"/></svg>
+<p class="trust-k">Packet</p>
+<p class="trust-name">Living trust</p>
+<div class="trust-rule"></div>
+<p class="trust-price">$<span data-price="living">349</span></p>
+<p class="trust-once">one time</p>
+<p class="trust-sub">Trust, pour-over will and funding list. The usual packet.</p>
+</div>
+</div>
+</div>
+<p class="scroll-hint" aria-hidden="true"><span>Scroll</span><i></i></p>
+</div>
+<div class="stone-copy">
+<div class="beat beat-lead">
 <p class="eyebrow">Draft desk</p>
 <p class="byline">By <a href="/about">TaxFreeTrusts</a></p>
 <p class="dateline"><time datetime="2026-10-14">Last updated October 14, 2026</time></p>
-<h1>Which one is you?</h1>
+<h1 id="which">Which one is you?</h1>
 <p class="lede">Answer five questions, see which packet fits, and pay the price posted on the page. Then print, sign, and fund.</p>
+<p><a class="btn btn-ink" href="/start">Start the planner</a></p>
 </div>
-<figure class="plate hero-plate">
-<img src="img/porch-960.webp" srcset="img/porch-640.webp 640w, img/porch-960.webp 960w, img/porch-1440.webp 1440w" sizes="(min-width: 980px) 42vw, calc(100vw - 48px)" width="1440" height="1800" alt="A shaded front porch with two wooden chairs on a white clapboard house." fetchpriority="high" decoding="async">
-<figcaption>The house is usually why people start.</figcaption>
-</figure>
+<div class="beat beat-visual" style="--a:.10;--b:.36" aria-hidden="true">
+<p class="eyebrow">The house</p>
+<p class="stone-h">Keep the house out of probate.</p>
+<p>A revocable living trust holds the home. Your successor trustee hands it on without a court case.</p>
 </div>
+<div class="beat beat-visual" style="--a:.28;--b:.54" aria-hidden="true">
+<p class="eyebrow">House and shop</p>
+<p class="stone-h">Hand down the house and the business.</p>
+<p>One trust, one funding list for the home and the business interest.</p>
+</div>
+<div class="beat beat-visual" style="--a:.46;--b:.70" aria-hidden="true">
+<p class="eyebrow">A guardian</p>
+<p class="stone-h">Name a guardian tonight.</p>
+<p>A will names who raises your children and who settles your estate.</p>
+</div>
+<div class="beat beat-visual" style="--a:.62;--b:.84" aria-hidden="true">
+<p class="eyebrow">Counsel</p>
+<p class="stone-h">Bring in counsel.</p>
+<p>When the policy or the business is large, the desk introduces you to an attorney.</p>
+</div>
+<div class="beat beat-visual" style="--a:.76;--b:2" aria-hidden="true">
+<p class="eyebrow">The packet</p>
+<p class="stone-h">Print, sign, fund</p>
+<p>Print the packet, sign it with the witnesses or notary your state requires, and move each asset on the funding list.</p>
+</div>
+<ol class="stone-meter" aria-hidden="true"><li></li><li></li><li></li><li></li><li></li><li></li></ol>
+</div>
+</div>
+</section>
+<section class="chooser" aria-label="Choose a starting point">
+<div class="wrap">
 <div class="folders"><a class="folder" href="/start?for=home" data-tab="The house" style="--i:0">
 <span class="sr-only">Homeowner with kids: </span>
-<span class="folder-photo"><img src="img/house-960.webp" srcset="img/house-640.webp 640w, img/house-960.webp 960w, img/house-1440.webp 1440w" sizes="(min-width: 1100px) 22vw, (min-width: 640px) 46vw, calc(100vw - 84px)" width="1440" height="960" alt="A craftsman house at dusk with the porch light on." decoding="async"></span>
+<span class="folder-photo"><img src="img/house-960.webp" srcset="img/house-640.webp 640w, img/house-960.webp 960w, img/house-1440.webp 1440w" sizes="(min-width: 1100px) 22vw, (min-width: 640px) 46vw, calc(100vw - 84px)" width="1440" height="960" alt="A craftsman house at dusk with the porch light on." decoding="async" loading="lazy"></span>
 <h2>Keep the house out of probate.</h2>
 <p>A revocable living trust holds the home. Your successor trustee hands it on without a court case.</p>
 <span class="plan-line"><span><strong data-plan-name="living">Living trust</strong>, $<span data-price="living">349</span> one time</span></span>
 <span class="go">Start with the house</span>
 </a><a class="folder" href="/start?for=shop" data-tab="House and shop" style="--i:1">
 <span class="sr-only">Home plus a shop or farm: </span>
-<span class="folder-photo"><img src="img/barn-960.webp" srcset="img/barn-640.webp 640w, img/barn-960.webp 960w, img/barn-1440.webp 1440w" sizes="(min-width: 1100px) 22vw, (min-width: 640px) 46vw, calc(100vw - 84px)" width="1440" height="960" alt="A red barn and a white farmhouse in a green field." decoding="async"></span>
+<span class="folder-photo"><img src="img/barn-960.webp" srcset="img/barn-640.webp 640w, img/barn-960.webp 960w, img/barn-1440.webp 1440w" sizes="(min-width: 1100px) 22vw, (min-width: 640px) 46vw, calc(100vw - 84px)" width="1440" height="960" alt="A red barn and a white farmhouse in a green field." decoding="async" loading="lazy"></span>
 <h2>Hand down the house and the business.</h2>
 <p>One trust, one funding list for the home and the business interest.</p>
 <span class="plan-line"><span><strong data-plan-name="living">Living trust</strong>, $<span data-price="living">349</span> one time</span><span class="step-up">Step up: <span data-plan-name="counsel">Counsel desk</span>, $<span data-price="counsel">790</span></span></span>
 <span class="go">Start with both</span>
 </a><a class="folder" href="/start?for=guardian" data-tab="A guardian" style="--i:2">
 <span class="sr-only">Young parents: </span>
-<span class="folder-photo"><img src="img/family-960.webp" srcset="img/family-640.webp 640w, img/family-960.webp 960w, img/family-1440.webp 1440w" sizes="(min-width: 1100px) 22vw, (min-width: 640px) 46vw, calc(100vw - 84px)" width="1440" height="960" alt="A parent and a small child walking close together on a sunny path." decoding="async"></span>
+<span class="folder-photo"><img src="img/family-960.webp" srcset="img/family-640.webp 640w, img/family-960.webp 960w, img/family-1440.webp 1440w" sizes="(min-width: 1100px) 22vw, (min-width: 640px) 46vw, calc(100vw - 84px)" width="1440" height="960" alt="A parent and a small child walking close together on a sunny path." decoding="async" loading="lazy"></span>
 <h2>Name a guardian tonight.</h2>
 <p>A will names who raises your children and who settles your estate.</p>
 <span class="plan-line"><span><strong data-plan-name="will">Will</strong>, $<span data-price="will">79</span> one time</span></span>
 <span class="go">Start with the will</span>
 </a><a class="folder is-counsel" href="/start?for=counsel" data-tab="Counsel" style="--i:3">
 <span class="sr-only">Large policy or growing business: </span>
-<span class="folder-photo"><img src="img/keys-960.webp" srcset="img/keys-640.webp 640w, img/keys-960.webp 960w, img/keys-1324.webp 1324w" sizes="(min-width: 1100px) 22vw, (min-width: 640px) 46vw, calc(100vw - 84px)" width="1324" height="1656" alt="Brass keys resting on a dark wooden table." decoding="async"></span>
+<span class="folder-photo"><img src="img/keys-960.webp" srcset="img/keys-640.webp 640w, img/keys-960.webp 960w, img/keys-1324.webp 1324w" sizes="(min-width: 1100px) 22vw, (min-width: 640px) 46vw, calc(100vw - 84px)" width="1324" height="1656" alt="Brass keys resting on a dark wooden table." decoding="async" loading="lazy"></span>
 <h2>Bring in counsel.</h2>
 <p>When the policy or the business is large, the desk introduces you to an attorney.</p>
 <span class="plan-line"><span><strong data-plan-name="counsel">Counsel desk</strong>, $<span data-price="counsel">790</span> one time</span></span>
@@ -153,5 +263,6 @@
 </footer>
 <script src="payments.js"></script>
 <script src="motion.js"></script>
+<script src="stone.js" defer></script>
 </body>
 </html>
