@@ -49,7 +49,7 @@ window.PROBATE_CALC = {"alabama": {"name": "Alabama", "limit": null, "formulas":
     }
     (data.formulas || []).forEach(function (f) {
       var result = runFormula(value, f);
-      var text = "<p><span class=\"k\" style=\"font:500 12px/1.2 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)\">" + f.label + "</span><strong>" + money(result.fee) + "</strong></p>";
+      var text = "<p><span class=\"k\" style=\"font:500 13px/1.2 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)\">" + f.label + "</span><strong>" + money(result.fee) + "</strong></p>";
       text += "<p>" + f.base + ".</p>";
       if (result.partial) text += "<p>Above " + money(result.prev) + ", the statute does not set a percentage. That part is not in this figure.</p>";
       if (f.aboveNote) text += "<p>" + f.aboveNote + "</p>";
