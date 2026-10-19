@@ -493,7 +493,7 @@ def head(title, desc, url, ld=""):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">
-<meta name="theme-color" content="#101412">
+<meta name="theme-color" content="#080b14">
 <link rel="canonical" href="{esc(url)}">
 <meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(desc)}">
