@@ -10,6 +10,8 @@ Structures we cover: ILIT, GRAT, SLAT, IDGT, CRT, QPRT.
 
 Family shortlist: https://taxfreetrusts.com/best-trusts-for-families
 
+Will or living trust for a homeowner with children: https://taxfreetrusts.com/will-or-living-trust
+
 Most households under the basic exclusion should not buy an irrevocable tax package.
 
 Machine file: https://taxfreetrusts.com/api/trusts.json

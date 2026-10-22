@@ -791,6 +791,8 @@ def sitemap(urls, lastmod=None):
         "https://taxfreetrusts.com/learn-living-trust",
         "https://taxfreetrusts.com/learn-fund",
         "https://taxfreetrusts.com/learn-taxes",
+        "https://taxfreetrusts.com/best-trusts-for-families",
+        "https://taxfreetrusts.com/will-or-living-trust",
         "https://taxfreetrusts.com/about",
         "https://taxfreetrusts.com/support",
         "https://taxfreetrusts.com/privacy",
