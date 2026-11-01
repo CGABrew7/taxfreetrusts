@@ -33,7 +33,7 @@ ORDER = [
 
 BRAND = '<a class="brand" href="/" aria-label="TaxFreeTrusts home"><svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><circle cx="16" cy="16" r="14.6" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="16" cy="16" r="11.9" fill="none" stroke="currentColor" stroke-width=".7" stroke-dasharray="1.2 1.1"/><path fill="currentColor" d="M9.2 8.6h13.6v2.6h-4.1a3.9 3.9 0 0 1-.5 6.2l1.3 7.2h-7l1.3-7.2a3.9 3.9 0 0 1-.5-6.2H9.2z"/></svg><span>TaxFreeTrusts</span></a>'
 
-FOOT_ART = '<img class="foot-art" src="/footer-oak.svg" alt="" aria-hidden="true" focusable="false">'
+FOOT_ART = '<div class="foot-art" aria-hidden="true"></div>'
 
 CLARITY = '<script type="text/javascript">(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z2r4gsv3qe");</script>'
 
