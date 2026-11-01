@@ -215,6 +215,8 @@ h3 { font-size: clamp(22px, 2.2vw, 27px); line-height: 1.2; }
 .site-foot a { color: var(--ink-2); text-decoration: none; }
 .site-foot a:hover { text-decoration: underline; }
 .foot-line { margin-top: 36px; padding-top: 18px; border-top: 1px solid var(--rule); display: flex; flex-wrap: wrap; gap: 8px 24px; justify-content: space-between; }
+.foot-art { display: block; width: 100%; height: 64px; margin: -12px 0 8px; object-fit: cover; object-position: center; pointer-events: none; border: 0; }
+@media (min-width: 800px) { .foot-art { height: 112px; margin-top: -16px; } }
 
 /* Pricing page */
 .price-hero { padding: clamp(44px, 7vw, 84px) 0 12px; }

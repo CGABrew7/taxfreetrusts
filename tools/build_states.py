@@ -33,6 +33,8 @@ ORDER = [
 
 BRAND = '<a class="brand" href="/" aria-label="TaxFreeTrusts home"><svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><circle cx="16" cy="16" r="14.6" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="16" cy="16" r="11.9" fill="none" stroke="currentColor" stroke-width=".7" stroke-dasharray="1.2 1.1"/><path fill="currentColor" d="M9.2 8.6h13.6v2.6h-4.1a3.9 3.9 0 0 1-.5 6.2l1.3 7.2h-7l1.3-7.2a3.9 3.9 0 0 1-.5-6.2H9.2z"/></svg><span>TaxFreeTrusts</span></a>'
 
+FOOT_ART = '<img class="foot-art" src="/footer-oak.svg" alt="" aria-hidden="true" focusable="false">'
+
 CLARITY = '<script type="text/javascript">(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z2r4gsv3qe");</script>'
 
 UPDATED = "2026-10-14"
@@ -478,7 +480,7 @@ def chrome(current_learn=False):
 <nav class="nav-desk" aria-label="Main"><a href="/pricing">Plans and prices</a><a href="/learn-living-trust"{learn}>Learn</a><a href="/about">About</a><a href="/support">Support</a><a class="btn btn-ink btn-small" href="/start">Start the planner</a></nav>
 <details class="nav-mob"><summary>Menu</summary><nav aria-label="Main, mobile"><ul><li><a href="/pricing">Plans and prices</a></li><li><a href="/learn-living-trust"{learn}>Learn</a></li><li><a href="/about">About</a></li><li><a href="/support">Support</a></li><li><a href="/start">Start the planner</a></li></ul></nav></details>
 </div></header>'''
-    foot = f'''<footer class="site-foot"><div class="wrap"><div class="foot-grid">
+    foot = f'''<footer class="site-foot">{FOOT_ART}<div class="wrap"><div class="foot-grid">
 <div>{BRAND}<p style="margin-top:14px;max-width:24em">A draft desk for wills and living trusts. Five questions, posted prices, a packet you print, sign and fund.</p></div>
 <div><h2>Packets</h2><ul><li><a href="/pricing">Plans and prices</a></li><li><a href="/start">Start the planner</a></li></ul></div>
 <div><h2>Learn</h2><ul><li><a href="/learn-living-trust">Living trusts</a></li><li><a href="/learn-fund">Funding a trust</a></li><li><a href="/learn-taxes">Trusts and taxes</a></li><li><a href="/states/">Probate by state</a></li></ul></div>
