@@ -206,7 +206,8 @@ h3 { font-size: clamp(22px, 2.2vw, 27px); line-height: 1.2; }
 .closing .btn-line:hover { background: var(--tint-50); color: var(--ink); }
 
 /* Footer */
-.site-foot { border-top: 1px solid var(--rule); padding: 48px 0 36px; font-size: 15px; color: var(--muted); }
+.site-foot { position: relative; overflow: hidden; isolation: isolate; border-top: 1px solid var(--rule); padding: 48px 0 36px; font-size: 15px; color: var(--muted); }
+.site-foot > .wrap { position: relative; z-index: 1; }
 .foot-grid { display: grid; gap: 28px; }
 @media (min-width: 820px) { .foot-grid { grid-template-columns: 1.3fr 1fr 1fr 1fr; } }
 .site-foot h2 { font-family: var(--sans); font-size: 14px; font-weight: 600; color: var(--ink); margin: 0 0 10px; letter-spacing: 0; }
@@ -215,6 +216,23 @@ h3 { font-size: clamp(22px, 2.2vw, 27px); line-height: 1.2; }
 .site-foot a { color: var(--ink-2); text-decoration: none; }
 .site-foot a:hover { text-decoration: underline; }
 .foot-line { margin-top: 36px; padding-top: 18px; border-top: 1px solid var(--rule); display: flex; flex-wrap: wrap; gap: 8px 24px; justify-content: space-between; }
+.foot-art {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-color: rgb(88 90 92 / 0.11);
+  -webkit-mask-image: linear-gradient(to bottom, transparent, #000 64px), url("/footer-line.svg");
+  -webkit-mask-repeat: no-repeat, repeat-x;
+  -webkit-mask-position: left bottom, left bottom;
+  -webkit-mask-size: 100% 140px, 1440px 140px;
+  -webkit-mask-composite: source-in;
+  mask-image: linear-gradient(to bottom, transparent, #000 64px), url("/footer-line.svg");
+  mask-repeat: no-repeat, repeat-x;
+  mask-position: left bottom, left bottom;
+  mask-size: 100% 140px, 1440px 140px;
+  mask-composite: intersect;
+}
 
 /* Pricing page */
 .price-hero { padding: clamp(44px, 7vw, 84px) 0 12px; }
