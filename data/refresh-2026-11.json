@@ -1,0 +1,206 @@
+[
+  {
+    "name": "South Dakota",
+    "slug": "south-dakota",
+    "dateModified": "2026-11-03",
+    "dateLabel": "November 3, 2026",
+    "seoTitle": "South Dakota trust cost and sole trustee | TaxFreeTrusts",
+    "seoDescription": "South Dakota sets no living trust price. SDCL 55-1-15 allows a sole trustee. SDCL 29A-3-719 sets the probate commission.",
+    "headline": "South Dakota trust cost and sole trustee",
+    "lede": "South Dakota does not set a price for creating a living trust. SDCL 55-1-15 lets the trustor be the sole trustee and the sole lifetime beneficiary when the trust names a successor beneficiary. Property left in your own name can still be a probate matter in circuit court.",
+    "trustHeading": "Living trust cost and sole trustee",
+    "trustCopy": "South Dakota does not set a price for creating a living trust. SDCL 55-1-15 lets the trustor be the sole trustee and the sole lifetime beneficiary when the trust names a successor beneficiary. SDCL 55-1-4 creates an express trust by words or acts that show an intention to create a trust and the subject, purpose, and beneficiary, and a trust that concerns real property must be evidenced in writing. Unless the terms expressly reserve a power to revoke or modify, SDCL 55-3-6 makes the trust irrevocable. The successor trustee handles assets titled to the trustee. Property left in your own name can still go through the circuit court.",
+    "trustSource": {
+      "title": "SDCL 55-1-15, Sole trustee and sole beneficiary",
+      "url": "https://sdlegislature.gov/Statutes/55-1-15"
+    },
+    "courtName": "Circuit Court",
+    "process": "SDCL 16-6-9 gives the circuit court original jurisdiction in all matters of probate, guardianship, conservatorship, and settlement of estates of deceased persons. SDCL 29A-3-1201 lets a successor collect personal property by affidavit when the value of the entire estate, wherever located, less liens and encumbrances, does not exceed $100,000, thirty days have elapsed, no personal representative petition is pending or granted, and the decedent has not incurred Department of Social Services debt for nursing home or other medical institutional care.",
+    "processSource": {
+      "title": "SDCL 16-6-9, Original civil jurisdiction of circuit court",
+      "url": "https://sdlegislature.gov/Statutes/16-6"
+    },
+    "fees": "SDCL 29A-3-719 says personal representatives, attorneys, accountants, appraisers, and other agents are entitled to reasonable compensation for services. Reasonable compensation is based on the time and labor involved, the novelty and difficulty of the questions and the skill required, whether the work precludes other employment, the fee customarily charged in the locality for similar services, the nature and value of the estate assets, the income earned, and the responsibilities assumed, the time limitations, and the experience, reputation, diligence, and ability of the person. When compensation is not provided by will, or in an intestate proceeding, the personal representative may be allowed commissions on the amount of personal property accounted for, excluding personal property not ranked as assets: on the first one thousand dollars at the rate of five percent, on all sums in excess of one thousand dollars and not exceeding five thousand dollars at the rate of four percent, and on all sums in excess of five thousand dollars at the rate of two and one-half percent. On real property accounted for, compensation is just and reasonable and fixed by the court. Real estate sold by the personal representative in the probate proceeding is considered personal property.",
+    "feesSource": {
+      "title": "SDCL 29A-3-719, Compensation of personal representative",
+      "url": "https://sdlegislature.gov/Statutes/29A-3-719"
+    },
+    "feeLead": "In South Dakota, when a will does not set compensation, a personal representative may be allowed a statutory commission on personal property.",
+    "feeFormula": {
+      "kind": "brackets",
+      "base": "the amount of personal property accounted for by the personal representative, excluding personal property not ranked as assets",
+      "brackets": [
+        {"upTo": 1000, "rate": 0.05},
+        {"upTo": 5000, "rate": 0.04}
+      ],
+      "aboveNote": "On all sums in excess of five thousand dollars at the rate of two and one-half percent. Upon all real property accounted for, the personal representative shall receive a just and reasonable compensation for the services performed to be fixed by the court. All real estate sold by the personal representative as part of the proceedings in probate shall be considered as personal property."
+    },
+    "smallEstate": "SDCL 29A-3-1201 says that thirty days after death, a person indebted to the decedent or holding tangible personal property or an instrument evidencing a debt, obligation, stock, or chose in action must pay or deliver it to a successor who presents an affidavit. The affidavit must state that the value of the entire estate, wherever located, less liens and encumbrances, does not exceed $100,000. Thirty days must have elapsed since death. No application or petition for appointment of a personal representative may be pending or granted in any jurisdiction. The decedent must not have incurred indebtedness to the Department of Social Services for medical assistance for nursing home or other medical institutional care. The claiming successor must be entitled to payment or delivery of the property.",
+    "smallEstateLimit": 100000,
+    "smallEstateSource": {
+      "title": "SDCL 29A-3-1201, Collection of personal property by affidavit",
+      "url": "https://sdlegislature.gov/Statutes/29A-3-1201"
+    },
+    "taxKind": "none",
+    "taxDetail": "The South Dakota Department of Revenue states that South Dakota does not have an inheritance tax, that the voters repealed the state inheritance tax effective July 1, 2001, and that there is also no estate tax.",
+    "taxSource": {
+      "title": "South Dakota Department of Revenue, Taxes",
+      "url": "https://dor.sd.gov/individuals/taxes/"
+    },
+    "taxLead": "South Dakota has no inheritance tax and no estate tax.",
+    "taxCard": "No inheritance or estate tax",
+    "extraSources": [
+      {
+        "title": "SDCL 55-1-4, Creation of an express trust",
+        "url": "https://sdlegislature.gov/Statutes/55-1"
+      },
+      {
+        "title": "SDCL 55-3-6, Trust irrevocable unless the terms reserve a power to revoke",
+        "url": "https://sdlegislature.gov/Statutes/55-3-6"
+      }
+    ],
+    "queryFaqs": [
+      {
+        "q": "How much does a South Dakota trust cost?",
+        "a": "South Dakota does not set a price for creating a living trust. SDCL 29A-3-719 is a different figure. When a will does not provide compensation, a personal representative may be allowed five percent on the first $1,000 of personal property accounted for, four percent on the amount above $1,000 up to $5,000, and two and one-half percent above $5,000. Compensation on real property is fixed by the court."
+      },
+      {
+        "q": "Can I be the sole trustee in South Dakota?",
+        "a": "Yes. SDCL 55-1-15 says a trust that names one or more successor beneficiaries at the trustor's death is not invalid, merged, or terminated when the trustor is the sole trustee and the sole beneficiary during the trustor's lifetime."
+      },
+      {
+        "q": "What is a living trust in South Dakota?",
+        "a": "A living trust is an express trust you create during life. SDCL 55-1-4 creates it by words or acts that show the intention, subject, purpose, and beneficiary, and real property must be in writing. Unless the terms reserve a power to revoke or modify, SDCL 55-3-6 makes it irrevocable. Assets titled to the trustee are handled by the successor trustee. Assets still in your own name can be a probate matter in circuit court."
+      }
+    ],
+    "related": [
+      {"href": "/learn-living-trust", "text": "What a revocable living trust does"},
+      {"href": "/will-or-living-trust", "text": "Will or living trust for a house and children"},
+      {"href": "/learn-taxes", "text": "Trusts and taxes"}
+    ]
+  },
+  {
+    "name": "Arkansas",
+    "slug": "arkansas",
+    "dateModified": "2026-11-03",
+    "dateLabel": "November 3, 2026",
+    "seoTitle": "Revocable trust vs will in Arkansas | TaxFreeTrusts",
+    "seoDescription": "In Arkansas a will does not prove title until the circuit court admits it to probate. A living trust is a separate instrument under the trust code.",
+    "headline": "Revocable trust vs will in Arkansas",
+    "lede": "A will in Arkansas does not prove title to property until the circuit court admits it to probate. A living trust is a different instrument. The trustee holds what you title in the trust, and property left in your own name can still be a probate matter.",
+    "trustHeading": "Revocable living trust or will",
+    "trustCopy": "A will in Arkansas does not prove title until the circuit court admits it to probate. A living trust is a different instrument, and the trustee holds the assets titled to the trustee. The Arkansas judiciary probate benchbook, updated 2022, prints Arkansas Code section 28-40-104: no will shall be effectual for the purpose of proving title to or the right to the possession of any real or personal property disposed of by the will until it has been admitted to probate. The same benchbook prints section 28-73-103: revocable, as applied to a trust, means revocable by the settlor without the consent of the trustee or a person holding an adverse interest. A pour-over will can send leftover assets into the trust, and those leftover assets may pass through probate first.",
+    "trustSource": {
+      "title": "Arkansas judiciary probate benchbook, updated 2022",
+      "url": "https://arcourts.gov/sites/default/files/Probate%20Benchbook%202022.pdf"
+    },
+    "courtName": "Circuit court, probate division",
+    "processLead": "In Arkansas, the estate is opened in the circuit court, probate division, in the county where the person lived.",
+    "process": "The Arkansas judiciary probate benchbook, updated 2022, prints Arkansas Code section 28-40-102: venue for the probate of a will and for administration is the county where the decedent resided at death. If the decedent did not reside in this state, venue is the county where the greater part, in value, of the property in this state is situated. The same benchbook prints section 28-40-103: a will must be submitted within five years of the death, and administration must be granted within five years of the death. It prints section 28-40-104: no will shall be effectual for the purpose of proving title to or the right to the possession of any real or personal property disposed of by the will until it has been admitted to probate. Arkansas Judiciary Form 23 is the affidavit for collection of a small estate by a distributee, filed with the probate clerk of the circuit court. The form says distributees are entitled to the identified property without an order of the court, upon furnishing a clerk-certified copy of the affidavit.",
+    "processSource": {
+      "title": "Arkansas judiciary probate benchbook, updated 2022",
+      "url": "https://arcourts.gov/sites/default/files/Probate%20Benchbook%202022.pdf"
+    },
+    "smallEstate": "Form 23 states that the distributee affidavit may be used when no petition for a personal representative is pending or has been granted, more than forty-five days have elapsed since death, and the value, less encumbrances, of all property owned by the decedent at death, excluding the homestead of and statutory allowances for the benefit of the surviving spouse or minor children, if any, does not exceed one hundred thousand dollars ($100,000). The reporter's notes say that if the affidavit estate contains real property, the distributee may publish notice promptly after filing. The notes cite Arkansas Code section 28-41-101.",
+    "smallEstateLimit": 100000,
+    "smallEstateSource": {
+      "title": "Arkansas Judiciary Form 23, Affidavit for Collection of Small Estate by Distributee",
+      "url": "https://arcourts.gov/sites/default/files/files-list/Form%2023.pdf"
+    },
+    "taxKind": "none",
+    "taxDetail": "The Arkansas Department of Finance and Administration states that Act 645 of 2003 repealed Arkansas Estate Tax for estates of those who died on or after January 1, 2005, and that no estate tax return is required for decedents after December 31, 2004. That page does not mention an inheritance tax.",
+    "taxSource": {
+      "title": "Arkansas DFA Subject 605, Estate Tax, revised 12/22/2020",
+      "url": "https://www.dfa.arkansas.gov/wp-content/uploads/605-EstateTax.pdf"
+    },
+    "taxLead": "Arkansas has no estate tax for a death on or after January 1, 2005.",
+    "taxCard": "No current estate tax",
+    "queryFaqs": [
+      {
+        "q": "Revocable living trust vs will in Arkansas?",
+        "a": "A will does not prove title until the circuit court admits it to probate. The 2022 Arkansas judiciary probate benchbook prints Arkansas Code section 28-40-104 that way. A living trust is a separate instrument. The same benchbook prints section 28-73-103: revocable means revocable by the settlor without the consent of the trustee or a person holding an adverse interest. Assets titled to the trustee are handled by the successor trustee. Assets still in your name can be a probate matter."
+      },
+      {
+        "q": "What is a living trust in Arkansas?",
+        "a": "A living trust is a trust you create during life, and a will is the writing that must be admitted to probate before it proves title. The 2022 probate benchbook prints Arkansas Code section 28-73-103. A settlor is a person, including a testator, who creates or contributes property to a trust. Revocable means revocable by the settlor without the consent of the trustee or a person holding an adverse interest. The trust controls assets titled to the trustee."
+      }
+    ],
+    "related": [
+      {"href": "/will-or-living-trust", "text": "Will or living trust for a house and children"},
+      {"href": "/learn-living-trust", "text": "What a revocable living trust does"},
+      {"href": "/learn-fund", "text": "How to fund a living trust"}
+    ]
+  },
+  {
+    "name": "Utah",
+    "slug": "utah",
+    "dateModified": "2026-11-03",
+    "dateLabel": "November 3, 2026",
+    "seoTitle": "Utah inheritance tax: living will vs trust | TaxFreeTrusts",
+    "seoDescription": "Utah has no inheritance tax to file. A living will is an advance health care directive under Utah Code 75A-9. A living trust holds property.",
+    "headline": "Utah inheritance tax and living will vs trust",
+    "lede": "Utah has no inheritance tax to file. A living will is an advance health care directive under Utah Code 75A-9, and a living trust holds property. For a person who lived in Salt Lake County, probate is filed in that county's district court.",
+    "trustHeading": "Living will or living trust",
+    "trustCopy": "A living will and a living trust do different jobs in Salt Lake County, under the same Utah Code that applies statewide. Utah Code section 75A-9-101, effective January 1, 2026, defines an advance health care directive as a power of attorney for health care, a health care instruction, or both. That directive covers health care decisions. It does not transfer the house. Utah Code section 75B-2-602, effective May 7, 2025, says that unless the terms expressly provide that the trust is irrevocable, the settlor may revoke or amend the trust. That rule does not apply to a trust created under an instrument executed before May 1, 2004. The successor trustee handles assets titled to the trustee. Property left in your own name can still go through the district court.",
+    "trustSource": {
+      "title": "Utah Code section 75A-9-101, Advance health care directive, effective January 1, 2026",
+      "url": "https://le.utah.gov/xcode/Title75A/Chapter9/C75A-9-S101_2026010120250507.pdf"
+    },
+    "courtName": "District Court",
+    "processLead": "In Utah, the estate is opened in the district court of the county where the person lived.",
+    "process": "The Utah Courts informal-probate page says a probate case may be filed in the district court of the county where the decedent lived at the time of death, or in the district court of the county where the decedent owned property, citing Utah Code 75-3-201. For a person who lived in Salt Lake County, that court is the district court of Salt Lake County. Informal probate asks the court to appoint a personal representative without a hearing and is usually used when all interested parties agree. Formal probate asks for appointment with a hearing, usually because there is disagreement. An informal probate case may not be filed until 120 hours have passed since the death, and the case must be filed within three years of the death. The applicant files an application, the filing fee, and a Utah District Court Cover Sheet for Probate Actions. If the court appoints the applicant, it signs letters of administration if there is no will or letters testamentary if there is a will.",
+    "processSource": {
+      "title": "Utah Courts, Informal Probate",
+      "url": "https://www.utcourts.gov/en/self-help/case-categories/probate/informal-probate.html"
+    },
+    "fees": "Utah Code section 75-3-718 says a personal representative and an attorney are entitled to reasonable compensation for their services. If a petition seeks approval of that compensation and no interested person objects, reasonable compensation is the compensation sought in the petition. If an interested person objects, the court determines reasonable compensation for the personal representative based on the quality, quantity, and value of the services and the circumstances, including the practice for other fiduciaries in similar circumstances, and determines reasonable compensation for the attorney. The section does not set a percent of the estate. When a petition seeks approval of or objects to that compensation, the petitioner sends a copy to all interested persons at least 10 days before the hearing.",
+    "feesSource": {
+      "title": "Utah Code section 75-3-718, Compensation of personal representative and attorney",
+      "url": "https://le.utah.gov/xcode/Title75/Chapter3/C75-3-S718_1800010118000101.html"
+    },
+    "feeLead": "In Utah, a personal representative and an attorney are entitled to reasonable compensation. The statute does not set a percent of the estate.",
+    "smallEstate": "Utah Code section 75-3-1201, effective May 7, 2025, says that 30 days after death a holder of tangible personal property, including an instrument evidencing a debt, obligation, stock, or chose in action, shall pay or deliver it to a claiming successor on an affidavit. The affidavit must state that the value of the entire estate subject to administration, wherever located, less liens and encumbrances, does not exceed $100,000, that 30 days have elapsed, that no application or petition for appointment of a personal representative is pending or has been granted in any jurisdiction, and that the claiming successor is entitled to payment or delivery. For not more than four boats, motor vehicles, trailers, or semitrailers, the affidavit instead states that the value of the entire estate subject to administration, other than those vehicles, does not exceed $100,000. Shares of stock in a water company transferred under section 73-1-10 or Title 70A, Chapter 8, are not eligible for transfer under this part.",
+    "smallEstateLimit": 100000,
+    "smallEstateSource": {
+      "title": "Utah Code section 75-3-1201, Collection of personal property by affidavit, effective May 7, 2025",
+      "url": "https://le.utah.gov/xcode/Title75/Chapter3/C75-3-S1201_2025050720250507.html"
+    },
+    "taxKind": "none",
+    "taxDetail": "The Utah State Tax Commission says Utah's estate tax system was a pick-up tax based on the federal credit for state death taxes, that federal changes eliminated Utah's inheritance tax after December 31, 2004, and that there is no longer a basis for the Utah inheritance tax. It says Utah inheritance tax returns do not need to be filed and Utah does not require an Inheritance Tax Waiver. House Bill 77 of the 2026 General Session repealed Utah Code sections 59-11-101 through 59-11-115. The bill takes effect May 6, 2026, and those sections have retrospective operation for a taxable year beginning on or after January 1, 2026. The code chapter is titled Inheritance Tax Act (Repealed 5/6/2026).",
+    "taxSource": {
+      "title": "Utah State Tax Commission, Inheritance Tax",
+      "url": "https://tax.utah.gov/business/other-taxes/inheritance-tax/"
+    },
+    "taxLead": "Utah has no inheritance tax to file.",
+    "taxCard": "No inheritance tax",
+    "extraSources": [
+      {
+        "title": "Utah Code section 75B-2-602, Revocation or amendment of revocable trust, effective May 7, 2025",
+        "url": "https://le.utah.gov/xcode/Title75B/Chapter2/C75B-2-S602_2025050720250507.html"
+      },
+      {
+        "title": "House Bill 77, Tax Modifications, 2026 General Session, enrolled",
+        "url": "https://le.utah.gov/Session/2026/bills/enrolled/HB0077.pdf"
+      },
+      {
+        "title": "Utah Code Title 59, Chapter 11, Inheritance Tax Act (Repealed 5/6/2026)",
+        "url": "https://le.utah.gov/xcode/Title59/Chapter11/C59-11_1800010118000101.html"
+      }
+    ],
+    "queryFaqs": [
+      {
+        "q": "Does Utah have an inheritance tax?",
+        "a": "No. The Utah State Tax Commission says inheritance tax returns do not need to be filed and Utah does not require an Inheritance Tax Waiver. Federal changes eliminated the tax after December 31, 2004. House Bill 77 of the 2026 General Session repealed Utah Code Title 59, Chapter 11, effective May 6, 2026."
+      },
+      {
+        "q": "Living will vs trust in Salt Lake City?",
+        "a": "They are different documents, and Salt Lake County uses the Utah Code. Utah Code section 75A-9-101, effective January 1, 2026, defines an advance health care directive as a power of attorney for health care, a health care instruction, or both. That is the health care document. A living trust holds property you title in the trustee's name. Utah Courts say a probate case is filed in the district court of the county where the person lived. For a Salt Lake County resident, that is the district court of Salt Lake County."
+      }
+    ],
+    "related": [
+      {"href": "/learn-taxes", "text": "Trusts and taxes"},
+      {"href": "/learn-living-trust", "text": "What a revocable living trust does"},
+      {"href": "/will-or-living-trust", "text": "Will or living trust for a house and children"}
+    ]
+  }
+]
