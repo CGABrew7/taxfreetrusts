@@ -2,12 +2,14 @@
 """Build /states pages and the probate calculator from verified research JSON."""
 import json
 import re
+import sys
 from pathlib import Path
 
-ROOT = Path("/workspace")
+ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "states"
 RESEARCH_DIRS = [Path("/tmp/research"), ROOT / "research"]
 MANUAL = ROOT / "data" / "manual.json"
+REFRESH = ROOT / "data" / "refresh-2026-11.json"
 
 ORDER = [
     ("Alabama", "alabama"), ("Alaska", "alaska"), ("Arizona", "arizona"),
@@ -39,10 +41,16 @@ CLARITY = '<script type="text/javascript">(function(c,l,a,r,i,t,y){c[a]=c[a]||fu
 
 UPDATED = "2026-10-14"
 UPDATED_LABEL = "October 14, 2026"
-BYLINE = (
-    '<p class="byline">By <a href="/about">TaxFreeTrusts</a></p>\n'
-    f'<p class="dateline"><time datetime="{UPDATED}">Last updated {UPDATED_LABEL}</time></p>'
-)
+def byline_html(updated=None, label=None):
+    updated = updated or UPDATED
+    label = label or UPDATED_LABEL
+    return (
+        '<p class="byline">By <a href="/about">TaxFreeTrusts</a></p>\n'
+        f'<p class="dateline"><time datetime="{updated}">Last updated {label}</time></p>'
+    )
+
+
+BYLINE = byline_html()
 AUTHOR_BIO = (
     '<div class="author-bio"><p class="k">TaxFreeTrusts</p>'
     '<p><a href="/about">TaxFreeTrusts</a> writes the guides on this site and drafts the will and living trust packets at the prices posted on the page. '
@@ -114,6 +122,8 @@ def above_rate(note):
 
 def fee_role(fees):
     t = (fees or "").lower()
+    if re.search(r"no percentage|does not set a percent|no percent of", t):
+        return "Reasonable compensation"
     if "not in excess" in t or "may not exceed" in t or "shall not exceed" in t or "not to exceed" in t:
         return "Statutory maximum"
     if "minimum compensation" in t or "sets minimum" in t:
@@ -225,14 +235,23 @@ def load_rows():
     if MANUAL.exists():
         for row in json.loads(MANUAL.read_text()):
             by[row["slug"]] = row
+    if REFRESH.exists():
+        for row in json.loads(REFRESH.read_text()):
+            by[row["slug"]] = row
     return by
 
 
 def sources_of(row):
     seen = set()
     items = []
-    for key in ("processSource", "feesSource", "smallEstateSource", "taxSource", "communitySource"):
+    for key in ("processSource", "feesSource", "smallEstateSource", "taxSource", "communitySource", "trustSource"):
         src = row.get(key) or {}
+        url = src.get("url")
+        if not url or url in seen:
+            continue
+        seen.add(url)
+        items.append({"title": clean(src.get("title") or url), "url": url})
+    for src in row.get("extraSources") or []:
         url = src.get("url")
         if not url or url in seen:
             continue
@@ -378,17 +397,17 @@ def section_leads(row):
     name = row["name"]
     leads = {}
     if row.get("courtName") and public_prose(row.get("process")):
-        leads["The probate path"] = f"In {place(name)}, the estate is opened in {court_phrase(row['courtName'])}."
+        leads["The probate path"] = clean(row["processLead"]) if row.get("processLead") else f"In {place(name)}, the estate is opened in {court_phrase(row['courtName'])}."
     if public_prose(row.get("fees")):
-        leads["Fees"] = fee_lead(name, row.get("fees") or "")
+        leads["Fees"] = clean(row["feeLead"]) if row.get("feeLead") else fee_lead(name, row.get("fees") or "")
     if public_prose(row.get("smallEstate")):
         limit = row.get("smallEstateLimit")
         if isinstance(limit, (int, float)):
             leads["Small estate"] = f"{sentence_place(name)}'s small-estate figure on this page is {money(limit)} when the statute's conditions are met."
         else:
             leads["Small estate"] = f"{sentence_place(name)} has a small-estate procedure. The statute states who can use it."
-    if public_prose(row.get("taxDetail")) and tax_card(row):
-        leads["Estate or inheritance tax"] = tax_lead(name, tax_card(row))
+    if public_prose(row.get("taxDetail")) and (row.get("taxCard") or tax_card(row)):
+        leads["Estate or inheritance tax"] = clean(row["taxLead"]) if row.get("taxLead") else tax_lead(name, row.get("taxCard") or tax_card(row))
     if public_prose(row.get("communityDetail")) and community_card(row):
         leads["Property of spouses"] = spouse_lead(name, community_card(row))
     return leads
@@ -404,7 +423,7 @@ def fact_cards(row):
     limit = row.get("smallEstateLimit")
     if isinstance(limit, (int, float)):
         cards.append(("Small-estate figure", money(limit), "Only if the statute's conditions are met. Read the section below."))
-    tc = tax_card(row)
+    tc = row.get("taxCard") or tax_card(row)
     if tc:
         cards.append(("Tax", tc, "See the tax section for the exemption or the repeal."))
     cc = community_card(row)
@@ -421,6 +440,8 @@ def fact_cards(row):
 def faqs(row):
     name = row["name"]
     items = []
+    for item in row.get("queryFaqs") or []:
+        items.append((clean(item["q"]), public_prose(item["a"])))
     items.append((
         f"Does a living trust avoid probate in {name}?",
         "A revocable living trust holds the assets you title in the trustee's name. The successor trustee handles those assets. Property still titled in your own name can be a probate matter. A pour-over will can send leftover assets into the trust, and those leftover assets may still pass through probate first."
@@ -458,9 +479,9 @@ def json_ld(row, url):
     article = {
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": f"Living trust vs probate in {name}",
+        "headline": clean(row.get("headline") or f"Living trust vs probate in {name}"),
         "datePublished": "2026-10-13",
-        "dateModified": UPDATED,
+        "dateModified": row.get("dateModified") or UPDATED,
         "author": {"@type": "Organization", "name": "TaxFreeTrusts", "url": "https://taxfreetrusts.com/about"},
         "publisher": {
             "@type": "Organization",
@@ -523,13 +544,31 @@ def head(title, desc, url, ld=""):
 </head>'''
 
 
+def related_html(row):
+    links = row.get("related") or []
+    if not links:
+        return ""
+    items = "".join(
+        f'<li><a href="{esc(item["href"])}">{esc(clean(item["text"]))}</a></li>'
+        for item in links
+    )
+    return (
+        "<h2>Related guides</h2>\n"
+        '<p class="answer">These guides on this site cover the same questions.</p>\n'
+        f"<ul>{items}</ul>\n"
+    )
+
+
 def page_for(row):
     name = row["name"]
     slug = row["slug"]
     url = f"https://taxfreetrusts.com/states/{slug}"
-    desc = f"Living trust or probate in {name}: the court path, fees, small-estate rule, tax, and spouses' property, each point linked to a statute or a court site."
-    if len(desc) > 160:
+    desc = row.get("seoDescription") or f"Living trust or probate in {name}: the court path, fees, small-estate rule, tax, and spouses' property, each point linked to a statute or a court site."
+    if not row.get("seoDescription") and len(desc) > 160:
         desc = f"Living trust or probate in {name}, with the statute or court page linked for each point."
+    title = row.get("seoTitle") or f"Living trust vs probate in {name} | TaxFreeTrusts"
+    title = clean(title)
+    desc = clean(desc)
     ld = json_ld(row, url)
     nav, foot = chrome()
     gaps = gaps_for(row)
@@ -551,23 +590,31 @@ def page_for(row):
 <div class="calc-out" role="status" aria-live="polite"></div>
 </form>'''
     leads = section_leads(row)
-    trust_copy = "A revocable living trust holds assets you title in the trustee's name. You can serve as trustee while you are able. At death, the successor trustee handles those assets. Property you leave in your own name can still go through the probate court. A pour-over will sends leftover assets into the trust, and those leftover assets may pass through probate first."
-    body = f'''{head(f"Living trust vs probate in {name} | TaxFreeTrusts", desc, url, ld)}
+    trust_copy = public_prose(row.get("trustCopy") or "A revocable living trust holds assets you title in the trustee's name. You can serve as trustee while you are able. At death, the successor trustee handles those assets. Property you leave in your own name can still go through the probate court. A pour-over will sends leftover assets into the trust, and those leftover assets may pass through probate first.")
+    trust_src = row.get("trustSource") or {}
+    trust_src_html = ""
+    if trust_src.get("url"):
+        trust_src_html = f'\n<p class="sources">Source: <a href="{esc(trust_src["url"])}">{esc(clean(trust_src.get("title") or "Statute or court page"))}</a></p>'
+    trust_heading = clean(row.get("trustHeading") or "Living trust or probate")
+    lede = clean(row.get("lede") or f"A funded revocable living trust lets the successor trustee handle assets titled to the trustee. Property left in your own name can still be a probate matter in {place(name)}.")
+    dated = byline_html(row.get("dateModified"), row.get("dateLabel"))
+    body = f'''{head(title, desc, url, ld)}
 <body>
 <a class="skip" href="#main">Skip to content</a>
 {nav}
 <main id="main">
 <section class="page-head has-seal"><div class="wrap">
 <p class="crumb"><a href="/">Home</a> / <a href="/states/">States</a> / {esc(name)}</p>
-{BYLINE}
+{dated}
 <p class="eyebrow">Living trust or probate</p>
 <h1>{esc(name)}</h1>
-<p class="lede">A funded revocable living trust lets the successor trustee handle assets titled to the trustee. Property left in your own name can still be a probate matter in {esc(place(name))}.</p>
+<p class="lede">{esc(lede)}</p>
 </div></section>
 <div class="wrap article-grid"><article class="prose">
 {fact_cards(row)}
-<h2>Living trust or probate</h2>
+<h2>{esc(trust_heading)}</h2>
 {split_answer(trust_copy)}
+{trust_src_html}
 {section("The probate path", row.get("process"), row.get("processSource"), leads.get("The probate path", ""))}
 {section("Fees", row.get("fees"), row.get("feesSource"), leads.get("Fees", ""))}
 {calc}
@@ -577,6 +624,7 @@ def page_for(row):
 <h2>Questions</h2>
 <p class="answer">The answers use the same statute and court pages as the sections above.</p>
 <div class="faq">{faq_html}</div>
+{related_html(row)}
 <h2>Sources</h2>
 <p class="answer">These are the statute and court pages used above.</p>
 <ul class="sources">{src_html}</ul>
@@ -816,8 +864,47 @@ def sitemap(urls, lastmod=None):
     (ROOT / "sitemap.xml").write_text(text)
 
 
+def patch_sitemap(urls_dates):
+    path = ROOT / "sitemap.xml"
+    text = path.read_text()
+    for url, lastmod in urls_dates.items():
+        pattern = rf"(<loc>{re.escape(url)}</loc><lastmod>)[^<]+(</lastmod>)"
+        text, n = re.subn(pattern, rf"\g<1>{lastmod}\g<2>", text, count=1)
+        if n != 1:
+            raise SystemExit("sitemap loc missing: " + url)
+    path.write_text(text)
+
+
 def main():
+    only = None
+    args = sys.argv[1:]
+    if args and args[0] == "--only":
+        if len(args) < 2:
+            raise SystemExit("usage: build_states.py --only slug,slug")
+        only = [part.strip() for part in args[1].split(",") if part.strip()]
     rows = load_rows()
+    if only:
+        OUT.mkdir(exist_ok=True)
+        dates = {}
+        for slug in only:
+            name = next((n for n, s in ORDER if s == slug), None)
+            if not name or slug not in rows:
+                raise SystemExit("missing " + slug)
+            row = rows[slug]
+            row["name"] = name
+            row["slug"] = slug
+            html_text, _forms, _gaps = page_for(row)
+            if "\u2014" in html_text or "\u2013" in html_text:
+                raise SystemExit("dash in " + slug)
+            if re.search(r"\bhonest\b", html_text, re.I) or "Jeff" in html_text or "Hanok" in html_text:
+                raise SystemExit("banned word in " + slug)
+            (OUT / f"{slug}.html").write_text(html_text)
+            modified = row.get("dateModified") or UPDATED
+            dates[f"https://taxfreetrusts.com/states/{slug}"] = modified
+            print("wrote", slug)
+        patch_sitemap(dates)
+        print("refreshed", ", ".join(only))
+        return
     missing = [slug for _, slug in ORDER if slug not in rows]
     if missing:
         raise SystemExit("missing states: " + ", ".join(missing))
