@@ -2,14 +2,14 @@
   {
     "name": "South Dakota",
     "slug": "south-dakota",
-    "dateModified": "2026-11-03",
-    "dateLabel": "November 3, 2026",
+    "dateModified": "2026-11-07",
+    "dateLabel": "November 7, 2026",
     "seoTitle": "South Dakota trust cost and sole trustee | TaxFreeTrusts",
-    "seoDescription": "South Dakota sets no living trust price. SDCL 55-1-15 allows a sole trustee. SDCL 29A-3-719 sets the probate commission.",
+    "seoDescription": "South Dakota does not set a living trust price. You can be the sole trustee if the trust provides for a successor. There is no inheritance tax or estate tax.",
     "headline": "South Dakota trust cost and sole trustee",
-    "lede": "South Dakota does not set a price for creating a living trust. SDCL 55-1-15 lets the trustor be the sole trustee and the sole lifetime beneficiary when the trust names a successor beneficiary. Property left in your own name can still be a probate matter in circuit court.",
+    "lede": "South Dakota does not set a price for a living trust, and the Department of Revenue says the state has no inheritance tax and no estate tax. SDCL 55-1-15 lets the trustor be the sole trustee and the sole beneficiary during the trustor's lifetime when the trust provides for a successor beneficiary at the trustor's death. Property left in your own name can still be a probate matter in circuit court.",
     "trustHeading": "Living trust cost and sole trustee",
-    "trustCopy": "South Dakota does not set a price for creating a living trust. SDCL 55-1-15 lets the trustor be the sole trustee and the sole lifetime beneficiary when the trust names a successor beneficiary. SDCL 55-1-4 creates an express trust by words or acts that show an intention to create a trust and the subject, purpose, and beneficiary, and a trust that concerns real property must be evidenced in writing. Unless the terms expressly reserve a power to revoke or modify, SDCL 55-3-6 makes the trust irrevocable. The successor trustee handles assets titled to the trustee. Property left in your own name can still go through the circuit court.",
+    "trustCopy": "South Dakota does not set a price for creating a living trust. SDCL 55-1-15 says a trust which provides for one or more successor beneficiaries upon the death of the trustor is not invalid, merged, or terminated if the trustor is the sole trustee and the sole beneficiary during the trustor's lifetime. SDCL 55-1-4 creates an express trust by words or acts that show an intention to create a trust and the subject, purpose, and beneficiary, and a trust that concerns real property must be evidenced in writing. Unless the terms of the trust expressly reserve a power to the settlor to revoke or modify it, SDCL 55-3-6 makes the trust irrevocable. The successor trustee handles assets titled to the trustee. Property left in your own name can still go through the circuit court.",
     "trustSource": {
       "title": "SDCL 55-1-15, Sole trustee and sole beneficiary",
       "url": "https://sdlegislature.gov/Statutes/55-1-15"
@@ -30,8 +30,14 @@
       "kind": "brackets",
       "base": "the amount of personal property accounted for by the personal representative, excluding personal property not ranked as assets",
       "brackets": [
-        {"upTo": 1000, "rate": 0.05},
-        {"upTo": 5000, "rate": 0.04}
+        {
+          "upTo": 1000,
+          "rate": 0.05
+        },
+        {
+          "upTo": 5000,
+          "rate": 0.04
+        }
       ],
       "aboveNote": "On all sums in excess of five thousand dollars at the rate of two and one-half percent. Upon all real property accounted for, the personal representative shall receive a just and reasonable compensation for the services performed to be fixed by the court. All real estate sold by the personal representative as part of the proceedings in probate shall be considered as personal property."
     },
@@ -61,35 +67,56 @@
     ],
     "queryFaqs": [
       {
-        "q": "How much does a South Dakota trust cost?",
-        "a": "South Dakota does not set a price for creating a living trust. SDCL 29A-3-719 is a different figure. When a will does not provide compensation, a personal representative may be allowed five percent on the first $1,000 of personal property accounted for, four percent on the amount above $1,000 up to $5,000, and two and one-half percent above $5,000. Compensation on real property is fixed by the court."
+        "q": "How much does a living trust cost in South Dakota?",
+        "a": "South Dakota does not set a price for creating a living trust. The commission in SDCL 29A-3-719 is probate pay for a personal representative, not a price for the trust. When a will does not provide compensation, that commission may be five percent on the first $1,000 of personal property accounted for, four percent on the amount above $1,000 up to $5,000, and two and one-half percent above $5,000. Compensation on real property is fixed by the court."
       },
       {
-        "q": "Can I be the sole trustee in South Dakota?",
-        "a": "Yes. SDCL 55-1-15 says a trust that names one or more successor beneficiaries at the trustor's death is not invalid, merged, or terminated when the trustor is the sole trustee and the sole beneficiary during the trustor's lifetime."
+        "q": "Can I be the sole trustee of a South Dakota living trust?",
+        "a": "Yes, when the trust provides for a successor beneficiary at the trustor's death. SDCL 55-1-15 says a trust which provides for one or more successor beneficiaries upon the death of the trustor is not invalid, merged, or terminated if the trustor is the sole trustee and the sole beneficiary during the trustor's lifetime."
       },
       {
-        "q": "What is a living trust in South Dakota?",
-        "a": "A living trust is an express trust you create during life. SDCL 55-1-4 creates it by words or acts that show the intention, subject, purpose, and beneficiary, and real property must be in writing. Unless the terms reserve a power to revoke or modify, SDCL 55-3-6 makes it irrevocable. Assets titled to the trustee are handled by the successor trustee. Assets still in your own name can be a probate matter in circuit court."
+        "q": "Is a living trust revocable in South Dakota?",
+        "a": "Only if the terms reserve that power. SDCL 55-3-6 says that unless the terms of a trust expressly reserve a power to the settlor to revoke or modify the trust, the trust is irrevocable. SDCL 55-1-4 creates an express trust by words or acts that show an intention to create a trust and the subject, purpose, and beneficiary. A trust that concerns real property must be evidenced in writing."
       }
     ],
     "related": [
-      {"href": "/learn-living-trust", "text": "What a revocable living trust does"},
-      {"href": "/will-or-living-trust", "text": "Will or living trust for a house and children"},
-      {"href": "/learn-taxes", "text": "Trusts and taxes"}
+      {
+        "href": "/learn-living-trust",
+        "text": "What a revocable living trust does"
+      },
+      {
+        "href": "/learn-fund",
+        "text": "How to fund a living trust"
+      },
+      {
+        "href": "/learn-taxes",
+        "text": "Trusts and taxes, including states with no estate tax"
+      },
+      {
+        "href": "/states/arkansas",
+        "text": "Revocable trust versus a will in Arkansas"
+      },
+      {
+        "href": "/states/utah",
+        "text": "Utah inheritance tax and a living will versus a trust"
+      },
+      {
+        "href": "/will-or-living-trust",
+        "text": "Will or living trust for a house and children"
+      }
     ]
   },
   {
     "name": "Arkansas",
     "slug": "arkansas",
-    "dateModified": "2026-11-03",
-    "dateLabel": "November 3, 2026",
+    "dateModified": "2026-11-07",
+    "dateLabel": "November 7, 2026",
     "seoTitle": "Revocable trust vs will in Arkansas | TaxFreeTrusts",
-    "seoDescription": "In Arkansas a will does not prove title until the circuit court admits it to probate. A living trust is a separate instrument under the trust code.",
+    "seoDescription": "A will in Arkansas does not prove title until the circuit court admits it to probate. A revocable trust is a separate instrument.",
     "headline": "Revocable trust vs will in Arkansas",
-    "lede": "A will in Arkansas does not prove title to property until the circuit court admits it to probate. A living trust is a different instrument. The trustee holds what you title in the trust, and property left in your own name can still be a probate matter.",
+    "lede": "A will in Arkansas does not prove title until the circuit court admits it to probate. A living trust is a different instrument, and revocable means the settlor can revoke it without the consent of the trustee or a person holding an adverse interest. Property left in your own name can still be a probate matter.",
     "trustHeading": "Revocable living trust or will",
-    "trustCopy": "A will in Arkansas does not prove title until the circuit court admits it to probate. A living trust is a different instrument, and the trustee holds the assets titled to the trustee. The Arkansas judiciary probate benchbook, updated 2022, prints Arkansas Code section 28-40-104: no will shall be effectual for the purpose of proving title to or the right to the possession of any real or personal property disposed of by the will until it has been admitted to probate. The same benchbook prints section 28-73-103: revocable, as applied to a trust, means revocable by the settlor without the consent of the trustee or a person holding an adverse interest. A pour-over will can send leftover assets into the trust, and those leftover assets may pass through probate first.",
+    "trustCopy": "A will in Arkansas does not prove title until the circuit court admits it to probate. The 2022 benchbook prints section 28-73-103: revocable, as applied to a trust, means revocable by the settlor without the consent of the trustee or a person holding an adverse interest. The Arkansas judiciary probate benchbook, updated 2022, prints Arkansas Code section 28-40-104: no will shall be effectual for the purpose of proving title to or the right to the possession of any real or personal property disposed of by the will until it has been admitted to probate. The same benchbook defines a settlor as a person, including a testator, who creates or contributes property to a trust. The trustee holds the assets titled to the trustee. A pour-over will can send leftover assets into the trust, and those leftover assets may pass through probate first.",
     "trustSource": {
       "title": "Arkansas judiciary probate benchbook, updated 2022",
       "url": "https://arcourts.gov/sites/default/files/Probate%20Benchbook%202022.pdf"
@@ -117,31 +144,52 @@
     "taxCard": "No current estate tax",
     "queryFaqs": [
       {
-        "q": "Revocable living trust vs will in Arkansas?",
-        "a": "A will does not prove title until the circuit court admits it to probate. The 2022 Arkansas judiciary probate benchbook prints Arkansas Code section 28-40-104 that way. A living trust is a separate instrument. The same benchbook prints section 28-73-103: revocable means revocable by the settlor without the consent of the trustee or a person holding an adverse interest. Assets titled to the trustee are handled by the successor trustee. Assets still in your name can be a probate matter."
+        "q": "Does a will prove title in Arkansas before it is probated?",
+        "a": "No. The 2022 Arkansas judiciary probate benchbook prints Arkansas Code section 28-40-104: no will shall be effectual for the purpose of proving title to or the right to the possession of any real or personal property disposed of by the will until it has been admitted to probate. A living trust is a separate instrument. Assets titled to the trustee are handled by the successor trustee. Assets still in your name can be a probate matter."
       },
       {
-        "q": "What is a living trust in Arkansas?",
-        "a": "A living trust is a trust you create during life, and a will is the writing that must be admitted to probate before it proves title. The 2022 probate benchbook prints Arkansas Code section 28-73-103. A settlor is a person, including a testator, who creates or contributes property to a trust. Revocable means revocable by the settlor without the consent of the trustee or a person holding an adverse interest. The trust controls assets titled to the trustee."
+        "q": "What does revocable mean for a trust in Arkansas?",
+        "a": "The 2022 probate benchbook prints Arkansas Code section 28-73-103. Revocable, as applied to a trust, means revocable by the settlor without the consent of the trustee or a person holding an adverse interest. A settlor is a person, including a testator, who creates or contributes property to a trust. The trust controls assets titled to the trustee."
+      },
+      {
+        "q": "How long do you have to submit a will in Arkansas?",
+        "a": "The 2022 probate benchbook prints Arkansas Code section 28-40-103: a will must be submitted within five years of the death, and administration must be granted within five years of the death. Section 28-40-102 places venue in the county where the decedent resided at death."
       }
     ],
     "related": [
-      {"href": "/will-or-living-trust", "text": "Will or living trust for a house and children"},
-      {"href": "/learn-living-trust", "text": "What a revocable living trust does"},
-      {"href": "/learn-fund", "text": "How to fund a living trust"}
+      {
+        "href": "/will-or-living-trust",
+        "text": "Will or living trust for a house and children"
+      },
+      {
+        "href": "/learn-living-trust",
+        "text": "What a revocable living trust does"
+      },
+      {
+        "href": "/learn-fund",
+        "text": "How to fund a living trust"
+      },
+      {
+        "href": "/states/south-dakota",
+        "text": "South Dakota living trust cost and sole trustee"
+      },
+      {
+        "href": "/learn-taxes",
+        "text": "Trusts and taxes"
+      }
     ]
   },
   {
     "name": "Utah",
     "slug": "utah",
-    "dateModified": "2026-11-03",
-    "dateLabel": "November 3, 2026",
+    "dateModified": "2026-11-07",
+    "dateLabel": "November 7, 2026",
     "seoTitle": "Utah inheritance tax: living will vs trust | TaxFreeTrusts",
-    "seoDescription": "Utah has no inheritance tax to file. A living will is an advance health care directive under Utah Code 75A-9. A living trust holds property.",
+    "seoDescription": "Utah has no inheritance tax to file. A living will covers health care. A living trust holds property. Salt Lake County probate is in district court.",
     "headline": "Utah inheritance tax and living will vs trust",
-    "lede": "Utah has no inheritance tax to file. A living will is an advance health care directive under Utah Code 75A-9, and a living trust holds property. For a person who lived in Salt Lake County, probate is filed in that county's district court.",
+    "lede": "Utah has no inheritance tax to file. A living will is an advance health care directive under Utah Code 75A-9-101 and does not transfer the house, while a living trust holds property you title in the trustee's name. For a person who lived in Salt Lake County, probate is filed in that county's district court.",
     "trustHeading": "Living will or living trust",
-    "trustCopy": "A living will and a living trust do different jobs in Salt Lake County, under the same Utah Code that applies statewide. Utah Code section 75A-9-101, effective January 1, 2026, defines an advance health care directive as a power of attorney for health care, a health care instruction, or both. That directive covers health care decisions. It does not transfer the house. Utah Code section 75B-2-602, effective May 7, 2025, says that unless the terms expressly provide that the trust is irrevocable, the settlor may revoke or amend the trust. That rule does not apply to a trust created under an instrument executed before May 1, 2004. The successor trustee handles assets titled to the trustee. Property left in your own name can still go through the district court.",
+    "trustCopy": "A living will and a living trust do different jobs. Utah Code section 75A-9-101, effective January 1, 2026, defines an advance health care directive as a power of attorney for health care, a health care instruction, or both. That directive covers health care decisions in every Utah county, including Salt Lake County. It does not transfer the house. Utah Code section 75B-2-602, effective May 7, 2025, says that unless the terms expressly provide that the trust is irrevocable, the settlor may revoke or amend the trust. That rule does not apply to a trust created under an instrument executed before May 1, 2004. The successor trustee handles assets titled to the trustee. Property left in your own name can still go through the district court.",
     "trustSource": {
       "title": "Utah Code section 75A-9-101, Advance health care directive, effective January 1, 2026",
       "url": "https://le.utah.gov/xcode/Title75A/Chapter9/C75A-9-S101_2026010120250507.pdf"
@@ -166,7 +214,7 @@
       "url": "https://le.utah.gov/xcode/Title75/Chapter3/C75-3-S1201_2025050720250507.html"
     },
     "taxKind": "none",
-    "taxDetail": "The Utah State Tax Commission says Utah's estate tax system was a pick-up tax based on the federal credit for state death taxes, that federal changes eliminated Utah's inheritance tax after December 31, 2004, and that there is no longer a basis for the Utah inheritance tax. It says Utah inheritance tax returns do not need to be filed and Utah does not require an Inheritance Tax Waiver. House Bill 77 of the 2026 General Session repealed Utah Code sections 59-11-101 through 59-11-115. The bill takes effect May 6, 2026, and those sections have retrospective operation for a taxable year beginning on or after January 1, 2026. The code chapter is titled Inheritance Tax Act (Repealed 5/6/2026).",
+    "taxDetail": "The Utah State Tax Commission says Utah's estate tax system was a pick-up tax based on the federal credit for state death taxes, that federal changes eliminated Utah's inheritance tax after December 31, 2004, and that there is no longer a basis for the Utah inheritance tax. It says Utah inheritance tax returns do not need to be filed and Utah does not require an Inheritance Tax Waiver. House Bill 77 of the 2026 General Session repeals Utah Code sections 59-11-101 through 59-11-107 and 59-11-109 through 59-11-115. The enrolled bill takes effect May 6, 2026, and those sections have retrospective operation for a taxable year beginning on or after January 1, 2026. The code chapter is titled Inheritance Tax Act (Repealed 5/6/2026).",
     "taxSource": {
       "title": "Utah State Tax Commission, Inheritance Tax",
       "url": "https://tax.utah.gov/business/other-taxes/inheritance-tax/"
@@ -190,17 +238,38 @@
     "queryFaqs": [
       {
         "q": "Does Utah have an inheritance tax?",
-        "a": "No. The Utah State Tax Commission says inheritance tax returns do not need to be filed and Utah does not require an Inheritance Tax Waiver. Federal changes eliminated the tax after December 31, 2004. House Bill 77 of the 2026 General Session repealed Utah Code Title 59, Chapter 11, effective May 6, 2026."
+        "a": "No. The Utah State Tax Commission says inheritance tax returns do not need to be filed and Utah does not require an Inheritance Tax Waiver. Federal changes eliminated the tax after December 31, 2004. House Bill 77 of the 2026 General Session repeals Utah Code sections 59-11-101 through 59-11-107 and 59-11-109 through 59-11-115. The enrolled bill takes effect May 6, 2026, and those sections have retrospective operation for a taxable year beginning on or after January 1, 2026. The code chapter is titled Inheritance Tax Act (Repealed 5/6/2026)."
       },
       {
-        "q": "Living will vs trust in Salt Lake City?",
-        "a": "They are different documents, and Salt Lake County uses the Utah Code. Utah Code section 75A-9-101, effective January 1, 2026, defines an advance health care directive as a power of attorney for health care, a health care instruction, or both. That is the health care document. A living trust holds property you title in the trustee's name. Utah Courts say a probate case is filed in the district court of the county where the person lived. For a Salt Lake County resident, that is the district court of Salt Lake County."
+        "q": "Is a living will the same as a living trust in Utah?",
+        "a": "No. A living will is an advance health care directive. Utah Code section 75A-9-101, effective January 1, 2026, defines that directive as a power of attorney for health care, a health care instruction, or both. It covers health care decisions and does not transfer the house. A living trust holds property you title in the trustee's name. Utah Code section 75B-2-602, effective May 7, 2025, says that unless the terms expressly provide that the trust is irrevocable, the settlor may revoke or amend it. That rule does not apply to a trust created under an instrument executed before May 1, 2004. Utah Courts say a probate case is filed in the district court of the county where the person lived. For a Salt Lake County resident, that is the district court of Salt Lake County."
+      },
+      {
+        "q": "Do you file a Utah small estate affidavit with the court?",
+        "a": "No. The Utah Courts informal-probate page says a small estate affidavit is not filed with the courts. The successor signs it before a notary and gives it to the person holding the property. That page says the affidavit may be used if the entire value of the estate is under $100,000, there is no real property, at least 30 days have passed, and no application for a personal representative has been filed. Utah Code section 75-3-1201, effective May 7, 2025, states the cap as the value of the entire estate subject to administration, wherever located, less liens and encumbrances, not exceeding $100,000."
       }
     ],
     "related": [
-      {"href": "/learn-taxes", "text": "Trusts and taxes"},
-      {"href": "/learn-living-trust", "text": "What a revocable living trust does"},
-      {"href": "/will-or-living-trust", "text": "Will or living trust for a house and children"}
+      {
+        "href": "/learn-taxes",
+        "text": "Trusts and taxes"
+      },
+      {
+        "href": "/learn-living-trust",
+        "text": "What a revocable living trust does"
+      },
+      {
+        "href": "/will-or-living-trust",
+        "text": "Will or living trust for a house and children"
+      },
+      {
+        "href": "/states/south-dakota",
+        "text": "South Dakota has no inheritance tax and no estate tax"
+      },
+      {
+        "href": "/states/arkansas",
+        "text": "A will versus a living trust in Arkansas"
+      }
     ]
   }
 ]
