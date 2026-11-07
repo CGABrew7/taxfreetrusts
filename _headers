@@ -35,3 +35,11 @@
 /img/*
   Content-Type: image/webp
   Cache-Control: public, max-age=31536000, immutable
+
+# Direct visits to the not-found document. Unknown URLs are served from
+# 404.html by Pages, and that file also carries a noindex meta tag.
+/404.html
+  X-Robots-Tag: noindex
+
+/404
+  X-Robots-Tag: noindex
