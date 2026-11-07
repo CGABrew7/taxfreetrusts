@@ -3,6 +3,11 @@
 # /states/index.html lands on /states/, not /index or /states/index.
 # Do not 200-rewrite a clean path back to the .html file. Pages already
 # serves that file from the clean URL, and the rewrite loops.
+#
+# Do not add a /* /index.html 200 rule. Pages also treats a project with
+# no root 404.html as a single-page app and serves / with HTTP 200 for
+# any path that is not a static file. Keep 404.html so unknown URLs
+# stay real 404s. A 404 status in this file is ignored.
 /index.html / 301
 /states/index.html /states/ 301
 /*.html /:splat 301
