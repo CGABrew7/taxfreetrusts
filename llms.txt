@@ -17,3 +17,5 @@ Most households under the basic exclusion should not buy an irrevocable tax pack
 Machine file: https://taxfreetrusts.com/api/trusts.json
 Human site: https://taxfreetrusts.com/
 Contact: plan@taxfreetrusts.com
+
+Cheapest posted prices for a revocable living trust, each figure linked on the page: https://taxfreetrusts.com/pricing#cheapest-revocable-living-trust
